@@ -44,19 +44,8 @@ def parse_date_string(date_str: str) -> datetime:
 def format_date_for_template(date: datetime, original_date_str: str) -> str:
     """
     根据原始日期字符串的格式，生成新的日期字符串
-    
-    关键点：
-        根据原始格式生成新日期，强制月日补零为两位（8位格式）
-        - 分隔符：保持原始分隔符（- / . 或无）
-    
-    Args:
-        date: 要格式化的日期
-        original_date_str: 原始日期字符串（用于检测格式）
-    
-    Returns:
-        str: 格式化后的日期字符串
+    强制月日补零为两位（8位格式）
     """
-    # 检测分隔符
     if '-' in original_date_str:
         return f"{date.year}-{date.month:02d}-{date.day:02d}"
     elif '/' in original_date_str:
@@ -117,7 +106,7 @@ def extract_all_dates_from_text(text: str) -> list:
             year, month, day = map(int, match.groups())
             date_obj = datetime(year, month, day)
             results.append((date_obj, match.group(0), match.start(), match.end()))
-    results.sort(key=lambda x: x[2])  # 按位置排序
+    results.sort(key=lambda x: x[2])
     return results
 
 

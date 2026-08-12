@@ -72,6 +72,44 @@ class Rule:
 
 
 @dataclass
+class ProductAutoConfig:
+    """
+    产品自动化配置（新增，可选字段）
+    
+    属性说明：
+        enabled: 该产品是否参与自动化
+        date_ranges: 手动配置的工期段（覆盖全局）
+        types: 生成类型过滤（覆盖全局）
+        output_dir: 自定义输出目录
+        range_mode: 工期模式 (manual/auto/hybrid)
+    """
+    enabled: bool = True
+    date_ranges: List[List[str]] = field(default_factory=list)
+    types: List[str] = field(default_factory=list)  # ['首件', '过程', '成品']
+    output_dir: str = ''
+    range_mode: str = 'hybrid'  # manual | auto | hybrid
+
+    def to_dict(self) -> dict:
+        return {
+            'enabled': self.enabled,
+            'date_ranges': self.date_ranges,
+            'types': self.types,
+            'output_dir': self.output_dir,
+            'range_mode': self.range_mode
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> 'ProductAutoConfig':
+        return cls(
+            enabled=data.get('enabled', True),
+            date_ranges=data.get('date_ranges', []),
+            types=data.get('types', []),
+            output_dir=data.get('output_dir', ''),
+            range_mode=data.get('range_mode', 'hybrid')
+        )
+
+
+@dataclass
 class ProductConfig:
     """
     产品配置
@@ -79,29 +117,44 @@ class ProductConfig:
     属性说明：
         product_name: 产品名称
         template_type: 模板类型（首件/过程/成品）
+        template_path: 模板文件路径（可选，覆盖全局）
         rules: 规则列表
         date_ranges: 生产工期范围 [[start, end], ...]
+        auto_config: 自动化配置（可选）
     """
     product_name: str
     template_type: Literal['首件', '过程', '成品']
+    template_path: str = ''
     rules: List[Rule] = field(default_factory=list)
     date_ranges: List[List[str]] = field(default_factory=list)
+    auto_config: Optional[ProductAutoConfig] = None
 
     def to_dict(self) -> dict:
-        return {
+        result = {
             'product_name': self.product_name,
             'template_type': self.template_type,
             'rules': [r.to_dict() for r in self.rules],
             'date_ranges': self.date_ranges
         }
+        if self.template_path:
+            result['template_path'] = self.template_path
+        if self.auto_config:
+            result['auto_config'] = self.auto_config.to_dict()
+        return result
 
     @classmethod
     def from_dict(cls, data: dict) -> 'ProductConfig':
+        auto_config = None
+        if 'auto_config' in data:
+            auto_config = ProductAutoConfig.from_dict(data['auto_config'])
+        
         return cls(
             product_name=data['product_name'],
             template_type=data['template_type'],
+            template_path=data.get('template_path', ''),
             rules=[Rule.from_dict(r) for r in data.get('rules', [])],
-            date_ranges=data.get('date_ranges', [])
+            date_ranges=data.get('date_ranges', []),
+            auto_config=auto_config
         )
 
 

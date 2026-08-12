@@ -3,10 +3,6 @@
 
 """
 预览对话框 - 显示将要生成的日期列表
-
-功能：
-    1. 列表显示所有将要生成的日期（含星期几）
-    2. 支持导出为文本文件
 """
 
 from datetime import datetime
@@ -20,20 +16,7 @@ from utils.helpers import get_weekday_name
 
 
 class PreviewDialog(QDialog):
-    """
-    预览对话框
-    
-    在生成前显示所有目标日期，方便用户确认。
-    """
-    
     def __init__(self, dates: list, parent=None):
-        """
-        初始化预览对话框
-        
-        Args:
-            dates: 日期列表（datetime 对象）
-            parent: 父窗口
-        """
         super().__init__(parent)
         self.dates = dates
         self.setWindowTitle("预览 - 将要生成的日期")
@@ -41,15 +24,12 @@ class PreviewDialog(QDialog):
         self.init_ui()
 
     def init_ui(self):
-        """创建界面"""
         layout = QVBoxLayout(self)
 
-        # ----- 标题 -----
         label = QLabel(f"共 {len(self.dates)} 个日期")
         label.setStyleSheet("font-size: 14px; font-weight: bold;")
         layout.addWidget(label)
 
-        # ----- 日期列表 -----
         self.list_widget = QListWidget()
         for date in self.dates:
             weekday = get_weekday_name(date)
@@ -58,7 +38,6 @@ class PreviewDialog(QDialog):
             self.list_widget.addItem(item)
         layout.addWidget(self.list_widget)
 
-        # ----- 按钮 -----
         btn_layout = QHBoxLayout()
         btn_export = QPushButton("导出为文本")
         btn_export.clicked.connect(self._export_text)
@@ -72,7 +51,6 @@ class PreviewDialog(QDialog):
         layout.addLayout(btn_layout)
 
     def _export_text(self):
-        """导出日期列表为文本文件"""
         file_path, _ = QFileDialog.getSaveFileName(
             self, "保存日期列表", "", "文本文件 (*.txt)"
         )
