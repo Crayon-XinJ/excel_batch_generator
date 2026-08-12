@@ -1,0 +1,428 @@
+[2026-08-10 19:26:39.001] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-10 19:26:47.902] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2首件检验表模板.xlsx
+[2026-08-10 19:26:47.972] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:27:17.202] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:28:25.612] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:28:25.614] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: fecdfafd (F9,K9 -> random)
+[2026-08-10 19:28:34.337] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:28:34.339] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: fecdfafd
+[2026-08-10 19:28:49.649] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:28:49.650] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: af9ce974 (F9,K9 -> random)
+[2026-08-10 19:29:15.272] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:29:15.273] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 7eee1acb (F11,K11 -> random)
+[2026-08-10 19:29:22.855] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:29:22.857] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: af9ce974
+[2026-08-10 19:29:36.909] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:29:36.911] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: fecdfafd
+[2026-08-10 19:29:41.053] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:29:41.055] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: af9ce974
+[2026-08-10 19:29:44.882] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:29:44.883] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 7eee1acb
+[2026-08-10 19:30:19.616] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:30:19.618] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 7ac7dbec (F12-O12 -> random)
+[2026-08-10 19:30:48.102] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:30:48.103] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: bd2bda80 (F13-O13 -> random)
+[2026-08-10 19:30:53.237] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:30:53.238] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: bd2bda80
+[2026-08-10 19:31:10.447] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:31:10.448] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 4f90acd0 (F14-O14 -> random)
+[2026-08-10 19:31:29.160] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:31:29.161] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: c0994db9 (F15-O15 -> random)
+[2026-08-10 19:31:45.929] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:31:45.930] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 9b3411c8 (F16-O16 -> random)
+[2026-08-10 19:32:02.352] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:32:02.353] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 412649b7 (F17-O17 -> random)
+[2026-08-10 19:32:16.829] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:32:16.830] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: ce91895b (D3 -> date)
+[2026-08-10 19:32:32.716] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:32:32.719] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 41420830 (A24 -> text_with_date)
+[2026-08-10 19:33:05.663] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 14 个文件
+[2026-08-10 19:33:05.664] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 14 个文件
+[2026-08-10 19:33:05.822] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260503.xlsx
+[2026-08-10 19:33:05.953] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260511.xlsx
+[2026-08-10 19:33:06.086] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260518.xlsx
+[2026-08-10 19:33:06.227] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260525.xlsx
+[2026-08-10 19:33:06.360] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260601.xlsx
+[2026-08-10 19:33:06.497] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260608.xlsx
+[2026-08-10 19:33:06.634] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260615.xlsx
+[2026-08-10 19:33:06.796] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260621.xlsx
+[2026-08-10 19:33:06.914] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260629.xlsx
+[2026-08-10 19:33:07.043] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260706.xlsx
+[2026-08-10 19:33:07.174] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260712.xlsx
+[2026-08-10 19:33:07.306] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260720.xlsx
+[2026-08-10 19:33:07.439] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260727.xlsx
+[2026-08-10 19:33:07.564] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260803.xlsx
+[2026-08-10 19:33:07.565] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 14/14
+[2026-08-10 19:33:07.567] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 14/14
+[2026-08-10 19:34:41.879] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模版.xlsx
+[2026-08-10 19:34:41.935] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:35:14.691] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:35:14.693] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 146959ba (M3 -> text_with_date)
+[2026-08-10 19:35:20.517] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:35:20.518] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 146959ba
+[2026-08-10 19:35:32.883] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:35:32.885] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: d0b35b8a (A17 -> night_shift)
+[2026-08-10 19:35:48.667] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:35:48.668] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 9f1a051d (J3 -> text_with_date)
+[2026-08-10 19:36:00.187] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:36:00.190] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 4e1333d8 (A18 -> night_shift)
+[2026-08-10 19:36:05.531] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:36:05.533] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 9f1a051d
+[2026-08-10 19:36:47.264] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:36:47.265] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 372c2d64 (D6-D15 -> random)
+[2026-08-10 19:37:19.195] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:37:19.196] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: e3f151bf (E6-E15 -> random)
+[2026-08-10 19:37:22.844] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:37:22.846] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 372c2d64
+[2026-08-10 19:38:13.977] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:38:13.979] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 454c6dab (F6-F15 -> random)
+[2026-08-10 19:39:01.599] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:39:01.600] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 2268d1df (G6-G15 -> random)
+[2026-08-10 19:39:41.697] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:39:41.698] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 3dca32e4 (H6-H15 -> random)
+[2026-08-10 19:40:57.640] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:40:57.642] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 8e351647 (I6-I15 -> random)
+[2026-08-10 19:41:26.639] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:41:26.641] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 9f1d5cea (J6-J15 -> random)
+[2026-08-10 19:42:00.774] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:42:00.776] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 8ecb2653 (K6-K15 -> random)
+[2026-08-10 19:42:28.175] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:42:28.177] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 843aef15 (L6-L15 -> random)
+[2026-08-10 19:42:45.897] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 过程
+[2026-08-10 19:42:51.019] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:43:39.656] [INFO] [ExcelBatchGenerator.MainWindow] 导出规则: E:/测试文件夹-深圳版/excel_batch_generator/config/products/W-12010_V1&V2过程检验表模版/过程.json
+[2026-08-10 19:44:23.113] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模版.xlsx
+[2026-08-10 19:44:23.173] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:44:25.849] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 过程
+[2026-08-10 19:44:38.147] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:44:38.149] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:44:38.320] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260503.xlsx
+[2026-08-10 19:44:38.483] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260504.xlsx
+[2026-08-10 19:44:38.642] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260505.xlsx
+[2026-08-10 19:44:38.801] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260506.xlsx
+[2026-08-10 19:44:38.959] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260507.xlsx
+[2026-08-10 19:44:39.127] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260508.xlsx
+[2026-08-10 19:44:39.305] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260509.xlsx
+[2026-08-10 19:44:39.458] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260511.xlsx
+[2026-08-10 19:44:39.627] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260512.xlsx
+[2026-08-10 19:44:39.798] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260513.xlsx
+[2026-08-10 19:44:39.943] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260514.xlsx
+[2026-08-10 19:44:40.094] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260515.xlsx
+[2026-08-10 19:44:40.267] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260516.xlsx
+[2026-08-10 19:44:40.433] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260518.xlsx
+[2026-08-10 19:44:40.599] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260519.xlsx
+[2026-08-10 19:44:40.775] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260520.xlsx
+[2026-08-10 19:44:40.923] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260521.xlsx
+[2026-08-10 19:44:41.089] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260522.xlsx
+[2026-08-10 19:44:41.271] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260523.xlsx
+[2026-08-10 19:44:41.456] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260525.xlsx
+[2026-08-10 19:44:41.624] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260526.xlsx
+[2026-08-10 19:44:41.807] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260527.xlsx
+[2026-08-10 19:44:41.972] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260528.xlsx
+[2026-08-10 19:44:42.140] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260529.xlsx
+[2026-08-10 19:44:42.288] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260530.xlsx
+[2026-08-10 19:44:42.435] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260601.xlsx
+[2026-08-10 19:44:42.588] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260602.xlsx
+[2026-08-10 19:44:42.759] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260603.xlsx
+[2026-08-10 19:44:42.910] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260604.xlsx
+[2026-08-10 19:44:43.063] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260605.xlsx
+[2026-08-10 19:44:43.229] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260606.xlsx
+[2026-08-10 19:44:43.386] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260608.xlsx
+[2026-08-10 19:44:43.538] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260609.xlsx
+[2026-08-10 19:44:43.686] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260610.xlsx
+[2026-08-10 19:44:43.847] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260611.xlsx
+[2026-08-10 19:44:44.004] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260612.xlsx
+[2026-08-10 19:44:44.164] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260613.xlsx
+[2026-08-10 19:44:44.317] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260615.xlsx
+[2026-08-10 19:44:44.463] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260616.xlsx
+[2026-08-10 19:44:44.609] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260617.xlsx
+[2026-08-10 19:44:44.771] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260618.xlsx
+[2026-08-10 19:44:44.929] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260621.xlsx
+[2026-08-10 19:44:45.091] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260622.xlsx
+[2026-08-10 19:44:45.258] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260623.xlsx
+[2026-08-10 19:44:45.419] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260624.xlsx
+[2026-08-10 19:44:45.614] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260625.xlsx
+[2026-08-10 19:44:45.791] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260626.xlsx
+[2026-08-10 19:44:45.962] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260627.xlsx
+[2026-08-10 19:44:46.145] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260629.xlsx
+[2026-08-10 19:44:46.341] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260630.xlsx
+[2026-08-10 19:44:46.529] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260701.xlsx
+[2026-08-10 19:44:46.716] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260702.xlsx
+[2026-08-10 19:44:46.883] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260703.xlsx
+[2026-08-10 19:44:47.071] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260704.xlsx
+[2026-08-10 19:44:47.259] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260706.xlsx
+[2026-08-10 19:44:47.432] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260707.xlsx
+[2026-08-10 19:44:47.593] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260708.xlsx
+[2026-08-10 19:44:47.780] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260709.xlsx
+[2026-08-10 19:44:47.943] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260712.xlsx
+[2026-08-10 19:44:48.113] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260713.xlsx
+[2026-08-10 19:44:48.292] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260714.xlsx
+[2026-08-10 19:44:48.472] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260715.xlsx
+[2026-08-10 19:44:48.655] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260716.xlsx
+[2026-08-10 19:44:48.844] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260717.xlsx
+[2026-08-10 19:44:49.013] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260718.xlsx
+[2026-08-10 19:44:49.209] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260720.xlsx
+[2026-08-10 19:44:49.368] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260721.xlsx
+[2026-08-10 19:44:49.531] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260722.xlsx
+[2026-08-10 19:44:49.697] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260723.xlsx
+[2026-08-10 19:44:49.877] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260724.xlsx
+[2026-08-10 19:44:50.055] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260725.xlsx
+[2026-08-10 19:44:50.255] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260727.xlsx
+[2026-08-10 19:44:50.432] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260728.xlsx
+[2026-08-10 19:44:50.616] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260729.xlsx
+[2026-08-10 19:44:50.807] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260730.xlsx
+[2026-08-10 19:44:50.971] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260731.xlsx
+[2026-08-10 19:44:51.143] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260801.xlsx
+[2026-08-10 19:44:51.346] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260803.xlsx
+[2026-08-10 19:44:51.536] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260804.xlsx
+[2026-08-10 19:44:51.721] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260805.xlsx
+[2026-08-10 19:44:51.879] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260806.xlsx
+[2026-08-10 19:44:52.053] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260807.xlsx
+[2026-08-10 19:44:52.261] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2过程检验表模版_过程检验表_20260808.xlsx
+[2026-08-10 19:44:52.261] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 83/83
+[2026-08-10 19:44:52.264] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 83/83
+[2026-08-10 19:47:00.631] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-10 19:47:07.885] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模版.xlsx
+[2026-08-10 19:47:07.885] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 过程
+[2026-08-10 19:47:07.956] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 过程
+[2026-08-10 19:47:56.052] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2首件检验表模板.xlsx
+[2026-08-10 19:47:56.053] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:47:56.103] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 首件
+[2026-08-10 19:48:08.966] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模版.xlsx
+[2026-08-10 19:48:09.012] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:48:39.711] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2过程检验表模版 - 首件
+[2026-08-10 19:48:39.712] [INFO] [ExcelBatchGenerator.MainWindow] 导入规则: 13 条
+[2026-08-10 19:56:41.942] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-10 19:56:50.961] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 过程
+[2026-08-10 19:56:51.026] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 过程
+[2026-08-10 19:57:00.159] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:57:00.160] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:57:00.383] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260503.xlsx
+[2026-08-10 19:57:00.560] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260504.xlsx
+[2026-08-10 19:57:00.723] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260505.xlsx
+[2026-08-10 19:57:00.890] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260506.xlsx
+[2026-08-10 19:57:01.056] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260507.xlsx
+[2026-08-10 19:57:01.247] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260508.xlsx
+[2026-08-10 19:57:01.406] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260509.xlsx
+[2026-08-10 19:57:01.582] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260511.xlsx
+[2026-08-10 19:57:01.750] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260512.xlsx
+[2026-08-10 19:57:01.921] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260513.xlsx
+[2026-08-10 19:57:02.091] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260514.xlsx
+[2026-08-10 19:57:02.273] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260515.xlsx
+[2026-08-10 19:57:02.468] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260516.xlsx
+[2026-08-10 19:57:02.632] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260518.xlsx
+[2026-08-10 19:57:02.816] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260519.xlsx
+[2026-08-10 19:57:02.987] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260520.xlsx
+[2026-08-10 19:57:03.165] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260521.xlsx
+[2026-08-10 19:57:03.340] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260522.xlsx
+[2026-08-10 19:57:03.509] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260523.xlsx
+[2026-08-10 19:57:03.707] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260525.xlsx
+[2026-08-10 19:57:03.873] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260526.xlsx
+[2026-08-10 19:57:04.036] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260527.xlsx
+[2026-08-10 19:57:04.211] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260528.xlsx
+[2026-08-10 19:57:04.376] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260529.xlsx
+[2026-08-10 19:57:04.567] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260530.xlsx
+[2026-08-10 19:57:04.752] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260601.xlsx
+[2026-08-10 19:57:04.915] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260602.xlsx
+[2026-08-10 19:57:05.071] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260603.xlsx
+[2026-08-10 19:57:05.237] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260604.xlsx
+[2026-08-10 19:57:05.391] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260605.xlsx
+[2026-08-10 19:57:05.561] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260606.xlsx
+[2026-08-10 19:57:05.721] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260608.xlsx
+[2026-08-10 19:57:05.923] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260609.xlsx
+[2026-08-10 19:57:06.088] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260610.xlsx
+[2026-08-10 19:57:06.266] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260611.xlsx
+[2026-08-10 19:57:06.424] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260612.xlsx
+[2026-08-10 19:57:06.583] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260613.xlsx
+[2026-08-10 19:57:06.757] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260615.xlsx
+[2026-08-10 19:57:06.924] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260616.xlsx
+[2026-08-10 19:57:07.085] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260617.xlsx
+[2026-08-10 19:57:07.244] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260618.xlsx
+[2026-08-10 19:57:07.395] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260621.xlsx
+[2026-08-10 19:57:07.564] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260622.xlsx
+[2026-08-10 19:57:07.753] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260623.xlsx
+[2026-08-10 19:57:07.921] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260624.xlsx
+[2026-08-10 19:57:08.081] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260625.xlsx
+[2026-08-10 19:57:08.271] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260626.xlsx
+[2026-08-10 19:57:08.467] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260627.xlsx
+[2026-08-10 19:57:08.644] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260629.xlsx
+[2026-08-10 19:57:08.854] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260630.xlsx
+[2026-08-10 19:57:09.027] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260701.xlsx
+[2026-08-10 19:57:09.192] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260702.xlsx
+[2026-08-10 19:57:09.361] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260703.xlsx
+[2026-08-10 19:57:09.514] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260704.xlsx
+[2026-08-10 19:57:09.678] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260706.xlsx
+[2026-08-10 19:57:09.833] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260707.xlsx
+[2026-08-10 19:57:10.005] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260708.xlsx
+[2026-08-10 19:57:10.154] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260709.xlsx
+[2026-08-10 19:57:10.299] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260712.xlsx
+[2026-08-10 19:57:10.443] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260713.xlsx
+[2026-08-10 19:57:10.593] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260714.xlsx
+[2026-08-10 19:57:10.743] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260715.xlsx
+[2026-08-10 19:57:10.894] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260716.xlsx
+[2026-08-10 19:57:11.072] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260717.xlsx
+[2026-08-10 19:57:11.267] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260718.xlsx
+[2026-08-10 19:57:11.446] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260720.xlsx
+[2026-08-10 19:57:11.632] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260721.xlsx
+[2026-08-10 19:57:11.811] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260722.xlsx
+[2026-08-10 19:57:11.955] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260723.xlsx
+[2026-08-10 19:57:12.176] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260724.xlsx
+[2026-08-10 19:57:12.347] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260725.xlsx
+[2026-08-10 19:57:12.525] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260727.xlsx
+[2026-08-10 19:57:12.712] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260728.xlsx
+[2026-08-10 19:57:12.884] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260729.xlsx
+[2026-08-10 19:57:13.068] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260730.xlsx
+[2026-08-10 19:57:13.298] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260731.xlsx
+[2026-08-10 19:57:13.514] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260801.xlsx
+[2026-08-10 19:57:13.715] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260803.xlsx
+[2026-08-10 19:57:13.868] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260804.xlsx
+[2026-08-10 19:57:14.021] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260805.xlsx
+[2026-08-10 19:57:14.224] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260806.xlsx
+[2026-08-10 19:57:14.378] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260807.xlsx
+[2026-08-10 19:57:14.528] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260808.xlsx
+[2026-08-10 19:57:14.528] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 83/83
+[2026-08-10 19:57:14.531] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 83/83
+[2026-08-10 19:58:27.696] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 过程
+[2026-08-10 19:58:27.698] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: e3f151bf
+[2026-08-10 19:58:31.432] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:58:31.437] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 83 个文件
+[2026-08-10 19:58:31.603] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260503.xlsx
+[2026-08-10 19:58:31.780] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260504.xlsx
+[2026-08-10 19:58:31.945] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260505.xlsx
+[2026-08-10 19:58:32.108] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260506.xlsx
+[2026-08-10 19:58:32.276] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260507.xlsx
+[2026-08-10 19:58:32.439] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260508.xlsx
+[2026-08-10 19:58:32.626] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260509.xlsx
+[2026-08-10 19:58:32.788] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260511.xlsx
+[2026-08-10 19:58:32.957] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260512.xlsx
+[2026-08-10 19:58:33.135] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260513.xlsx
+[2026-08-10 19:58:33.319] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260514.xlsx
+[2026-08-10 19:58:33.490] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260515.xlsx
+[2026-08-10 19:58:33.669] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260516.xlsx
+[2026-08-10 19:58:33.841] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260518.xlsx
+[2026-08-10 19:58:34.013] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260519.xlsx
+[2026-08-10 19:58:34.189] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260520.xlsx
+[2026-08-10 19:58:34.350] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260521.xlsx
+[2026-08-10 19:58:34.518] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260522.xlsx
+[2026-08-10 19:58:34.701] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260523.xlsx
+[2026-08-10 19:58:34.872] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260525.xlsx
+[2026-08-10 19:58:35.040] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260526.xlsx
+[2026-08-10 19:58:35.206] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260527.xlsx
+[2026-08-10 19:58:35.353] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260528.xlsx
+[2026-08-10 19:58:35.507] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260529.xlsx
+[2026-08-10 19:58:35.682] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260530.xlsx
+[2026-08-10 19:58:35.835] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260601.xlsx
+[2026-08-10 19:58:35.990] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260602.xlsx
+[2026-08-10 19:58:36.175] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260603.xlsx
+[2026-08-10 19:58:36.343] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260604.xlsx
+[2026-08-10 19:58:36.523] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260605.xlsx
+[2026-08-10 19:58:36.729] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260606.xlsx
+[2026-08-10 19:58:36.883] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260608.xlsx
+[2026-08-10 19:58:37.036] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260609.xlsx
+[2026-08-10 19:58:37.201] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260610.xlsx
+[2026-08-10 19:58:37.377] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260611.xlsx
+[2026-08-10 19:58:37.530] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260612.xlsx
+[2026-08-10 19:58:37.702] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260613.xlsx
+[2026-08-10 19:58:37.870] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260615.xlsx
+[2026-08-10 19:58:38.037] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260616.xlsx
+[2026-08-10 19:58:38.224] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260617.xlsx
+[2026-08-10 19:58:38.387] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260618.xlsx
+[2026-08-10 19:58:38.544] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260621.xlsx
+[2026-08-10 19:58:38.714] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260622.xlsx
+[2026-08-10 19:58:38.885] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260623.xlsx
+[2026-08-10 19:58:39.048] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260624.xlsx
+[2026-08-10 19:58:39.218] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260625.xlsx
+[2026-08-10 19:58:39.372] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260626.xlsx
+[2026-08-10 19:58:39.552] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260627.xlsx
+[2026-08-10 19:58:39.736] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260629.xlsx
+[2026-08-10 19:58:39.942] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260630.xlsx
+[2026-08-10 19:58:40.130] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260701.xlsx
+[2026-08-10 19:58:40.304] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260702.xlsx
+[2026-08-10 19:58:40.462] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260703.xlsx
+[2026-08-10 19:58:40.654] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260704.xlsx
+[2026-08-10 19:58:40.804] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260706.xlsx
+[2026-08-10 19:58:40.957] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260707.xlsx
+[2026-08-10 19:58:41.127] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260708.xlsx
+[2026-08-10 19:58:41.282] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260709.xlsx
+[2026-08-10 19:58:41.445] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260712.xlsx
+[2026-08-10 19:58:41.598] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260713.xlsx
+[2026-08-10 19:58:41.748] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260714.xlsx
+[2026-08-10 19:58:41.913] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260715.xlsx
+[2026-08-10 19:58:42.070] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260716.xlsx
+[2026-08-10 19:58:42.232] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260717.xlsx
+[2026-08-10 19:58:42.379] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260718.xlsx
+[2026-08-10 19:58:42.556] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260720.xlsx
+[2026-08-10 19:58:42.723] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260721.xlsx
+[2026-08-10 19:58:42.876] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260722.xlsx
+[2026-08-10 19:58:43.047] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260723.xlsx
+[2026-08-10 19:58:43.228] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260724.xlsx
+[2026-08-10 19:58:43.394] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260725.xlsx
+[2026-08-10 19:58:43.561] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260727.xlsx
+[2026-08-10 19:58:43.737] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260728.xlsx
+[2026-08-10 19:58:43.888] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260729.xlsx
+[2026-08-10 19:58:44.037] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260730.xlsx
+[2026-08-10 19:58:44.222] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260731.xlsx
+[2026-08-10 19:58:44.377] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260801.xlsx
+[2026-08-10 19:58:44.529] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260803.xlsx
+[2026-08-10 19:58:44.681] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260804.xlsx
+[2026-08-10 19:58:44.833] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260805.xlsx
+[2026-08-10 19:58:44.985] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260806.xlsx
+[2026-08-10 19:58:45.153] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260807.xlsx
+[2026-08-10 19:58:45.312] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260808.xlsx
+[2026-08-10 19:58:45.312] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 83/83
+[2026-08-10 19:58:45.314] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 83/83
+[2026-08-10 20:00:16.864] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-10 20:00:23.754] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:23.813] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:47.160] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:47.162] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: 146959ba
+[2026-08-10 20:00:49.056] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:49.058] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: d0b35b8a
+[2026-08-10 20:00:53.842] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:53.844] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: 9f1a051d
+[2026-08-10 20:00:55.151] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:00:55.153] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: 4e1333d8
+[2026-08-10 20:01:15.862] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:15.863] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 372c2d64
+[2026-08-10 20:01:23.909] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:23.911] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: e3f151bf
+[2026-08-10 20:01:31.429] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:31.431] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 372c2d64
+[2026-08-10 20:01:34.893] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:34.895] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: e3f151bf
+[2026-08-10 20:01:46.284] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:46.286] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 454c6dab
+[2026-08-10 20:01:53.742] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:01:53.743] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 2268d1df
+[2026-08-10 20:02:01.056] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:02:01.058] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 3dca32e4
+[2026-08-10 20:02:07.679] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:02:07.681] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 8e351647
+[2026-08-10 20:02:13.729] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:02:13.730] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 9f1d5cea
+[2026-08-10 20:02:25.868] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:02:25.869] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 8ecb2653
+[2026-08-10 20:02:38.260] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:02:38.262] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 843aef15
+[2026-08-10 20:03:06.031] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:03:06.032] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 28ef6672 (K5 -> date)
+[2026-08-10 20:03:23.141] [INFO] [ExcelBatchGenerator.MainWindow] 保存配置: W-12010_V1&V2 - 成品
+[2026-08-10 20:03:23.142] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 37a2d801 (A28 -> text_with_date)
+[2026-08-10 20:03:28.103] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 14 个文件
+[2026-08-10 20:03:28.104] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 14 个文件
+[2026-08-10 20:03:28.285] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260509.xlsx
+[2026-08-10 20:03:28.450] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260516.xlsx
+[2026-08-10 20:03:28.620] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260523.xlsx
+[2026-08-10 20:03:28.787] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260530.xlsx
+[2026-08-10 20:03:28.951] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260606.xlsx
+[2026-08-10 20:03:29.117] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260613.xlsx
+[2026-08-10 20:03:29.274] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260618.xlsx
+[2026-08-10 20:03:29.437] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260627.xlsx
+[2026-08-10 20:03:29.602] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260704.xlsx
+[2026-08-10 20:03:29.768] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260709.xlsx
+[2026-08-10 20:03:29.931] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260718.xlsx
+[2026-08-10 20:03:30.083] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260725.xlsx
+[2026-08-10 20:03:30.239] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260801.xlsx
+[2026-08-10 20:03:30.405] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_成品检验表_20260808.xlsx
+[2026-08-10 20:03:30.405] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 14/14
+[2026-08-10 20:03:30.407] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 14/14
