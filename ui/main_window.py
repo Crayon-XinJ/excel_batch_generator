@@ -7,7 +7,6 @@
 
 import os
 import sys
-import argparse
 from datetime import datetime, timedelta
 
 from PyQt5.QtWidgets import (
@@ -17,7 +16,7 @@ from PyQt5.QtWidgets import (
     QFileDialog, QProgressBar, QGroupBox,
     QMessageBox, QApplication
 )
-from PyQt5.QtCore import Qt, QDate, pyqtSignal
+from PyQt5.QtCore import Qt, QDate
 from PyQt5.QtGui import QDragEnterEvent, QDropEvent
 
 from core.config_manager import ConfigManager
@@ -26,7 +25,7 @@ from core.generate_thread import GenerateThread
 from core.auto_scheduler import AutoScheduler
 from core.email_reporter import EmailReporter
 from core.log_manager import get_logger
-from models.config_models import Rule, ProductConfig, ProductAutoConfig
+from models.config_models import Rule, ProductConfig
 from ui.non_workdays_dialog import NonWorkdaysDialog
 from ui.rule_dialog import RuleDialog
 from ui.preview_dialog import PreviewDialog
@@ -63,7 +62,8 @@ class MainWindow(QMainWindow):
 
         self.init_ui()
         self._load_config()
-        self._check_auto_mode()
+        # 注释掉自动检查，由 main.py 统一控制
+        # self._check_auto_mode()
 
     def init_ui(self):
         central = QWidget()
@@ -220,7 +220,6 @@ class MainWindow(QMainWindow):
         btn_cancel.setEnabled(False)
         action_layout.addWidget(btn_cancel)
 
-        # 自动化配置按钮
         btn_auto_config = QPushButton("自动化配置")
         btn_auto_config.clicked.connect(self._open_auto_config)
         action_layout.addWidget(btn_auto_config)
@@ -302,7 +301,23 @@ class MainWindow(QMainWindow):
         self.template_type_combo.setCurrentText(self.template_type)
 
         self.sheet_names = self._get_sheet_names(file_path)
+
+        config = self.config_manager.load_product_config(self.product_name, self.template_type)
+        if config is None:
+            config = ProductConfig(
+                product_name=self.product_name,
+                template_type=self.template_type,
+                rules=self.rules
+            )
+        else:
+            self.rules = config.rules
+        
+        config.template_path = file_path
+        self.config_manager.save_product_config(config)
+        
+        self._update_rule_list()
         self._load_config()
+        self.logger.info(f"模板路径已保存: {file_path}")
 
     def _get_sheet_names(self, file_path: str) -> list:
         import win32com.client as win32
@@ -364,7 +379,11 @@ class MainWindow(QMainWindow):
         template_type = self.template_type_combo.currentText()
         if not product_name:
             return
-            
+        
+        existing_config = self.config_manager.load_product_config(product_name, template_type)
+        existing_template_path = existing_config.template_path if existing_config else ''
+        existing_output_dir = existing_config.output_dir if existing_config else ''
+        
         date_ranges = []
         for start, end in self.date_ranges:
             date_ranges.append([start.strftime('%Y-%m-%d'), end.strftime('%Y-%m-%d')])
@@ -372,6 +391,8 @@ class MainWindow(QMainWindow):
         config = ProductConfig(
             product_name=product_name,
             template_type=template_type,
+            template_path=existing_template_path or self.template_path,
+            output_dir=existing_output_dir,
             rules=self.rules,
             date_ranges=date_ranges
         )
@@ -564,9 +585,30 @@ class MainWindow(QMainWindow):
             QMessageBox.information(self, "提示", "没有需要生成的日期")
             return
 
-        output_dir = QFileDialog.getExistingDirectory(self, "选择输出目录")
+        existing_config = self.config_manager.load_product_config(product_name, self.template_type)
+        default_dir = existing_config.output_dir if existing_config and existing_config.output_dir else ''
+        
+        output_dir = QFileDialog.getExistingDirectory(
+            self, "选择输出目录", default_dir
+        )
         if not output_dir:
             return
+
+        if existing_config:
+            existing_config.output_dir = output_dir
+            self.config_manager.save_product_config(existing_config)
+            self.logger.info(f"输出目录已记录: {output_dir}")
+        else:
+            new_config = ProductConfig(
+                product_name=product_name,
+                template_type=self.template_type,
+                template_path=self.template_path,
+                output_dir=output_dir,
+                rules=self.rules,
+                date_ranges=[[s.strftime('%Y-%m-%d'), e.strftime('%Y-%m-%d')] for s, e in self.date_ranges]
+            )
+            self.config_manager.save_product_config(new_config)
+            self.logger.info(f"输出目录已记录: {output_dir}")
 
         self._set_controls_enabled(False)
         self.progress_bar.setValue(0)
@@ -582,7 +624,7 @@ class MainWindow(QMainWindow):
             output_dir=output_dir,
             rules=self.rules,
             product_name=product_name,
-            template_type=self.template_type_combo.currentText()
+            template_type=self.template_type
         )
         self.thread.progress_updated.connect(self._on_progress_updated)
         self.thread.finished_signal.connect(self._on_generate_finished)
@@ -647,16 +689,13 @@ class MainWindow(QMainWindow):
     # ============================================================
     
     def _check_auto_mode(self):
-        """检查是否以自动化模式启动"""
-        # 检查命令行参数
+        """检查是否以自动化模式启动（由 main.py 调用）"""
         if '--auto' in sys.argv:
             self.logger.info("以自动化模式启动")
-            # 在UI加载完成后执行自动化
             QApplication.processEvents()
             self._run_auto_mode()
     
     def _open_auto_config(self):
-        """打开自动化配置窗口"""
         dialog = AutoConfigWindow(self)
         dialog.exec_()
     
@@ -665,108 +704,175 @@ class MainWindow(QMainWindow):
         self.logger.info("开始执行自动化任务")
         self.status_label.setText("自动化运行中...")
         
-        auto_config = self.config_manager.get_auto_config()
-        if not auto_config.get('enabled', False):
-            self.logger.info("自动化未启用，跳过")
-            self.status_label.setText("自动化未启用")
-            return
-        
-        # 获取产品列表
-        products_str = auto_config.get('products', '')
-        products = [p.strip() for p in products_str.split(',') if p.strip()] if products_str else None
-        
-        # 计算今日任务
-        tasks = self.auto_scheduler.get_today_tasks(products)
-        if not tasks:
-            self.logger.info("今日无任务")
-            self.status_label.setText("今日无任务")
-            return
-        
-        self.logger.info(f"今日任务: {len(tasks)} 个产品")
-        
-        # 执行生成
-        total_files = 0
-        success_files = 0
-        failed_files = 0
-        
-        for product_name, task_info in tasks.items():
-            self.logger.info(f"处理产品: {product_name}")
-            self.status_label.setText(f"处理: {product_name}")
+        try:
+            from core.auto_scheduler import AutoScheduler
+            auto_scheduler = AutoScheduler()
             
-            # 确定输出目录
-            output_dir = task_info.get('output_dir') or os.path.join(os.path.dirname(os.path.dirname(__file__)), 'output')
-            os.makedirs(output_dir, exist_ok=True)
+            auto_config = self.config_manager.get_auto_config()
+            if not auto_config.get('enabled', False):
+                self.logger.info("自动化未启用，跳过")
+                self.status_label.setText("自动化未启用")
+                if '--no-gui' in sys.argv and auto_config.get('exit_after_run', True):
+                    QApplication.quit()
+                return
             
-            # 确定模板路径
-            # 从产品配置中获取模板路径
-            for template_type in ['首件', '过程', '成品']:
-                if task_info.get(template_type, False):
-                    config = self.config_manager.load_product_config(product_name, template_type)
-                    if config and config.template_path and os.path.exists(config.template_path):
-                        template_path = config.template_path
-                    else:
-                        # 尝试从通用模板目录查找
-                        template_path = self._find_template(product_name, template_type)
-                        if not template_path:
-                            self.logger.warning(f"找不到模板: {product_name}_{template_type}")
+            products_str = auto_config.get('products', '')
+            products = [p.strip() for p in products_str.split(',') if p.strip()] if products_str else None
+            self.logger.info(f"products_str: '{products_str}', products: {products}")
+            
+            if not products:
+                products = self.config_manager.get_products_list()
+                self.logger.info(f"从 config_manager 获取产品列表: {products}")
+            
+            if not products:
+                self.logger.warning("没有配置任何产品")
+                self.status_label.setText("没有配置产品")
+                if '--no-gui' in sys.argv and auto_config.get('exit_after_run', True):
+                    QApplication.quit()
+                return
+            
+            tasks = auto_scheduler.get_today_tasks(products)
+            self.logger.info(f"tasks 结果: {tasks}")
+            
+            if not tasks:
+                self.logger.info("今日无任务")
+                self.status_label.setText("今日无任务")
+                if '--no-gui' in sys.argv and auto_config.get('exit_after_run', True):
+                    QApplication.quit()
+                return
+            
+            self.logger.info(f"今日任务: {len(tasks)} 个产品")
+            
+            # ============================================================
+            # 执行结果记录（用于邮件报告）
+            # ============================================================
+            # 结构: execution_results[product_name][template_type] = {
+            #     'status': 'success' | 'failed' | 'skipped',
+            #     'filename': 'xxx.xlsx',
+            #     'error': '错误信息' (仅失败时)
+            # }
+            # ============================================================
+            execution_results = {}
+            
+            total_files = 0
+            success_files = 0
+            failed_files = 0
+            skipped_files = 0
+            output_dirs = []
+            
+            for product_name, task_info in tasks.items():
+                self.logger.info(f"处理产品: {product_name}")
+                self.status_label.setText(f"处理: {product_name}")
+                
+                # 初始化该产品的执行结果
+                execution_results[product_name] = {}
+                
+                for template_type in ['首件', '过程', '成品']:
+                    if task_info.get(template_type, False):
+                        # 初始化该类型的执行结果
+                        execution_results[product_name][template_type] = {
+                            'status': 'pending',
+                            'filename': None,
+                            'error': None
+                        }
+                        
+                        try:
+                            # 加载产品配置
+                            config = self.config_manager.load_product_config(product_name, template_type)
+                            
+                            # 获取模板路径
+                            if config and config.template_path and os.path.exists(config.template_path):
+                                template_path = config.template_path
+                            else:
+                                template_path = self._find_template(product_name, template_type)
+                                if not template_path:
+                                    self.logger.warning(f"找不到模板: {product_name}_{template_type}")
+                                    execution_results[product_name][template_type]['status'] = 'failed'
+                                    execution_results[product_name][template_type]['error'] = f"找不到模板: {product_name}_{template_type}"
+                                    failed_files += 1
+                                    continue
+                            
+                            # 获取输出目录
+                            if config and config.output_dir:
+                                output_dir = config.output_dir
+                            else:
+                                output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'output')
+                                self.logger.debug(f"使用默认输出目录: {output_dir}")
+                            
+                            if output_dir not in output_dirs:
+                                output_dirs.append(output_dir)
+                            
+                            os.makedirs(output_dir, exist_ok=True)
+                            
+                            output_filename = f"{product_name}_{template_type}检验表_{datetime.now().strftime('%Y%m%d')}.xlsx"
+                            output_path = os.path.join(output_dir, output_filename)
+                            
+                            # 检查文件是否已存在
+                            if os.path.exists(output_path) and not self._should_overwrite():
+                                self.logger.info(f"跳过已存在: {output_filename}")
+                                execution_results[product_name][template_type]['status'] = 'skipped'
+                                execution_results[product_name][template_type]['filename'] = output_filename
+                                skipped_files += 1
+                                total_files += 1
+                                continue
+                            
+                            from core.excel_generator import ExcelGenerator
+                            gen = ExcelGenerator()
+                            gen.set_template(template_path)
+                            gen.set_output_dir(output_dir)
+                            
+                            rules = []
+                            if config:
+                                rules = config.rules
+                            gen.set_rules(rules)
+                            gen.set_product_info(product_name, template_type)
+                            
+                            gen.generate(datetime.now(), output_filename)
+                            
+                            # 记录成功
+                            execution_results[product_name][template_type]['status'] = 'success'
+                            execution_results[product_name][template_type]['filename'] = output_filename
+                            success_files += 1
+                            total_files += 1
+                            self.logger.info(f"✓ 已生成: {output_filename}")
+                            self.logger.debug(f"  输出路径: {output_path}")
+                            
+                        except Exception as e:
+                            error_msg = str(e)
+                            self.logger.error(f"生成 {product_name} {template_type} 失败: {error_msg}")
+                            self.logger.exception("详细异常信息:")
+                            execution_results[product_name][template_type]['status'] = 'failed'
+                            execution_results[product_name][template_type]['error'] = error_msg
                             failed_files += 1
-                            continue
-                    
-                    try:
-                        # 生成文件
-                        output_filename = f"{product_name}_{template_type}检验表_{datetime.now().strftime('%Y%m%d')}.xlsx"
-                        output_path = os.path.join(output_dir, output_filename)
-                        
-                        # 检查是否已存在
-                        if os.path.exists(output_path) and not self._should_overwrite():
-                            self.logger.info(f"跳过已存在: {output_filename}")
-                            continue
-                        
-                        # 使用ExcelGenerator生成
-                        from core.excel_generator import ExcelGenerator
-                        gen = ExcelGenerator()
-                        gen.set_template(template_path)
-                        gen.set_output_dir(output_dir)
-                        
-                        # 加载规则
-                        rules = []
-                        if config:
-                            rules = config.rules
-                        gen.set_rules(rules)
-                        gen.set_product_info(product_name, template_type)
-                        
-                        gen.generate(datetime.now(), output_filename)
-                        success_files += 1
-                        total_files += 1
-                        self.logger.info(f"✓ 已生成: {output_filename}")
-                        
-                    except Exception as e:
-                        self.logger.error(f"生成失败: {e}")
-                        failed_files += 1
-                        total_files += 1
-        
-        # 发送邮件报告
-        if auto_config.get('enabled', False):
+                            total_files += 1
+            
+            # 发送邮件报告（使用实际执行结果）
             email_config = self.config_manager.get_email_config()
             if email_config.get('enabled', False):
-                self._send_auto_report(tasks, total_files, success_files, failed_files)
+                self._send_auto_report(execution_results, total_files, success_files, failed_files, skipped_files, output_dirs)
+            
+            self.status_label.setText(f"自动化完成: 成功 {success_files}, 失败 {failed_files}, 跳过 {skipped_files}")
+            self.logger.info(f"自动化完成: 成功 {success_files}, 失败 {failed_files}, 跳过 {skipped_files}")
+            
+        except Exception as e:
+            self.logger.error(f"自动化运行异常: {e}")
+            self.logger.exception("详细异常信息:")
+            self.status_label.setText(f"自动化异常: {e}")
         
-        self.status_label.setText(f"自动化完成: 成功 {success_files}, 失败 {failed_files}")
-        self.logger.info(f"自动化完成: 成功 {success_files}, 失败 {failed_files}")
-        
-        # 如果是无界面模式，退出
-        if '--no-gui' in sys.argv and auto_config.get('exit_after_run', True):
-            self.logger.info("无界面模式，退出程序")
-            QApplication.quit()
+        finally:
+            # 判断是否退出
+            if '--no-gui' in sys.argv:
+                auto_config = self.config_manager.get_auto_config()
+                if auto_config.get('exit_after_run', True):
+                    self.logger.info("无界面模式，退出程序")
+                    QApplication.quit()
     
     def _find_template(self, product_name: str, template_type: str) -> str:
         """查找模板文件"""
-        # 尝试从产品配置中获取模板路径
         config = self.config_manager.load_product_config(product_name, template_type)
         if config and config.template_path and os.path.exists(config.template_path):
             return config.template_path
         
-        # 尝试从当前目录查找
         possible_names = [
             f"{product_name}_{template_type}检验表模板.xlsx",
             f"{product_name}_{template_type}检验表.xlsx",
@@ -777,7 +883,6 @@ class MainWindow(QMainWindow):
             if os.path.exists(path):
                 return path
         
-        # 尝试从模板目录查找
         templates_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'templates')
         for name in possible_names:
             path = os.path.join(templates_dir, name)
@@ -787,89 +892,56 @@ class MainWindow(QMainWindow):
         return ''
     
     def _should_overwrite(self) -> bool:
-        """是否覆盖已存在的文件（默认不覆盖）"""
-        # 可以从配置读取
         return False
     
-    def _send_auto_report(self, tasks: dict, total: int, success: int, failed: int):
-        """发送自动化报告邮件"""
+    def _send_auto_report(self, execution_results: dict, total: int, success: int, failed: int, skipped: int, output_dirs: list):
+        """
+        发送自动化报告邮件（基于实际执行结果）
+        
+        Args:
+            execution_results: 实际执行结果字典
+            total: 总文件数
+            success: 成功数
+            failed: 失败数
+            skipped: 跳过数
+            output_dirs: 输出目录列表
+        """
         try:
             self.email_reporter.email_config = self.config_manager.get_email_config()
             
-            # 构建报告
             stats = {
                 'total': total,
                 'success': success,
                 'failed': failed,
-                'skipped': 0,
+                'skipped': skipped,
                 'duration': '自动化任务',
-                'output_dir': ''
+                'output_dirs': output_dirs
             }
             
-            # 构建任务结果
+            # 构建任务结果（基于实际执行结果）
             tasks_results = {}
-            for product_name, task_info in tasks.items():
+            for product_name, product_results in execution_results.items():
                 tasks_results[product_name] = {}
-                for t in ['首件', '过程', '成品']:
-                    if task_info.get(t, False):
-                        tasks_results[product_name][t] = {
-                            'status': 'success' if task_info.get('dates', {}).get(t) else 'skipped',
-                            'filename': f"{product_name}_{t}检验表_{datetime.now().strftime('%Y%m%d')}.xlsx"
+                for template_type, result in product_results.items():
+                    if result['status'] != 'pending':
+                        status = result['status']  # 'success', 'failed', 'skipped'
+                        tasks_results[product_name][template_type] = {
+                            'status': status,
+                            'filename': result.get('filename', ''),
+                            'error': result.get('error', '')
                         }
             
-            # 确定邮件主题
             subject = self.email_reporter.email_config.get('subject', 'Excel生成报告 - {date}')
             subject = subject.replace('{date}', datetime.now().strftime('%Y-%m-%d'))
             
             body = self.email_reporter.build_report(tasks_results, stats)
+            #if output_dirs:
+            #    body += "\n\n" + "=" * 60 + "\n"
+            #    body += "📁 文件位置:\n"
+            #    for d in set(output_dirs):
+            #        body += f"  {d}\n"
+            #    body += "=" * 60        
             self.email_reporter.send(subject, body)
             
         except Exception as e:
             self.logger.error(f"发送邮件报告失败: {e}")
-
-
-# ============================================================
-# 命令行入口
-# ============================================================
-
-def main():
-    """程序入口（支持命令行参数）"""
-    parser = argparse.ArgumentParser(description='Excel批量生成工具')
-    parser.add_argument('--auto', action='store_true', help='以自动化模式运行')
-    parser.add_argument('--no-gui', action='store_true', help='无界面模式（需配合--auto使用）')
-    parser.add_argument('--product', type=str, help='指定产品名称')
-    parser.add_argument('--type', type=str, choices=['首件', '过程', '成品'], help='模板类型')
-    parser.add_argument('--date', type=str, help='指定日期 (YYYY-MM-DD)')
-    parser.add_argument('--output', type=str, help='输出目录')
-    parser.add_argument('--preview', action='store_true', help='预览模式')
-    parser.add_argument('--verbose', action='store_true', help='详细日志')
-    
-    args = parser.parse_args()
-    
-    # 如果设置了详细日志，调整日志级别
-    if args.verbose:
-        import logging
-        logging.getLogger('ExcelBatchGenerator').setLevel(logging.DEBUG)
-    
-    # 创建应用
-    app = QApplication(sys.argv)
-    app.setApplicationName("Excel批量生成工具")
-    
-    # 创建主窗口
-    window = MainWindow()
-    
-    # 如果是自动化模式且无界面，不显示窗口
-    if args.auto and args.no_gui:
-        window.show()  # 需要显示以便处理事件，但可以最小化
-        window.showMinimized()
-        # 在事件循环中执行自动化
-        from PyQt5.QtCore import QTimer
-        QTimer.singleShot(100, lambda: window._run_auto_mode())
-    else:
-        window.show()
-    
-    sys.exit(app.exec_())
-
-
-if __name__ == '__main__':
-    main()

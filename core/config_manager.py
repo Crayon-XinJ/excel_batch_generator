@@ -3,24 +3,8 @@
 
 """
 配置管理器 - 程序的统一配置入口
-
-职责：
-    1. 管理 config.ini 文件的读取、写入和默认创建
-    2. 提供程序根目录（EXE所在目录或源码根目录）的定位
-    3. 管理非工作日配置（JSON格式）
-    4. 管理产品规则配置（按产品名+模板类型分组存储）
-    5. 支持用户自定义 config 和 logs 目录路径
-
-设计模式：
-    使用单例模式，确保整个程序只有一个配置管理器实例，
-    所有模块通过同一个实例获取配置，保证一致性。
-
-使用示例：
-    from core.config_manager import ConfigManager
-    cm = ConfigManager()
-    non_workdays = cm.load_non_workdays()
-    config = cm.load_product_config('产品名', '首件')
 """
+
 import os
 import sys
 import json
@@ -47,17 +31,14 @@ class ConfigManager:
             return
         self._initialized = True
 
-        # 定位程序根目录
         if getattr(sys, 'frozen', False):
             self.base_dir = os.path.dirname(sys.executable)
         else:
             self.base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-        # 加载 config.ini
         self.ini_path = os.path.join(self.base_dir, 'config.ini')
         self._load_or_create_ini()
 
-        # 读取路径配置
         self.config_dir = self._get_path('PATHS', 'config_dir', 'config')
         self.log_dir = self._get_path('PATHS', 'log_dir', 'logs')
         self.templates_dir = self._get_path('PATHS', 'templates_dir', 'config/templates')
@@ -66,20 +47,17 @@ class ConfigManager:
         os.makedirs(self.log_dir, exist_ok=True)
         os.makedirs(self.templates_dir, exist_ok=True)
 
-        # 设置子路径
         self.non_workdays_path = os.path.join(self.config_dir, 'non_workdays.json')
         self.products_path = os.path.join(self.config_dir, 'products')
         os.makedirs(self.products_path, exist_ok=True)
 
     def _load_or_create_ini(self):
-        """加载或创建 config.ini"""
         self.config = configparser.ConfigParser()
         if not os.path.exists(self.ini_path):
             self._create_default_ini()
         self.config.read(self.ini_path, encoding='utf-8')
 
     def _create_default_ini(self):
-        """创建默认配置文件"""
         self.config['PATHS'] = {
             'config_dir': 'config',
             'log_dir': 'logs',
@@ -100,7 +78,8 @@ class ConfigManager:
             'auto_default_days': '30',
             'run_mode': 'scheduled',
             'exit_after_run': 'true',
-            'check_template_exists': 'true'
+            'check_template_exists': 'true',
+            'global_output_dir': ''  # ✅ 全局输出目录（可选）
         }
         self.config['EMAIL'] = {
             'enabled': 'false',
@@ -121,7 +100,6 @@ class ConfigManager:
         with open(self.ini_path, 'w', encoding='utf-8') as f:
             self.config.write(f)
 
-        # 添加注释
         with open(self.ini_path, 'r', encoding='utf-8') as f:
             content = f.read()
         with open(self.ini_path, 'w', encoding='utf-8') as f:
@@ -133,7 +111,6 @@ class ConfigManager:
             f.write(content)
 
     def _get_path(self, section: str, key: str, default: str) -> str:
-        """获取路径配置（支持相对路径转绝对路径）"""
         val = self.config.get(section, key, fallback=default)
         if os.path.isabs(val):
             return val
@@ -141,7 +118,6 @@ class ConfigManager:
             return os.path.join(self.base_dir, val)
 
     def get_log_config(self) -> dict:
-        """获取日志配置"""
         return {
             'level': self.config.get('LOG', 'level', fallback='INFO'),
             'max_files': self.config.getint('LOG', 'max_files', fallback=30),
@@ -151,7 +127,6 @@ class ConfigManager:
         }
 
     def get_auto_config(self) -> dict:
-        """获取自动化配置"""
         return {
             'enabled': self.config.getboolean('AUTO', 'enabled', fallback=False),
             'time': self.config.get('AUTO', 'time', fallback='07:00'),
@@ -161,11 +136,26 @@ class ConfigManager:
             'auto_default_days': self.config.getint('AUTO', 'auto_default_days', fallback=30),
             'run_mode': self.config.get('AUTO', 'run_mode', fallback='scheduled'),
             'exit_after_run': self.config.getboolean('AUTO', 'exit_after_run', fallback=True),
-            'check_template_exists': self.config.getboolean('AUTO', 'check_template_exists', fallback=True)
+            'check_template_exists': self.config.getboolean('AUTO', 'check_template_exists', fallback=True),
+            'global_output_dir': self.config.get('AUTO', 'global_output_dir', fallback='')
         }
 
+    def save_auto_config(self, config: dict) -> None:
+        self.config.set('AUTO', 'enabled', str(config.get('enabled', False)))
+        self.config.set('AUTO', 'time', config.get('time', '07:00'))
+        self.config.set('AUTO', 'products', config.get('products', ''))
+        self.config.set('AUTO', 'types', config.get('types', '首件,过程,成品'))
+        self.config.set('AUTO', 'range_mode', config.get('range_mode', 'hybrid'))
+        self.config.set('AUTO', 'auto_default_days', str(config.get('auto_default_days', 30)))
+        self.config.set('AUTO', 'run_mode', config.get('run_mode', 'scheduled'))
+        self.config.set('AUTO', 'exit_after_run', str(config.get('exit_after_run', True)))
+        self.config.set('AUTO', 'check_template_exists', str(config.get('check_template_exists', True)))
+        self.config.set('AUTO', 'global_output_dir', config.get('global_output_dir', ''))
+        
+        with open(self.ini_path, 'w', encoding='utf-8') as f:
+            self.config.write(f)
+
     def get_email_config(self) -> dict:
-        """获取邮件配置"""
         return {
             'enabled': self.config.getboolean('EMAIL', 'enabled', fallback=False),
             'smtp_server': self.config.get('EMAIL', 'smtp_server', fallback='smtp.qq.com'),
@@ -182,26 +172,9 @@ class ConfigManager:
             'timeout': self.config.getint('EMAIL', 'timeout', fallback=30)
         }
 
-    def save_auto_config(self, config: dict) -> None:
-        """保存自动化配置"""
-        self.config.set('AUTO', 'enabled', str(config.get('enabled', False)))
-        self.config.set('AUTO', 'time', config.get('time', '07:00'))
-        self.config.set('AUTO', 'products', config.get('products', ''))
-        self.config.set('AUTO', 'types', config.get('types', '首件,过程,成品'))
-        self.config.set('AUTO', 'range_mode', config.get('range_mode', 'hybrid'))
-        self.config.set('AUTO', 'auto_default_days', str(config.get('auto_default_days', 30)))
-        self.config.set('AUTO', 'run_mode', config.get('run_mode', 'scheduled'))
-        self.config.set('AUTO', 'exit_after_run', str(config.get('exit_after_run', True)))
-        self.config.set('AUTO', 'check_template_exists', str(config.get('check_template_exists', True)))
-        
-        with open(self.ini_path, 'w', encoding='utf-8') as f:
-            self.config.write(f)
-
     def save_email_config(self, config: dict) -> None:
-        """保存邮件配置"""
         for key, value in config.items():
             self.config.set('EMAIL', key, str(value))
-        
         with open(self.ini_path, 'w', encoding='utf-8') as f:
             self.config.write(f)
 
@@ -333,13 +306,20 @@ class ConfigManager:
         return config.rules
 
     # ============================================================
-    # 全局日期范围
+    # 获取产品输出目录
     # ============================================================
 
-    def get_global_date_ranges(self) -> List[List[str]]:
-        """从config.ini读取全局日期范围"""
-        # 暂不支持在ini中配置，由产品配置各自管理
-        return []
+    def get_product_output_dir(self, product_name: str, template_type: str) -> str:
+        """获取产品的输出目录"""
+        config = self.load_product_config(product_name, template_type)
+        if config and config.output_dir:
+            return config.output_dir
+        return ''
 
-    def get_auto_default_days(self) -> int:
-        return self.config.getint('AUTO', 'auto_default_days', fallback=30)
+    def save_product_output_dir(self, product_name: str, template_type: str, output_dir: str) -> None:
+        """保存产品的输出目录"""
+        config = self.load_product_config(product_name, template_type)
+        if config is None:
+            config = ProductConfig(product_name=product_name, template_type=template_type)
+        config.output_dir = output_dir
+        self.save_product_config(config)

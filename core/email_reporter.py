@@ -65,8 +65,23 @@ class EmailReporter:
                         lines.append(f"    ✅ {task_type}: 已生成")
         
         lines.append("-" * 60)
-        if 'output_dir' in stats:
+
+        # ============================================================
+        # 文件位置（支持列表和字符串两种格式）
+        # ============================================================
+        # 优先使用 output_dirs（列表），兼容旧的 output_dir（字符串）
+        if 'output_dirs' in stats and stats['output_dirs']:
+            dirs = stats['output_dirs']
+            if isinstance(dirs, list):
+                lines.append("🔗 文件位置:")
+                for d in set(dirs):
+                    lines.append(f"  {d}")
+            else:
+                # 如果不是列表，按字符串处理
+                lines.append(f"🔗 文件位置: {dirs}")
+        elif 'output_dir' in stats and stats['output_dir']:
             lines.append(f"🔗 文件位置: {stats['output_dir']}")
+            
         lines.append("=" * 60)
         
         return "\n".join(lines)

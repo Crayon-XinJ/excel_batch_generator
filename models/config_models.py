@@ -3,11 +3,6 @@
 
 """
 配置数据模型 - 使用 dataclass 定义配置结构
-
-为什么使用 dataclass？
-    - 自动生成 __init__、__repr__ 等方法
-    - 类型提示清晰
-    - 易于序列化/反序列化（to_dict / from_dict）
 """
 
 from dataclasses import dataclass, field
@@ -42,7 +37,6 @@ class Rule:
     enabled: bool = True
 
     def to_dict(self) -> dict:
-        """序列化为字典（用于JSON存储）"""
         return {
             'id': self.id,
             'target_type': self.target_type,
@@ -57,7 +51,6 @@ class Rule:
 
     @classmethod
     def from_dict(cls, data: dict) -> 'Rule':
-        """从字典反序列化"""
         return cls(
             id=data['id'],
             target_type=data['target_type'],
@@ -74,20 +67,13 @@ class Rule:
 @dataclass
 class ProductAutoConfig:
     """
-    产品自动化配置（新增，可选字段）
-    
-    属性说明：
-        enabled: 该产品是否参与自动化
-        date_ranges: 手动配置的工期段（覆盖全局）
-        types: 生成类型过滤（覆盖全局）
-        output_dir: 自定义输出目录
-        range_mode: 工期模式 (manual/auto/hybrid)
+    产品自动化配置（可选）
     """
     enabled: bool = True
     date_ranges: List[List[str]] = field(default_factory=list)
-    types: List[str] = field(default_factory=list)  # ['首件', '过程', '成品']
-    output_dir: str = ''
-    range_mode: str = 'hybrid'  # manual | auto | hybrid
+    types: List[str] = field(default_factory=list)
+    output_dir: str = ''  # 产品级别的输出目录（覆盖全局）
+    range_mode: str = 'hybrid'
 
     def to_dict(self) -> dict:
         return {
@@ -117,14 +103,16 @@ class ProductConfig:
     属性说明：
         product_name: 产品名称
         template_type: 模板类型（首件/过程/成品）
-        template_path: 模板文件路径（可选，覆盖全局）
+        template_path: 模板文件路径
+        output_dir: 输出目录路径（每个产品/类型独立）
         rules: 规则列表
-        date_ranges: 生产工期范围 [[start, end], ...]
+        date_ranges: 生产工期范围
         auto_config: 自动化配置（可选）
     """
     product_name: str
     template_type: Literal['首件', '过程', '成品']
     template_path: str = ''
+    output_dir: str = ''  # ✅ 新增：输出目录
     rules: List[Rule] = field(default_factory=list)
     date_ranges: List[List[str]] = field(default_factory=list)
     auto_config: Optional[ProductAutoConfig] = None
@@ -138,6 +126,8 @@ class ProductConfig:
         }
         if self.template_path:
             result['template_path'] = self.template_path
+        if self.output_dir:
+            result['output_dir'] = self.output_dir  # ✅ 新增
         if self.auto_config:
             result['auto_config'] = self.auto_config.to_dict()
         return result
@@ -152,6 +142,7 @@ class ProductConfig:
             product_name=data['product_name'],
             template_type=data['template_type'],
             template_path=data.get('template_path', ''),
+            output_dir=data.get('output_dir', ''),  # ✅ 新增
             rules=[Rule.from_dict(r) for r in data.get('rules', [])],
             date_ranges=data.get('date_ranges', []),
             auto_config=auto_config

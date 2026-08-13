@@ -1,0 +1,236 @@
+[2026-08-12 14:06:27.434] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 14:07:09.595] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管首件检验表模板.xlsx
+[2026-08-12 14:07:11.576] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 14:07:24.084] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 3 个文件
+[2026-08-12 14:07:24.085] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 3 个文件
+[2026-08-12 14:07:25.312] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260529.xlsx
+[2026-08-12 14:07:26.419] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260601.xlsx
+[2026-08-12 14:07:27.517] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260608.xlsx
+[2026-08-12 14:07:27.517] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 3/3
+[2026-08-12 14:07:27.519] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 3/3
+[2026-08-12 14:07:34.855] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 14:07:34.855] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 14:07:35.932] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 14:07:41.517] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 11 个文件
+[2026-08-12 14:07:41.518] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 11 个文件
+[2026-08-12 14:07:42.680] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260529.xlsx
+[2026-08-12 14:07:43.833] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260530.xlsx
+[2026-08-12 14:07:44.973] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260601.xlsx
+[2026-08-12 14:07:46.157] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260602.xlsx
+[2026-08-12 14:07:47.333] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260603.xlsx
+[2026-08-12 14:07:48.503] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260604.xlsx
+[2026-08-12 14:07:49.723] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260605.xlsx
+[2026-08-12 14:07:50.886] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260606.xlsx
+[2026-08-12 14:07:52.035] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260608.xlsx
+[2026-08-12 14:07:53.265] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260609.xlsx
+[2026-08-12 14:07:54.424] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260610.xlsx
+[2026-08-12 14:07:54.424] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 11/11
+[2026-08-12 14:07:54.425] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 11/11
+[2026-08-12 14:08:17.115] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管成品检验表模板.xlsx
+[2026-08-12 14:08:17.116] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 14:08:18.009] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 14:08:20.224] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 3 个文件
+[2026-08-12 14:08:20.224] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 3 个文件
+[2026-08-12 14:08:21.177] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_成品检验表_20260530.xlsx
+[2026-08-12 14:08:22.129] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_成品检验表_20260606.xlsx
+[2026-08-12 14:08:23.086] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_成品检验表_20260610.xlsx
+[2026-08-12 14:08:23.087] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 3/3
+[2026-08-12 14:08:23.088] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 3/3
+[2026-08-12 14:12:05.646] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 14:12:05.646] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 14:12:06.848] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 14:12:12.264] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管首件检验表模板.xlsx
+[2026-08-12 14:12:12.264] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 14:12:13.334] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 14:15:07.687] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel批量生成工具 - 测试邮件
+[2026-08-12 14:16:11.362] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 15:09:38.554] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:10:28.697] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 15:11:00.377] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:11:00.502] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:11:00.503] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:11:00.504] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:14:02.585] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:14:20.391] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 15:14:20.392] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 15:14:26.921] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 15:23:43.945] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 15:24:08.065] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 15:25:00.381] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:25:00.513] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:25:00.515] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:25:00.516] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:32:53.898] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:33:11.712] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 15:34:00.364] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:34:00.493] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:34:00.494] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:34:00.495] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 15:34:00.495] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:41:56.634] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:41:56.762] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:41:56.763] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:41:56.763] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 15:41:56.764] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 15:41:56.764] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:44:33.261] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:44:33.386] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:44:33.387] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:44:33.387] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 15:44:33.388] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 15:44:33.388] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:49:23.755] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:49:23.883] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:52:43.468] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:52:43.591] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:52:43.591] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:52:43.592] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 15:52:43.592] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 15:52:43.592] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 15:56:55.160] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 15:56:55.265] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 15:56:55.266] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 15:56:55.267] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 15:56:55.267] [INFO] [ExcelBatchGenerator.MainWindow] 当前系统时间: 2026-08-12 15:56:55.267095
+[2026-08-12 15:56:55.267] [INFO] [ExcelBatchGenerator.MainWindow] 当前时区: 中国标准时间
+[2026-08-12 15:56:55.267] [INFO] [ExcelBatchGenerator.MainWindow] 首件配置文件路径: E:\test-shenzhen\excel_batch_generator\config\products\23036_N24四方管\首件.json
+[2026-08-12 15:56:55.267] [INFO] [ExcelBatchGenerator.MainWindow] 首件 date_ranges: [['2026-05-29', '2026-06-10'], ['2026-08-12', '2026-08-12']]
+[2026-08-12 15:56:55.268] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 15:56:55.268] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 16:07:52.733] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 16:07:52.857] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 16:07:52.857] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 16:07:52.858] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 16:07:52.858] [INFO] [ExcelBatchGenerator.MainWindow] 当前系统时间: 2026-08-12 16:07:52.858882
+[2026-08-12 16:07:52.859] [INFO] [ExcelBatchGenerator.MainWindow] 当前时区: 中国标准时间
+[2026-08-12 16:07:52.859] [INFO] [ExcelBatchGenerator.MainWindow] 首件配置文件路径: E:\test-shenzhen\excel_batch_generator\config\products\23036_N24四方管\首件.json
+[2026-08-12 16:07:52.859] [INFO] [ExcelBatchGenerator.MainWindow] 首件 date_ranges: [['2026-05-29', '2026-06-10'], ['2026-08-12', '2026-08-12']]
+[2026-08-12 16:07:52.860] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 0 个产品
+[2026-08-12 16:07:52.860] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-12 16:07:52.860] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-12 16:08:18.350] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 16:08:26.083] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管成品检验表模板.xlsx
+[2026-08-12 16:08:26.084] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 16:08:27.307] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 16:09:17.417] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 16:09:17.547] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 16:09:17.547] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 16:09:17.548] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 16:09:17.548] [INFO] [ExcelBatchGenerator.MainWindow] 当前系统时间: 2026-08-12 16:09:17.548602
+[2026-08-12 16:09:17.548] [INFO] [ExcelBatchGenerator.MainWindow] 当前时区: 中国标准时间
+[2026-08-12 16:09:17.548] [INFO] [ExcelBatchGenerator.MainWindow] 首件配置文件路径: E:\test-shenzhen\excel_batch_generator\config\products\23036_N24四方管\首件.json
+[2026-08-12 16:09:17.549] [INFO] [ExcelBatchGenerator.MainWindow] 首件 date_ranges: [['2026-05-29', '2026-06-10'], ['2026-08-12', '2026-08-13']]
+[2026-08-12 16:09:17.549] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-12 16:09:17.549] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': False, '过程': True, '成品': False, 'dates': {'过程': '2026-08-12'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-12 16:09:17.549] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-12 16:09:17.549] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-12 16:09:17.550] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: 23036_N24四方管_过程
+[2026-08-12 16:09:18.230] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-12
+[2026-08-12 16:09:18.231] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 0, 失败 1
+[2026-08-12 16:36:36.096] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管首件检验表模板.xlsx
+[2026-08-12 16:36:37.388] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 16:37:09.773] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 16:37:09.774] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 16:37:10.715] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 16:53:27.203] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 16:53:36.571] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管首件检验表模板.xlsx
+[2026-08-12 16:53:37.809] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 16:53:45.998] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 16:53:45.998] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 16:53:46.921] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 17:03:33.533] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 17:03:43.635] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管成品检验表模板.xlsx
+[2026-08-12 17:03:43.635] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 17:03:44.722] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 成品
+[2026-08-12 17:04:03.708] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 17:04:03.830] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 17:04:03.831] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 17:04:03.831] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 17:04:03.831] [INFO] [ExcelBatchGenerator.MainWindow] 当前系统时间: 2026-08-12 17:04:03.831674
+[2026-08-12 17:04:03.831] [INFO] [ExcelBatchGenerator.MainWindow] 当前时区: 中国标准时间
+[2026-08-12 17:04:03.831] [INFO] [ExcelBatchGenerator.MainWindow] 首件配置文件路径: E:\test-shenzhen\excel_batch_generator\config\products\23036_N24四方管\首件.json
+[2026-08-12 17:04:03.832] [INFO] [ExcelBatchGenerator.MainWindow] 首件 date_ranges: [['2026-05-29', '2026-06-10'], ['2026-08-12', '2026-08-12']]
+[2026-08-12 17:04:03.832] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-12 17:04:03.832] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-12', '成品': '2026-08-12', '过程': '2026-08-12'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 12, 0, 0))], 'output_dir': ''}}
+[2026-08-12 17:04:03.832] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-12 17:04:03.832] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-12 17:04:04.982] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_首件检验表_20260812.xlsx
+[2026-08-12 17:04:06.105] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260812.xlsx
+[2026-08-12 17:04:07.069] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260812.xlsx
+[2026-08-12 17:04:07.879] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-12
+[2026-08-12 17:04:07.880] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 3, 失败 0
+[2026-08-12 17:22:38.117] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 17:22:46.679] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管首件检验表模板.xlsx
+[2026-08-12 17:22:48.443] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 首件
+[2026-08-12 17:24:03.765] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 4 个文件
+[2026-08-12 17:24:03.766] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 4 个文件
+[2026-08-12 17:24:04.990] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260529.xlsx
+[2026-08-12 17:24:06.094] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260601.xlsx
+[2026-08-12 17:24:07.190] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260608.xlsx
+[2026-08-12 17:24:08.277] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_首件检验表_20260812.xlsx
+[2026-08-12 17:24:08.277] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 4/4
+[2026-08-12 17:24:08.279] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 4/4
+[2026-08-12 18:41:37.902] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:04:51.148] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 20:06:00.395] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:06:00.517] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 20:06:00.518] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 20:06:00.519] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 20:06:00.520] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-12 20:06:00.520] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-12', '成品': '2026-08-12', '过程': '2026-08-12'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 12, 0, 0))], 'output_dir': ''}}
+[2026-08-12 20:06:00.521] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-12 20:06:00.521] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-12 20:06:02.192] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_首件检验表_20260812.xlsx
+[2026-08-12 20:06:03.361] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260812.xlsx
+[2026-08-12 20:06:04.343] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260812.xlsx
+[2026-08-12 20:06:05.284] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-12
+[2026-08-12 20:06:05.289] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 3, 失败 0
+[2026-08-12 20:06:05.290] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-12 20:17:53.123] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:18:33.142] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 20:19:00.363] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:19:00.489] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 20:19:00.490] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 20:19:00.491] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 20:19:00.492] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-12 20:19:00.492] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-12', '成品': '2026-08-12', '过程': '2026-08-12'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 12, 0, 0))], 'output_dir': ''}}
+[2026-08-12 20:19:00.492] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-12 20:19:00.493] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-12 20:20:30.101] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:22:52.035] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:23:03.143] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 20:23:03.144] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 20:23:04.457] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 23036_N24四方管 - 过程
+[2026-08-12 20:23:04.458] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/N24四方管/23036/过程检验表/23036_N24四方管过程检验表模板.xlsx
+[2026-08-12 20:23:09.647] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/test-shenzhen/N24四方管/23036/过程检验表
+[2026-08-12 20:23:09.649] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 12 个文件
+[2026-08-12 20:23:09.650] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 12 个文件
+[2026-08-12 20:23:10.841] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260529.xlsx
+[2026-08-12 20:23:12.022] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260530.xlsx
+[2026-08-12 20:23:13.222] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260601.xlsx
+[2026-08-12 20:23:14.427] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260602.xlsx
+[2026-08-12 20:23:15.637] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260603.xlsx
+[2026-08-12 20:23:16.789] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260604.xlsx
+[2026-08-12 20:23:18.008] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260605.xlsx
+[2026-08-12 20:23:19.221] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260606.xlsx
+[2026-08-12 20:23:20.379] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260608.xlsx
+[2026-08-12 20:23:21.577] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260609.xlsx
+[2026-08-12 20:23:22.750] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260610.xlsx
+[2026-08-12 20:23:23.916] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 23036_N24四方管_过程检验表_20260812.xlsx
+[2026-08-12 20:23:23.916] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 12/12
+[2026-08-12 20:23:23.919] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 12/12
+[2026-08-12 20:24:10.007] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-12 20:25:00.370] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-12 20:25:00.504] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-12 20:25:00.505] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-12 20:25:00.506] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管', products: ['23036_N24四方管']
+[2026-08-12 20:25:00.507] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-12 20:25:00.507] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-12', '成品': '2026-08-12', '过程': '2026-08-12'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 12, 0, 0))], 'output_dir': ''}}
+[2026-08-12 20:25:00.507] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-12 20:25:00.507] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-12 20:25:01.701] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_首件检验表_20260812.xlsx
+[2026-08-12 20:25:02.862] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260812.xlsx
+[2026-08-12 20:25:03.866] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260812.xlsx
+[2026-08-12 20:25:04.596] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-12
+[2026-08-12 20:25:04.597] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 3, 失败 0
+[2026-08-12 20:25:04.597] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序

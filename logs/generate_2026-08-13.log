@@ -1,0 +1,136 @@
+[2026-08-13 08:28:18.708] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 08:29:33.935] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 08:29:47.271] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 08:31:00.365] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 08:31:00.492] [INFO] [ExcelBatchGenerator.MainWindow] 以自动化模式启动
+[2026-08-13 08:31:00.492] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 08:31:00.493] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 08:31:00.495] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 08:31:00.495] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 08:31:00.495] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 08:31:00.496] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 08:31:01.742] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 08:31:02.715] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 08:31:02.715] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 08:31:03.917] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 08:31:03.918] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: W-12010_V1&V2_成品
+[2026-08-13 08:31:04.582] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 08:31:04.584] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 3, 失败 1
+[2026-08-13 08:31:04.584] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 08:31:04.688] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 08:31:04.690] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 08:31:04.693] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 08:31:04.693] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 12, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 08:31:04.693] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 08:31:04.694] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 08:31:04.694] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 08:31:04.695] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 08:31:04.695] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 08:31:04.696] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 08:31:04.697] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: W-12010_V1&V2_成品
+[2026-08-13 08:31:05.332] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 08:31:05.334] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 0, 失败 1
+[2026-08-13 08:31:05.335] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 08:47:51.348] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 08:47:58.168] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2成品检验表模板.xlsx
+[2026-08-13 08:47:58.168] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-13 08:47:59.319] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-13 08:47:59.319] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/V1&V2/成品检验表/W-12010_V1&V2成品检验表模板.xlsx
+[2026-08-13 08:48:35.486] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 08:49:00.366] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 08:49:00.589] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 08:49:00.592] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 08:49:00.594] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 08:49:00.594] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 08:49:00.595] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 08:49:00.595] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 08:49:01.779] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_首件检验表_20260813.xlsx
+[2026-08-13 08:49:02.878] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 08:49:03.822] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 08:49:03.822] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 08:49:03.824] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: W-12010_V1&V2_首件
+[2026-08-13 08:49:05.016] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 08:49:06.009] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_成品检验表_20260813.xlsx
+[2026-08-13 08:49:06.669] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 08:49:06.671] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 5, 失败 1
+[2026-08-13 08:49:06.671] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 08:59:30.597] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 08:59:37.769] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:00:11.224] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 09:01:00.384] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:01:00.617] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 09:01:00.618] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 09:01:00.622] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 09:01:00.622] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 09:01:00.622] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 09:01:00.623] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 09:01:02.064] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_首件检验表_20260813.xlsx
+[2026-08-13 09:01:03.204] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 09:01:04.190] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 09:01:04.191] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 09:01:04.192] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: W-12010_V1&V2_首件
+[2026-08-13 09:01:05.428] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 09:01:06.509] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_成品检验表_20260813.xlsx
+[2026-08-13 09:01:07.184] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 09:01:07.185] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 5, 失败 1, 跳过 0
+[2026-08-13 09:01:07.186] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 09:27:37.224] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:27:37.227] [DEBUG] [ExcelBatchGenerator.AutoScheduler] 加载非工作日: 21 天
+[2026-08-13 09:27:49.175] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:28:11.177] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 09:29:00.369] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:29:00.603] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 09:29:00.603] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 09:29:00.605] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 09:29:00.605] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 09:29:00.605] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 09:29:00.605] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 09:29:00.605] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_首件检验表_20260813.xlsx
+[2026-08-13 09:29:00.606] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 09:29:00.606] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 09:29:00.606] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 09:29:00.606] [WARNING] [ExcelBatchGenerator.MainWindow] 找不到模板: W-12010_V1&V2_首件
+[2026-08-13 09:29:02.359] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 09:29:03.334] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_成品检验表_20260813.xlsx
+[2026-08-13 09:29:04.052] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 09:29:04.053] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 2, 失败 1, 跳过 3
+[2026-08-13 09:29:04.054] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 09:31:31.795] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:31:47.601] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 09:32:00.363] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:32:00.582] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 09:32:00.583] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 09:32:00.584] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 09:32:00.584] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 09:32:00.585] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 09:32:00.585] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 09:32:00.585] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_首件检验表_20260813.xlsx
+[2026-08-13 09:32:00.585] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 09:32:00.585] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 09:32:00.586] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 09:32:01.870] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_首件检验表_20260813.xlsx
+[2026-08-13 09:32:01.871] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 09:32:01.872] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_成品检验表_20260813.xlsx
+[2026-08-13 09:32:02.534] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 09:32:02.536] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 1, 失败 0, 跳过 5
+[2026-08-13 09:32:02.537] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-13 09:33:01.438] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:38:58.667] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:39:22.818] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-13 09:40:00.360] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-13 09:40:00.582] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-13 09:40:00.584] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-13 09:40:00.588] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 2 个产品
+[2026-08-13 09:40:00.588] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'23036_N24四方管': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 29, 0, 0), datetime.datetime(2026, 6, 10, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': True, '过程': True, '成品': True, 'dates': {'首件': '2026-08-13', '成品': '2026-08-13', '过程': '2026-08-13'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 13, 0, 0), datetime.datetime(2026, 8, 13, 0, 0))], 'output_dir': ''}}
+[2026-08-13 09:40:00.588] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 2 个产品
+[2026-08-13 09:40:00.588] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 23036_N24四方管
+[2026-08-13 09:40:00.589] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_首件检验表_20260813.xlsx
+[2026-08-13 09:40:00.590] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_过程检验表_20260813.xlsx
+[2026-08-13 09:40:00.590] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: 23036_N24四方管_成品检验表_20260813.xlsx
+[2026-08-13 09:40:00.591] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-13 09:40:00.591] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_首件检验表_20260813.xlsx
+[2026-08-13 09:40:00.592] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-13 09:40:00.593] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_成品检验表_20260813.xlsx
+[2026-08-13 09:40:01.301] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-13
+[2026-08-13 09:40:01.305] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 0, 失败 0, 跳过 6
+[2026-08-13 09:40:01.305] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
