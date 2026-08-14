@@ -1,0 +1,69 @@
+{
+  "product_name": "11036_GPS5010底壳",
+  "template_type": "成品",
+  "rules": [
+    {
+      "id": "6085e2a8",
+      "target_type": "cell",
+      "target": "K5",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "80a21972",
+      "target_type": "cell",
+      "target": "A22",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "83da0c3c",
+      "target_type": "range",
+      "target": "C9-L9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 131.9,
+      "max_val": 132.3,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d29e33b4",
+      "target_type": "range",
+      "target": "C10-L10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 83.81,
+      "max_val": 84.19,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "cc12ee1f",
+      "target_type": "range",
+      "target": "C11-L11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 7.1,
+      "max_val": 7.2,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-05-21",
+      "2026-06-12"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/GPS5010/11036底壳/成品检验表/11036_GPS5010底壳成品检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/GPS5010/11036底壳/成品检验表"
+}

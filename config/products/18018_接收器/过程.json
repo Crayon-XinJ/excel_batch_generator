@@ -1,0 +1,102 @@
+{
+  "product_name": "18018_接收器",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "d0cb878e",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "c1f6deef",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "c430613a",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 81.51,
+      "max_val": 81.89,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9b8299b2",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 76.35,
+      "max_val": 76.65,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "8b09b206",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 24.3,
+      "max_val": 24.5,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6bf48a13",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 6.93,
+      "max_val": 7.07,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "ac5a62ef",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 5.44,
+      "max_val": 5.56,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e3dab5b2",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-07-20",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/接收器/18018/过程检验表/18018_接收器过程检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/接收器/18018/过程检验表"
+}

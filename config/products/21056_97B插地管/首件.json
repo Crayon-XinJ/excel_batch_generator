@@ -1,0 +1,160 @@
+{
+  "product_name": "21056_97B插地管",
+  "template_type": "首件",
+  "rules": [
+    {
+      "id": "8f978c1e",
+      "target_type": "cell",
+      "target": "D3",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "5c11676a",
+      "target_type": "cell",
+      "target": "A26",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2476ba8b",
+      "target_type": "cells",
+      "target": "F9,I9,L9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 21.9,
+      "max_val": 22.1,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9e7005f7",
+      "target_type": "cells",
+      "target": "F10,I10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 18.2,
+      "max_val": 18.4,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e447cc97",
+      "target_type": "cells",
+      "target": "F11,I11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 12.91,
+      "max_val": 13.09,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "1c308049",
+      "target_type": "cell",
+      "target": "F12",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 131.8,
+      "max_val": 132.2,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "1e482922",
+      "target_type": "cell",
+      "target": "I13",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 137.8,
+      "max_val": 138.2,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "ed4a3afc",
+      "target_type": "cell",
+      "target": "L14",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 136.0,
+      "max_val": 136.4,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6a209275",
+      "target_type": "cell",
+      "target": "L15",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 43.17,
+      "max_val": 43.43,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "482f7cce",
+      "target_type": "cell",
+      "target": "L16",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 40.17,
+      "max_val": 40.43,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "b9fedc54",
+      "target_type": "cell",
+      "target": "L17",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 28.4,
+      "max_val": 28.6,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "8a3c4b63",
+      "target_type": "cell",
+      "target": "L18",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 1.75,
+      "max_val": 1.85,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e5aef652",
+      "target_type": "cell",
+      "target": "L19",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 3.35,
+      "max_val": 3.45,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-29",
+      "2026-08-08"
+    ],
+    [
+      "2026-08-10",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/97B插地管/首件检验表/21056_97B插地管首件检验表模板.xlsx"
+}

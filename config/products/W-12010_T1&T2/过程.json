@@ -1,0 +1,161 @@
+{
+  "product_name": "W-12010_T1&T2",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "146959ba",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d0b35b8a",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9f1a051d",
+      "target_type": "cell",
+      "target": "J3",
+      "value_type": "text_with_date",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "4e1333d8",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "372c2d64",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 4.82,
+      "max_val": 4.84,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "e3f151bf",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 4.4,
+      "max_val": 4.425,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "454c6dab",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.917,
+      "max_val": 0.927,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "2268d1df",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.467,
+      "max_val": 0.482,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "3dca32e4",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.365,
+      "max_val": 0.38,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "8e351647",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.5,
+      "max_val": 0.65,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "9f1d5cea",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.098,
+      "max_val": 0.105,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "8ecb2653",
+      "target_type": "column",
+      "target": "K6-K15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 0.143,
+      "max_val": 0.148,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "843aef15",
+      "target_type": "column",
+      "target": "L6-L15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 2.102,
+      "max_val": 2.107,
+      "decimals": 3,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-05-03",
+      "2026-08-08"
+    ],
+    [
+      "2026-08-10",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/W-12010/T1&T2/过程检验表/W-12010_T1&T2过程检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/W-12010/T1&T2/过程检验表"
+}

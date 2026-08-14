@@ -1,0 +1,139 @@
+{
+  "product_name": "W-12010_T1&T2",
+  "template_type": "首件",
+  "rules": [
+    {
+      "id": "fecdfafd",
+      "target_type": "cells",
+      "target": "F9,K9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 4.82,
+      "max_val": 4.84,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "af9ce974",
+      "target_type": "cells",
+      "target": "F10,K10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 4.4,
+      "max_val": 4.425,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "7eee1acb",
+      "target_type": "cells",
+      "target": "F11,K11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.917,
+      "max_val": 0.927,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "7ac7dbec",
+      "target_type": "range",
+      "target": "F12-O12",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.467,
+      "max_val": 0.482,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "bd2bda80",
+      "target_type": "range",
+      "target": "F13-O13",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.365,
+      "max_val": 0.38,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "4f90acd0",
+      "target_type": "range",
+      "target": "F14-O14",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.5,
+      "max_val": 0.65,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "c0994db9",
+      "target_type": "range",
+      "target": "F15-O15",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.098,
+      "max_val": 0.105,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "9b3411c8",
+      "target_type": "range",
+      "target": "F16-O16",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 0.143,
+      "max_val": 0.148,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "412649b7",
+      "target_type": "range",
+      "target": "F17-O17",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 2.102,
+      "max_val": 2.107,
+      "decimals": 3,
+      "enabled": true
+    },
+    {
+      "id": "ce91895b",
+      "target_type": "cell",
+      "target": "D3",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "41420830",
+      "target_type": "cell",
+      "target": "A24",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-05-03",
+      "2026-08-08"
+    ],
+    [
+      "2026-08-10",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/W-12010/T1&T2/首件检验表/W-12010_T1&T2首件检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/W-12010/T1&T2/首件检验表"
+}

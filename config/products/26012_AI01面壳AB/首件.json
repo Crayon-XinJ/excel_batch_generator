@@ -1,0 +1,113 @@
+{
+  "product_name": "26012_AI01面壳AB",
+  "template_type": "首件",
+  "rules": [
+    {
+      "id": "e02f4165",
+      "target_type": "cell",
+      "target": "D3",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "888373e3",
+      "target_type": "cell",
+      "target": "A22",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "189f20f2",
+      "target_type": "cells",
+      "target": "F9,K9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 92.31,
+      "max_val": 92.69,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6bc634ed",
+      "target_type": "cell",
+      "target": "F10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 81.58,
+      "max_val": 81.96,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "b71908eb",
+      "target_type": "cell",
+      "target": "F11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 80.81,
+      "max_val": 81.19,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "7530bb94",
+      "target_type": "cell",
+      "target": "F12",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 33.79,
+      "max_val": 34.05,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6c7fa6b6",
+      "target_type": "cell",
+      "target": "K13",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 60.85,
+      "max_val": 61.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "580a18e4",
+      "target_type": "cell",
+      "target": "K14",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 76.85,
+      "max_val": 77.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "0de7c987",
+      "target_type": "cell",
+      "target": "K15",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 45.87,
+      "max_val": 46.13,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-21",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/AI01/26012/首件检验表/26012_AI01面壳AB首件检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/AI01/26012/首件检验表"
+}
