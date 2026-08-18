@@ -1,0 +1,123 @@
+{
+  "product_name": "19069_8代滤镜框",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "98c93b3b",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "24a07a84",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "aba51561",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 55.8,
+      "max_val": 55.95,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "fa7782fa",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 55.65,
+      "max_val": 55.95,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "92942224",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 12.14,
+      "max_val": 12.32,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "08e41663",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 8.56,
+      "max_val": 8.7,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2d44a51b",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 51.85,
+      "max_val": 52.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "82bfa764",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 50.85,
+      "max_val": 51.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2b0ec7b9",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 5.05,
+      "max_val": 5.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6041f3eb",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-05-08",
+      "2026-05-19"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/8代滤镜框/19069/首件检验表/19069_8代滤镜框首件检验表模板.xlsx"
+}

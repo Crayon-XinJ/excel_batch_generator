@@ -35,3 +35,96 @@
 [2026-08-18 10:41:51.539] [INFO] [ExcelBatchGenerator.MainWindow] 删除日期段: 2026-08-18 ~ 2026-08-20
 [2026-08-18 10:42:05.058] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 97c53632
 [2026-08-18 10:43:44.566] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: 97c53632
+[2026-08-18 15:38:23.874] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 15:39:43.656] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶首件检验表模板.xlsx
+[2026-08-18 15:39:46.536] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 首件
+[2026-08-18 15:39:46.537] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/首件检验表/24081_夹子硬胶首件检验表模板.xlsx
+[2026-08-18 15:42:16.800] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 7da0a3de
+[2026-08-18 15:42:32.406] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 27bac5ac
+[2026-08-18 15:42:41.022] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: e45bbd45
+[2026-08-18 15:42:52.550] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 692a0a8b
+[2026-08-18 15:43:06.696] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: ec576c36
+[2026-08-18 15:43:59.873] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/首件检验表
+[2026-08-18 15:43:59.881] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 2 个文件
+[2026-08-18 15:43:59.883] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 2 个文件
+[2026-08-18 15:44:01.203] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_首件检验表_20260806.xlsx
+[2026-08-18 15:44:02.401] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_首件检验表_20260810.xlsx
+[2026-08-18 15:44:02.401] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 2/2
+[2026-08-18 15:44:02.403] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 2/2
+[2026-08-18 15:44:22.664] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-18 15:44:22.664] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-18 15:44:23.744] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-18 15:44:23.744] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/过程检验表/24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-18 15:44:42.130] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 9b3b5c25
+[2026-08-18 15:44:53.868] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 7da0a3de
+[2026-08-18 15:44:59.646] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 27bac5ac
+[2026-08-18 15:45:12.741] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 692a0a8b
+[2026-08-18 15:45:37.022] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: ec576c36
+[2026-08-18 15:46:12.108] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/过程检验表
+[2026-08-18 15:46:12.111] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 7 个文件
+[2026-08-18 15:46:12.112] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 7 个文件
+[2026-08-18 15:46:12.443] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260806.xlsx
+[2026-08-18 15:46:14.674] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260807.xlsx
+[2026-08-18 15:46:15.818] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260808.xlsx
+[2026-08-18 15:46:17.010] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260810.xlsx
+[2026-08-18 15:46:18.139] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260811.xlsx
+[2026-08-18 15:46:19.159] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260812.xlsx
+[2026-08-18 15:46:20.428] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260813.xlsx
+[2026-08-18 15:46:20.428] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 7/7
+[2026-08-18 15:46:20.430] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 7/7
+[2026-08-18 15:46:43.273] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 15:46:43.273] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 15:46:44.128] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 15:46:44.128] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表/24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 15:47:13.875] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 7da0a3de
+[2026-08-18 15:47:20.157] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 27bac5ac
+[2026-08-18 15:47:25.537] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: e45bbd45
+[2026-08-18 15:47:34.234] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: 692a0a8b
+[2026-08-18 15:47:42.493] [INFO] [ExcelBatchGenerator.MainWindow] 编辑规则: ec576c36
+[2026-08-18 15:47:55.129] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/成品检验表
+[2026-08-18 15:47:55.132] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 15:47:55.133] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 15:47:55.986] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260808.xlsx
+[2026-08-18 15:47:57.010] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260813.xlsx
+[2026-08-18 15:47:57.010] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 2/2
+[2026-08-18 15:47:57.013] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 2/2
+[2026-08-18 16:01:30.344] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 16:01:36.194] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:01:36.195] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 16:01:36.968] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 16:01:36.968] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表/24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:01:48.592] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: C:/Users/Administrator/Desktop
+[2026-08-18 16:01:48.594] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 16:01:48.595] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 16:01:49.568] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260808.xlsx
+[2026-08-18 16:01:50.563] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260813.xlsx
+[2026-08-18 16:01:50.563] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 2/2
+[2026-08-18 16:01:50.564] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 2/2
+[2026-08-18 16:24:55.851] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 16:25:14.893] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:25:14.894] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 16:25:15.854] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 成品
+[2026-08-18 16:25:15.855] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表/24081_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:25:19.942] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: C:/Users/Administrator/Desktop
+[2026-08-18 16:25:19.944] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 16:25:19.944] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 2 个文件
+[2026-08-18 16:25:20.816] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260808.xlsx
+[2026-08-18 16:25:21.942] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260813.xlsx
+[2026-08-18 16:25:21.942] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 2/2
+[2026-08-18 16:25:21.944] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 2/2
+[2026-08-18 16:25:45.121] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-18 16:25:45.121] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-18 16:25:46.093] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-18 16:25:46.093] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/过程检验表/24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-18 16:25:50.658] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: C:/Users/Administrator/Desktop
+[2026-08-18 16:25:50.662] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 7 个文件
+[2026-08-18 16:25:50.663] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 7 个文件
+[2026-08-18 16:25:51.812] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260806.xlsx
+[2026-08-18 16:25:52.977] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260807.xlsx
+[2026-08-18 16:25:54.020] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260808.xlsx
+[2026-08-18 16:25:55.349] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260810.xlsx
+[2026-08-18 16:25:56.504] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260811.xlsx
+[2026-08-18 16:25:57.656] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260812.xlsx
+[2026-08-18 16:25:58.834] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260813.xlsx
+[2026-08-18 16:25:58.835] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 7/7
+[2026-08-18 16:25:58.836] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 7/7

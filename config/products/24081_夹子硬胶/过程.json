@@ -18,7 +18,7 @@
       "target_type": "cell",
       "target": "A17",
       "value_type": "night_shift",
-      "sheet_name": "过程尺寸检验记录",
+      "sheet_name": "按时检验记录",
       "min_val": null,
       "max_val": null,
       "decimals": 2,
@@ -30,8 +30,8 @@
       "target": "D6-D15",
       "value_type": "random",
       "sheet_name": "过程尺寸检验记录",
-      "min_val": 19.9,
-      "max_val": 20.1,
+      "min_val": 25.2,
+      "max_val": 25.4,
       "decimals": 2,
       "enabled": true
     },
@@ -41,8 +41,8 @@
       "target": "E6-E15",
       "value_type": "random",
       "sheet_name": "过程尺寸检验记录",
-      "min_val": 82.59,
-      "max_val": 82.97,
+      "min_val": 88.19,
+      "max_val": 88.57,
       "decimals": 2,
       "enabled": true
     },
@@ -63,8 +63,8 @@
       "target": "G6-G15",
       "value_type": "random",
       "sheet_name": "过程尺寸检验记录",
-      "min_val": 37.46,
-      "max_val": 37.72,
+      "min_val": 40.01,
+      "max_val": 40.27,
       "decimals": 2,
       "enabled": true
     },
@@ -74,8 +74,8 @@
       "target": "H6-H15",
       "value_type": "random",
       "sheet_name": "过程尺寸检验记录",
-      "min_val": 56.03,
-      "max_val": 56.33,
+      "min_val": 56.06,
+      "max_val": 56.36,
       "decimals": 2,
       "enabled": true
     },
@@ -120,5 +120,5 @@
     ]
   ],
   "template_path": "E:/test-shenzhen/文档模板/夹子硬胶/24081/过程检验表/24081_夹子硬胶过程检验表模板.xlsx",
-  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/过程检验表"
+  "output_dir": "C:/Users/Administrator/Desktop"
 }

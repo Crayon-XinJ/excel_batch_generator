@@ -142,6 +142,12 @@ class ExcelGenerator:
                     ws.Cells(r, c).Value = val
 
     def _apply_date_rule(self, ws, rule: Rule, date: datetime) -> None:
+        """
+        应用日期规则
+        
+        使用 Excel 日期序列号赋值，从单元格 NumberFormat 读取格式。
+        兼容 EXE 环境中 cell.Value 返回数值而非 datetime 的情况。
+        """
         import datetime as dt
         EXCEL_DATE_BASE = dt.datetime(1899, 12, 30)
         
@@ -152,21 +158,27 @@ class ExcelGenerator:
                     cell = ws.Cells(r, c)
                     old_val = cell.Value
                     
-                    _, date_str, _, _ = extract_first_date_from_text(str(old_val) if old_val else '')
-                    if date_str:
-                        if '-' in date_str:
-                            fmt = 'yyyy-mm-dd'
-                        elif '/' in date_str:
-                            fmt = 'yyyy/mm/dd'
-                        elif '.' in date_str:
-                            fmt = 'yyyy.mm.dd'
-                        elif '年' in date_str:
-                            fmt = 'yyyy年mm月dd日'
-                        else:
-                            fmt = 'yyyy-mm-dd'
-                    else:
-                        fmt = 'yyyy-mm-dd'
+                    # ============================================================
+                    # 从单元格的 NumberFormat 获取日期显示格式
+                    # ============================================================
+                    fmt = cell.NumberFormat
                     
+                    # 如果格式无效或为常规格式，使用默认格式
+                    if not fmt or fmt == 'General':
+                        fmt = 'yyyy-mm-dd'
+                    elif '/' in fmt:
+                        # 保留原始分隔符格式
+                        fmt = 'yyyy/mm/dd'
+                    elif '.' in fmt:
+                        fmt = 'yyyy.mm.dd'
+                    elif '年' in fmt and '月' in fmt and '日' in fmt:
+                        fmt = 'yyyy年mm月dd日'
+                    else:
+                        # 如果有其他日期格式但未匹配，保留原格式
+                        # 但某些格式可能包含 'm-d' 等，直接使用
+                        pass
+                    
+                    # 计算 Excel 日期序列号并赋值
                     excel_date_number = (date - EXCEL_DATE_BASE).days
                     cell.Value = float(excel_date_number)
                     cell.NumberFormat = fmt

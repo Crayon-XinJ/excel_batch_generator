@@ -1,0 +1,124 @@
+{
+  "product_name": "24081_夹子硬胶",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "6f55d436",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9b3b5c25",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "7da0a3de",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 25.2,
+      "max_val": 25.4,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "27bac5ac",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 88.19,
+      "max_val": 88.57,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e45bbd45",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 38.02,
+      "max_val": 38.28,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "692a0a8b",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 40.01,
+      "max_val": 40.27,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "ec576c36",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 56.06,
+      "max_val": 56.36,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "7edd9de4",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 36.3,
+      "max_val": 36.56,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "1ba92c2f",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 38.02,
+      "max_val": 38.28,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "825f84eb",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-08-06",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/夹子硬胶/24081/过程检验表/24081_夹子硬胶过程检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/过程检验表"
+}

@@ -39,6 +39,7 @@ a = Analysis(
         'pythoncom',
         'pywintypes',
         'win32file',
+        'win32timezone',  # 新增
     ],
     
     # 钩子路径：自定义打包钩子（空表示使用默认）

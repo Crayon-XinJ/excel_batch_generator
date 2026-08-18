@@ -1,0 +1,289 @@
+{
+  "product_name": "26013_AI01配件",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "bff7dc13",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "5ed25994",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "765163fa",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 93.83,
+      "max_val": 94.21,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d415e9eb",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 84.35,
+      "max_val": 84.73,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d3442b2f",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": 83.38,
+      "max_val": 83.76,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "bdc34e9e",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": 81.69,
+      "max_val": 82.07,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "b6b89cb8",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 24.4,
+      "max_val": 24.6,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2ac928ad",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 18.49,
+      "max_val": 18.69,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "37c96c8e",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 45.87,
+      "max_val": 46.13,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "a36c6295",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 50.76,
+      "max_val": 51.06,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "848dc613",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 50.68,
+      "max_val": 50.98,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2d9c611a",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": 69.36,
+      "max_val": 69.66,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "f186c359",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": 21.46,
+      "max_val": 21.66,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "5e3839df",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": 20.58,
+      "max_val": 20.78,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "bbc67445",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 17.91,
+      "max_val": 18.09,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "f32ad086",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 13.41,
+      "max_val": 13.59,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "fa9e949e",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 19.9,
+      "max_val": 20.1,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "637d25b2",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": 31.21,
+      "max_val": 31.47,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "461400ea",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 2.65,
+      "max_val": 2.75,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "91cbed66",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 8.03,
+      "max_val": 8.17,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "5daec22d",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 10.71,
+      "max_val": 10.89,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "a2f9761c",
+      "target_type": "column",
+      "target": "K6-K15",
+      "value_type": "random",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": 4.7,
+      "max_val": 4.8,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "48b69058",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "翻盖+电池仓件过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "b2fb9886",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "按键过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9e67db11",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "配件+电池压块过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-21",
+      "2026-08-12"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/AI01/26013/过程检验表/26013_AI01配件过程检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/AI01/26013/过程检验表"
+}

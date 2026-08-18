@@ -1,0 +1,135 @@
+{
+  "product_name": "7004_W-06镜片",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "64d93f6d",
+      "target_type": "cell",
+      "target": "M3",
+      "value_type": "text_with_date",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "52784954",
+      "target_type": "cell",
+      "target": "A17",
+      "value_type": "night_shift",
+      "sheet_name": "按时检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "cea51712",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 105.81,
+      "max_val": 106.19,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "10469bcc",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 96.31,
+      "max_val": 96.69,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "1b2676c7",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 90.81,
+      "max_val": 91.19,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "f8e0eae5",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 85.81,
+      "max_val": 86.19,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d8a247b3",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 76.34,
+      "max_val": 76.66,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "54ce6df5",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 70.84,
+      "max_val": 71.16,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e604286f",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 6.35,
+      "max_val": 6.45,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "dc396285",
+      "target_type": "column",
+      "target": "K6-K15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 8.93,
+      "max_val": 9.06,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "98b6b313",
+      "target_type": "cell",
+      "target": "A18",
+      "value_type": "night_shift",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-11",
+      "2026-06-17"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/W-06镜片/7004/过程检验表/7004_W-06镜片过程检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/W-06镜片/7004/过程检验表"
+}

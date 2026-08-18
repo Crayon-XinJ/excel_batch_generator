@@ -1,0 +1,238 @@
+{
+  "product_name": "25039_W-97B面底壳",
+  "template_type": "首件",
+  "rules": [
+    {
+      "id": "0d007f57",
+      "target_type": "cell",
+      "target": "D3",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "cf142da0",
+      "target_type": "cell",
+      "target": "A30",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "549a071e",
+      "target_type": "cell",
+      "target": "F8",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 90.11,
+      "max_val": 90.41,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "880042e1",
+      "target_type": "cell",
+      "target": "F9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 132.58,
+      "max_val": 132.98,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e1755df7",
+      "target_type": "cell",
+      "target": "F10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 129.38,
+      "max_val": 129.78,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "a6ae475e",
+      "target_type": "cell",
+      "target": "F11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 24.4,
+      "max_val": 24.6,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "1dc55760",
+      "target_type": "cell",
+      "target": "F12",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 38.4,
+      "max_val": 38.66,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "f75f763f",
+      "target_type": "cell",
+      "target": "F13",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 90.16,
+      "max_val": 90.46,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "4480233f",
+      "target_type": "cell",
+      "target": "F14",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 133.65,
+      "max_val": 134.05,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "15a79a9d",
+      "target_type": "cell",
+      "target": "F15",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 129.43,
+      "max_val": 129.83,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "56d88acc",
+      "target_type": "cell",
+      "target": "F16",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 36.57,
+      "max_val": 36.83,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "755889da",
+      "target_type": "cell",
+      "target": "F17",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 22.3,
+      "max_val": 22.5,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "804741d1",
+      "target_type": "cell",
+      "target": "F18",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 23.5,
+      "max_val": 23.7,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "303c0cad",
+      "target_type": "cell",
+      "target": "F19",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 65.65,
+      "max_val": 65.95,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "a321131b",
+      "target_type": "cell",
+      "target": "F20",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 52.15,
+      "max_val": 52.45,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "dbcdf719",
+      "target_type": "cell",
+      "target": "F21",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 83.01,
+      "max_val": 83.39,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "049605d0",
+      "target_type": "cell",
+      "target": "F22",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 62.55,
+      "max_val": 62.85,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "04d44482",
+      "target_type": "cell",
+      "target": "F23",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 4.05,
+      "max_val": 4.15,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "b5b15f6a",
+      "target_type": "cell",
+      "target": "F24",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 2.95,
+      "max_val": 3.05,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "cd4031ea",
+      "target_type": "cell",
+      "target": "F25",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 1.95,
+      "max_val": 2.05,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-29",
+      "2026-08-08"
+    ],
+    [
+      "2026-08-10",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/97B/25039-97B主体/首件检验表/25039_W-97B面底壳首件检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/97B/25039-97B主体/首件检验表"
+}

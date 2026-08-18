@@ -1,0 +1,52 @@
+[2026-08-18 16:32:53.206] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 16:32:53.210] [DEBUG] [ExcelBatchGenerator.AutoScheduler] 加载非工作日: 21 天
+[2026-08-18 16:32:56.258] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 12345_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:32:56.258] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 12345_夹子硬胶 - 成品
+[2026-08-18 16:32:57.279] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 12345_夹子硬胶 - 成品
+[2026-08-18 16:32:57.279] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表/12345_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:33:21.140] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 1df9d728
+[2026-08-18 16:33:34.243] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 867dbdb9
+[2026-08-18 16:35:44.781] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表
+[2026-08-18 16:35:44.783] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:35:44.784] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:35:44.784] [DEBUG] [ExcelBatchGenerator.GenerateThread]   日期列表: ['2026-08-18']
+[2026-08-18 16:35:44.784] [DEBUG] [ExcelBatchGenerator.GenerateThread]   规则数量: 2
+[2026-08-18 16:35:45.559] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 1df9d728 失败: No module named 'win32timezone'
+[2026-08-18 16:35:45.562] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   $A$26: 替换 1 处日期
+[2026-08-18 16:35:45.607] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   文件时间: 创建 08:46:22, 修改 09:32:16, 访问 09:32:22
+[2026-08-18 16:35:45.607] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 设置文件时间失败: No module named 'win32timezone'
+[2026-08-18 16:35:45.727] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 12345_夹子硬胶_成品检验表_20260818.xlsx
+[2026-08-18 16:35:45.727] [DEBUG] [ExcelBatchGenerator.GenerateThread]   进度: 1/1, 剩余时间: 0秒
+[2026-08-18 16:35:45.728] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 1/1
+[2026-08-18 16:35:45.730] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 1/1
+[2026-08-18 16:36:50.604] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表
+[2026-08-18 16:36:50.608] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:36:50.609] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:36:50.609] [DEBUG] [ExcelBatchGenerator.GenerateThread]   日期列表: ['2026-08-18']
+[2026-08-18 16:36:50.609] [DEBUG] [ExcelBatchGenerator.GenerateThread]   规则数量: 2
+[2026-08-18 16:36:51.381] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 1df9d728 失败: No module named 'win32timezone'
+[2026-08-18 16:36:51.384] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   $A$26: 替换 1 处日期
+[2026-08-18 16:36:51.422] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   文件时间: 创建 08:43:30, 修改 09:25:36, 访问 09:26:06
+[2026-08-18 16:36:51.422] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 设置文件时间失败: No module named 'win32timezone'
+[2026-08-18 16:36:51.556] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 12345_夹子硬胶_成品检验表_20260818.xlsx
+[2026-08-18 16:36:51.556] [DEBUG] [ExcelBatchGenerator.GenerateThread]   进度: 1/1, 剩余时间: 0秒
+[2026-08-18 16:36:51.557] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 1/1
+[2026-08-18 16:36:51.558] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 1/1
+[2026-08-18 16:41:06.080] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 16:41:06.083] [DEBUG] [ExcelBatchGenerator.AutoScheduler] 加载非工作日: 21 天
+[2026-08-18 16:41:09.740] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 12345_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:41:09.741] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 12345_夹子硬胶 - 成品
+[2026-08-18 16:41:10.866] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 12345_夹子硬胶 - 成品
+[2026-08-18 16:41:10.867] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表/12345_夹子硬胶成品检验表模板.xlsx
+[2026-08-18 16:41:14.952] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/test-shenzhen/文档模板/夹子硬胶/24081/成品检验表
+[2026-08-18 16:41:14.953] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:41:14.953] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 1 个文件
+[2026-08-18 16:41:14.954] [DEBUG] [ExcelBatchGenerator.GenerateThread]   日期列表: ['2026-08-18']
+[2026-08-18 16:41:14.954] [DEBUG] [ExcelBatchGenerator.GenerateThread]   规则数量: 2
+[2026-08-18 16:41:15.714] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   $K$5: '2026-05-18 00:00:00+00:00' → 'yyyy/mm/dd'
+[2026-08-18 16:41:15.716] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   $A$26: 替换 1 处日期
+[2026-08-18 16:41:15.758] [DEBUG] [ExcelBatchGenerator.ExcelGenerator]   文件时间: 创建 08:52:50, 修改 09:34:36, 访问 09:35:53
+[2026-08-18 16:41:15.881] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 12345_夹子硬胶_成品检验表_20260818.xlsx
+[2026-08-18 16:41:15.881] [DEBUG] [ExcelBatchGenerator.GenerateThread]   进度: 1/1, 剩余时间: 0秒
+[2026-08-18 16:41:15.882] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 1/1
+[2026-08-18 16:41:15.885] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 1/1

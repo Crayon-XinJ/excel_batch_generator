@@ -1,0 +1,205 @@
+{
+  "product_name": "25040_W-97B配件",
+  "template_type": "成品",
+  "rules": [
+    {
+      "id": "035aedb3",
+      "target_type": "cell",
+      "target": "K5",
+      "value_type": "date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "0080949b",
+      "target_type": "range",
+      "target": "A34",
+      "value_type": "text_with_date",
+      "sheet_name": "",
+      "min_val": null,
+      "max_val": null,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "0dc90557",
+      "target_type": "range",
+      "target": "C9-L9",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 15.91,
+      "max_val": 16.09,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "ebd787fa",
+      "target_type": "range",
+      "target": "C10-L10",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 13.61,
+      "max_val": 13.79,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "cc4acd04",
+      "target_type": "range",
+      "target": "C11-L11",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 11.61,
+      "max_val": 11.79,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "812ea2b8",
+      "target_type": "range",
+      "target": "C12-L12",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 20.15,
+      "max_val": 20.35,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "fd03cc90",
+      "target_type": "range",
+      "target": "C13-L13",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 30.35,
+      "max_val": 30.61,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "123bf358",
+      "target_type": "range",
+      "target": "C14-L14",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 27.5,
+      "max_val": 27.7,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "dcfa3dd6",
+      "target_type": "range",
+      "target": "C15-L15",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 29.87,
+      "max_val": 30.13,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "83467b80",
+      "target_type": "range",
+      "target": "C16-L16",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 9.23,
+      "max_val": 9.37,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "5d708195",
+      "target_type": "range",
+      "target": "C17-L17",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 5.1,
+      "max_val": 5.2,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "0c131421",
+      "target_type": "range",
+      "target": "C18-L18",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 5.0,
+      "max_val": 5.1,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "6e910370",
+      "target_type": "range",
+      "target": "C19-L19",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 3.7,
+      "max_val": 3.8,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "723ba53f",
+      "target_type": "range",
+      "target": "C20-L20",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 30.35,
+      "max_val": 30.61,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "eb93f824",
+      "target_type": "range",
+      "target": "C21-L21",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 27.5,
+      "max_val": 27.7,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9ee06846",
+      "target_type": "range",
+      "target": "C22-L22",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 29.87,
+      "max_val": 30.13,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "9b149e89",
+      "target_type": "range",
+      "target": "C23-L23",
+      "value_type": "random",
+      "sheet_name": "",
+      "min_val": 9.23,
+      "max_val": 9.37,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-06-29",
+      "2026-08-08"
+    ],
+    [
+      "2026-08-10",
+      "2026-08-13"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/97B/25040-97B配件/成品检验表/25040_W-97B配件成品检验表模板.xlsx",
+  "output_dir": "E:/惠州需求-确定版/首件、成品、过程/97B/25040-97B配件/成品检验表"
+}
