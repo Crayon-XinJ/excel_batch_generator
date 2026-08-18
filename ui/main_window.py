@@ -14,10 +14,10 @@ from PyQt5.QtWidgets import (
     QPushButton, QLabel, QLineEdit, QDateEdit,
     QComboBox, QListWidget, QListWidgetItem,
     QFileDialog, QProgressBar, QGroupBox,
-    QMessageBox, QApplication
+    QMessageBox, QApplication, QShortcut
 )
-from PyQt5.QtCore import Qt, QDate
-from PyQt5.QtGui import QDragEnterEvent, QDropEvent
+from PyQt5.QtCore import Qt, QDate, QTimer
+from PyQt5.QtGui import QDragEnterEvent, QDropEvent, QKeySequence
 
 from core.config_manager import ConfigManager
 from core.date_calculator import DateCalculator
@@ -40,6 +40,9 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Excel批量生成工具")
         self.setMinimumSize(1000, 750)
         
+        # ========== 启用全窗口拖入 ==========
+        self.setAcceptDrops(True)
+        
         self.logger = get_logger('MainWindow')
         self.logger.info("程序启动")
 
@@ -59,11 +62,19 @@ class MainWindow(QMainWindow):
         self.template_path = ''
         self.sheet_names = []
         self.thread = None
+        
+        # 模板缺失警告标记（用于状态栏）
+        self._template_warning_shown = False
 
         self.init_ui()
         self._load_config()
-        # 注释掉自动检查，由 main.py 统一控制
-        # self._check_auto_mode()
+        
+        # ========== 绑定快捷键 ==========
+        self._setup_shortcuts()
+        
+        # ========== 启动后延迟检查模板路径 ==========
+        QTimer.singleShot(500, self._check_template_paths)
+
 
     def init_ui(self):
         central = QWidget()
@@ -137,6 +148,7 @@ class MainWindow(QMainWindow):
         btn_clear_ranges.clicked.connect(self._clear_date_ranges)
         add_range_layout.addWidget(btn_clear_ranges)
 
+        add_range_layout.addWidget(QLabel("提示: 选中条目后按 Delete 键删除"))
         add_range_layout.addStretch()
         range_layout.addLayout(add_range_layout)
 
@@ -175,8 +187,12 @@ class MainWindow(QMainWindow):
 
         rule_group = QGroupBox("内容修改规则")
         rule_layout = QVBoxLayout()
+        
+        # ========== 规则列表优化显示 ==========
         self.rule_list = QListWidget()
         self.rule_list.setMaximumHeight(150)
+        # 双击编辑
+        self.rule_list.itemDoubleClicked.connect(self._edit_rule)
         rule_layout.addWidget(self.rule_list)
 
         rule_btn_layout = QHBoxLayout()
@@ -243,6 +259,90 @@ class MainWindow(QMainWindow):
         self._update_nonwork_display()
 
     # ============================================================
+    # 快捷键设置
+    # ============================================================
+    
+    def _setup_shortcuts(self):
+        """设置全局快捷键"""
+        # Ctrl+N: 添加规则
+        shortcut_new_rule = QShortcut(QKeySequence("Ctrl+N"), self)
+        shortcut_new_rule.activated.connect(self._add_rule)
+        
+        # Ctrl+S: 保存配置
+        shortcut_save = QShortcut(QKeySequence("Ctrl+S"), self)
+        shortcut_save.activated.connect(self._save_rules)
+        
+        # Delete: 删除选中项（由 keyPressEvent 处理）
+    
+    def keyPressEvent(self, event):
+        """处理键盘按键事件"""
+        if event.key() == Qt.Key_Delete:
+            # 检查当前焦点在哪个列表上
+            if self.rule_list.hasFocus():
+                # 删除选中的规则
+                self._delete_rule()
+                event.accept()
+                return
+            elif self.range_list.hasFocus():
+                # 删除选中的日期段
+                self._delete_selected_date_range()
+                event.accept()
+                return
+        super().keyPressEvent(event)
+
+    # ============================================================
+    # 全窗口拖入
+    # ============================================================
+    
+    def dragEnterEvent(self, event: QDragEnterEvent):
+        """全窗口拖入：接受文件拖入"""
+        if event.mimeData().hasUrls():
+            urls = event.mimeData().urls()
+            if urls and urls[0].toLocalFile().lower().endswith(('.xlsx', '.xls')):
+                event.acceptProposedAction()
+            else:
+                event.ignore()
+    
+    def dropEvent(self, event: QDropEvent):
+        """全窗口拖入：处理文件拖入"""
+        urls = event.mimeData().urls()
+        if urls:
+            file_path = urls[0].toLocalFile()
+            if file_path.lower().endswith(('.xlsx', '.xls')):
+                self._load_template(file_path)
+                event.acceptProposedAction()
+            else:
+                event.ignore()
+
+    # ============================================================
+    # 启动检查模板路径
+    # ============================================================
+    
+    def _check_template_paths(self):
+        """启动时检查所有产品配置中的模板路径是否存在"""
+        products = self.config_manager.get_products_list()
+        if not products:
+            return
+        
+        missing_templates = []
+        for product in products:
+            for template_type in ['首件', '过程', '成品']:
+                config = self.config_manager.load_product_config(product, template_type)
+                if config and config.template_path:
+                    if not os.path.exists(config.template_path):
+                        missing_templates.append(f"{product} - {template_type}")
+        
+        if missing_templates:
+            self._template_warning_shown = True
+            count = len(missing_templates)
+            self.status_label.setText(f"⚠️ 检测到 {count} 个模板文件缺失，请重新加载模板")
+            self.status_label.setStyleSheet("color: #FF6B00; font-weight: bold;")
+            self.logger.warning(f"启动检查：{count} 个模板文件缺失: {missing_templates}")
+            
+            # 在状态栏显示详细信息（使用鼠标悬停提示）
+            self.status_label.setToolTip("\n".join(missing_templates))
+
+    # ============================================================
     # 非工作日显示
     # ============================================================
     
@@ -278,6 +378,7 @@ class MainWindow(QMainWindow):
             self._load_template(file_path)
 
     def _load_template(self, file_path: str):
+        """加载模板文件并保存模板路径到配置"""
         self.template_path = file_path
         self.template_path_edit.setText(file_path)
         
@@ -300,6 +401,9 @@ class MainWindow(QMainWindow):
         self.product_name_edit.setText(self.product_name)
         self.template_type_combo.setCurrentText(self.template_type)
 
+        # 清空旧规则，防止新产品无配置时继承
+        self.rules = []
+
         self.sheet_names = self._get_sheet_names(file_path)
 
         config = self.config_manager.load_product_config(self.product_name, self.template_type)
@@ -307,14 +411,14 @@ class MainWindow(QMainWindow):
             config = ProductConfig(
                 product_name=self.product_name,
                 template_type=self.template_type,
-                rules=self.rules
+                rules=[]
             )
         else:
             self.rules = config.rules
-        
+
         config.template_path = file_path
         self.config_manager.save_product_config(config)
-        
+
         self._update_rule_list()
         self._load_config()
         self.logger.info(f"模板路径已保存: {file_path}")
@@ -370,7 +474,9 @@ class MainWindow(QMainWindow):
                     self.range_list.addItem(item)
         else:
             self.rules = []
-        
+            self.date_ranges.clear()
+            self.range_list.clear()
+
         self._update_rule_list()
         self._update_nonwork_display()
 
@@ -397,6 +503,10 @@ class MainWindow(QMainWindow):
             date_ranges=date_ranges
         )
         self.config_manager.save_product_config(config)
+        
+        # Ctrl+S 保存后状态栏提示
+        self.status_label.setText("配置已保存")
+        QTimer.singleShot(1500, lambda: self.status_label.setText("就绪"))
 
     def _on_template_type_changed(self, template_type: str):
         self.template_type = template_type
@@ -421,10 +531,38 @@ class MainWindow(QMainWindow):
         self.range_list.addItem(item)
         self._save_rules()
 
+    def _delete_selected_date_range(self):
+        """删除选中的单段工期"""
+        current_row = self.range_list.currentRow()
+        if current_row < 0:
+            return
+        
+        # 获取要删除的条目文本用于确认
+        item_text = self.range_list.currentItem().text()
+        reply = QMessageBox.question(
+            self, "确认删除", 
+            f"确定要删除以下日期段吗？\n\n{item_text}",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.date_ranges.pop(current_row)
+            self.range_list.takeItem(current_row)
+            self._save_rules()
+            self.logger.info(f"删除日期段: {item_text}")
+
     def _clear_date_ranges(self):
-        self.date_ranges.clear()
-        self.range_list.clear()
-        self._save_rules()
+        if not self.date_ranges:
+            return
+        reply = QMessageBox.question(
+            self, "确认清空", 
+            "确定要清空所有生产工期吗？",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.date_ranges.clear()
+            self.range_list.clear()
+            self._save_rules()
+            self.logger.info("清空所有日期段")
 
     # ============================================================
     # 非工作日管理
@@ -470,13 +608,37 @@ class MainWindow(QMainWindow):
     # ============================================================
     
     def _update_rule_list(self):
+        """更新规则列表显示（优化格式）"""
         self.rule_list.clear()
         for rule in self.rules:
             status = "✓" if rule.enabled else "✗"
-            sheet = rule.sheet_name if rule.sheet_name else "所有工作表"
-            item_text = f"{status} [{rule.target_type}] {rule.target} (工作表:{sheet}) -> {rule.value_type}"
+            
+            # 值类型中文映射
+            value_type_map = {
+                'random': '随机数',
+                'date': '日期替换',
+                'text_with_date': '文本日期',
+                'night_shift': '夜班检验员'
+            }
+            value_type_cn = value_type_map.get(rule.value_type, rule.value_type)
+            
+            # 目标类型中文映射
+            target_type_map = {
+                'range': '行',
+                'column': '列',
+                'cell': '单元格',
+                'cells': '离散'
+            }
+            target_type_cn = target_type_map.get(rule.target_type, rule.target_type)
+            
+            sheet = rule.sheet_name if rule.sheet_name else "全部"
+            
+            # 精简显示
             if rule.value_type == 'random':
-                item_text += f" ({rule.min_val}-{rule.max_val})"
+                item_text = f"{status} {rule.target} → {value_type_cn} ({rule.min_val}-{rule.max_val})  [{sheet}]"
+            else:
+                item_text = f"{status} {rule.target} → {value_type_cn}  [{sheet}]"
+            
             item = QListWidgetItem(item_text)
             self.rule_list.addItem(item)
 
@@ -493,6 +655,7 @@ class MainWindow(QMainWindow):
             self.logger.info(f"添加规则: {rule.id}")
 
     def _edit_rule(self):
+        """编辑规则（支持双击触发）"""
         current_row = self.rule_list.currentRow()
         if current_row < 0 or current_row >= len(self.rules):
             QMessageBox.warning(self, "警告", "请先选择一条规则")
@@ -503,18 +666,31 @@ class MainWindow(QMainWindow):
             new_rule = dialog.get_rule()
             self.rules[current_row] = new_rule
             self._save_rules()
-            self._update_rule_list()
+            self._update_rule_list()  # 编辑后自动刷新列表
+            self.logger.info(f"编辑规则: {new_rule.id}")
 
     def _delete_rule(self):
+        """删除规则（带确认对话框）"""
         current_row = self.rule_list.currentRow()
         if current_row < 0 or current_row >= len(self.rules):
-            QMessageBox.warning(self, "警告", "请先选择一条规则")
             return
-        rule_id = self.rules[current_row].id
-        self.rules.pop(current_row)
-        self._save_rules()
-        self._update_rule_list()
-        self.logger.info(f"删除规则: {rule_id}")
+        
+        rule = self.rules[current_row]
+        # 构建确认信息
+        value_type_map = {'random': '随机数', 'date': '日期替换', 'text_with_date': '文本日期', 'night_shift': '夜班检验员'}
+        rule_desc = f"{rule.target} → {value_type_map.get(rule.value_type, rule.value_type)}"
+        
+        reply = QMessageBox.question(
+            self, "确认删除", 
+            f"确定要删除以下规则吗？\n\n{rule_desc}",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            rule_id = rule.id
+            self.rules.pop(current_row)
+            self._save_rules()
+            self._update_rule_list()
+            self.logger.info(f"删除规则: {rule_id}")
 
     def _import_rules(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "导入规则", "", "JSON文件 (*.json)")
@@ -689,7 +865,6 @@ class MainWindow(QMainWindow):
     # ============================================================
     
     def _check_auto_mode(self):
-        """检查是否以自动化模式启动（由 main.py 调用）"""
         if '--auto' in sys.argv:
             self.logger.info("以自动化模式启动")
             QApplication.processEvents()
@@ -700,7 +875,6 @@ class MainWindow(QMainWindow):
         dialog.exec_()
     
     def _run_auto_mode(self):
-        """执行自动化模式"""
         self.logger.info("开始执行自动化任务")
         self.status_label.setText("自动化运行中...")
         
@@ -743,17 +917,7 @@ class MainWindow(QMainWindow):
             
             self.logger.info(f"今日任务: {len(tasks)} 个产品")
             
-            # ============================================================
-            # 执行结果记录（用于邮件报告）
-            # ============================================================
-            # 结构: execution_results[product_name][template_type] = {
-            #     'status': 'success' | 'failed' | 'skipped',
-            #     'filename': 'xxx.xlsx',
-            #     'error': '错误信息' (仅失败时)
-            # }
-            # ============================================================
             execution_results = {}
-            
             total_files = 0
             success_files = 0
             failed_files = 0
@@ -764,12 +928,10 @@ class MainWindow(QMainWindow):
                 self.logger.info(f"处理产品: {product_name}")
                 self.status_label.setText(f"处理: {product_name}")
                 
-                # 初始化该产品的执行结果
                 execution_results[product_name] = {}
                 
                 for template_type in ['首件', '过程', '成品']:
                     if task_info.get(template_type, False):
-                        # 初始化该类型的执行结果
                         execution_results[product_name][template_type] = {
                             'status': 'pending',
                             'filename': None,
@@ -777,10 +939,8 @@ class MainWindow(QMainWindow):
                         }
                         
                         try:
-                            # 加载产品配置
                             config = self.config_manager.load_product_config(product_name, template_type)
                             
-                            # 获取模板路径
                             if config and config.template_path and os.path.exists(config.template_path):
                                 template_path = config.template_path
                             else:
@@ -792,7 +952,6 @@ class MainWindow(QMainWindow):
                                     failed_files += 1
                                     continue
                             
-                            # 获取输出目录
                             if config and config.output_dir:
                                 output_dir = config.output_dir
                             else:
@@ -807,7 +966,6 @@ class MainWindow(QMainWindow):
                             output_filename = f"{product_name}_{template_type}检验表_{datetime.now().strftime('%Y%m%d')}.xlsx"
                             output_path = os.path.join(output_dir, output_filename)
                             
-                            # 检查文件是否已存在
                             if os.path.exists(output_path) and not self._should_overwrite():
                                 self.logger.info(f"跳过已存在: {output_filename}")
                                 execution_results[product_name][template_type]['status'] = 'skipped'
@@ -829,7 +987,6 @@ class MainWindow(QMainWindow):
                             
                             gen.generate(datetime.now(), output_filename)
                             
-                            # 记录成功
                             execution_results[product_name][template_type]['status'] = 'success'
                             execution_results[product_name][template_type]['filename'] = output_filename
                             success_files += 1
@@ -846,7 +1003,6 @@ class MainWindow(QMainWindow):
                             failed_files += 1
                             total_files += 1
             
-            # 发送邮件报告（使用实际执行结果）
             email_config = self.config_manager.get_email_config()
             if email_config.get('enabled', False):
                 self._send_auto_report(execution_results, total_files, success_files, failed_files, skipped_files, output_dirs)
@@ -860,7 +1016,6 @@ class MainWindow(QMainWindow):
             self.status_label.setText(f"自动化异常: {e}")
         
         finally:
-            # 判断是否退出
             if '--no-gui' in sys.argv:
                 auto_config = self.config_manager.get_auto_config()
                 if auto_config.get('exit_after_run', True):
@@ -868,7 +1023,6 @@ class MainWindow(QMainWindow):
                     QApplication.quit()
     
     def _find_template(self, product_name: str, template_type: str) -> str:
-        """查找模板文件"""
         config = self.config_manager.load_product_config(product_name, template_type)
         if config and config.template_path and os.path.exists(config.template_path):
             return config.template_path
@@ -895,17 +1049,6 @@ class MainWindow(QMainWindow):
         return False
     
     def _send_auto_report(self, execution_results: dict, total: int, success: int, failed: int, skipped: int, output_dirs: list):
-        """
-        发送自动化报告邮件（基于实际执行结果）
-        
-        Args:
-            execution_results: 实际执行结果字典
-            total: 总文件数
-            success: 成功数
-            failed: 失败数
-            skipped: 跳过数
-            output_dirs: 输出目录列表
-        """
         try:
             self.email_reporter.email_config = self.config_manager.get_email_config()
             
@@ -918,15 +1061,13 @@ class MainWindow(QMainWindow):
                 'output_dirs': output_dirs
             }
             
-            # 构建任务结果（基于实际执行结果）
             tasks_results = {}
             for product_name, product_results in execution_results.items():
                 tasks_results[product_name] = {}
                 for template_type, result in product_results.items():
                     if result['status'] != 'pending':
-                        status = result['status']  # 'success', 'failed', 'skipped'
                         tasks_results[product_name][template_type] = {
-                            'status': status,
+                            'status': result['status'],
                             'filename': result.get('filename', ''),
                             'error': result.get('error', '')
                         }
@@ -935,12 +1076,6 @@ class MainWindow(QMainWindow):
             subject = subject.replace('{date}', datetime.now().strftime('%Y-%m-%d'))
             
             body = self.email_reporter.build_report(tasks_results, stats)
-            #if output_dirs:
-            #    body += "\n\n" + "=" * 60 + "\n"
-            #    body += "📁 文件位置:\n"
-            #    for d in set(output_dirs):
-            #        body += f"  {d}\n"
-            #    body += "=" * 60        
             self.email_reporter.send(subject, body)
             
         except Exception as e:

@@ -6,11 +6,13 @@
 """
 
 import uuid
+import re
 from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QFormLayout,
     QComboBox, QLineEdit, QSpinBox, QDoubleSpinBox,
     QPushButton, QGroupBox, QCheckBox, QMessageBox
 )
+from PyQt5.QtCore import Qt
 
 from models.config_models import Rule
 
@@ -26,6 +28,9 @@ class RuleDialog(QDialog):
         self.init_ui()
         if self.is_edit:
             self._load_rule()
+        else:
+            # 新增模式：绑定自动识别
+            self.target_edit.textChanged.connect(self._auto_detect_target_type)
 
     def init_ui(self):
         layout = QVBoxLayout(self)
@@ -45,6 +50,9 @@ class RuleDialog(QDialog):
 
         self.target_edit = QLineEdit()
         self.target_edit.setPlaceholderText('例如: C9-L9 或 F9,K9')
+        # 编辑模式下也绑定自动识别（用户修改时触发）
+        if self.is_edit:
+            self.target_edit.textChanged.connect(self._auto_detect_target_type)
         form.addRow("目标位置:", self.target_edit)
 
         self.sheet_combo = QComboBox()
@@ -101,6 +109,69 @@ class RuleDialog(QDialog):
         btn_layout.addWidget(btn_ok)
         btn_layout.addWidget(btn_cancel)
         layout.addLayout(btn_layout)
+
+    # ============================================================
+    # 自动识别目标类型
+    # ============================================================
+    
+    def _auto_detect_target_type(self):
+        """根据输入的目标位置自动识别类型"""
+        target = self.target_edit.text().strip()
+        if not target:
+            return
+        
+        # 离散单元格检测（包含逗号）
+        if ',' in target:
+            self._set_target_type('cells')
+            return
+        
+        # 范围检测（包含 '-'）
+        if '-' in target:
+            left, right = target.split('-')
+            left_match = re.match(r'([A-Z]+)(\d+)', left.strip(), re.IGNORECASE)
+            right_match = re.match(r'([A-Z]+)(\d+)', right.strip(), re.IGNORECASE)
+            
+            if left_match and right_match:
+                left_row = int(left_match.group(2))
+                right_row = int(right_match.group(2))
+                left_col = left_match.group(1).upper()
+                right_col = right_match.group(1).upper()
+                
+                if left_row == right_row:
+                    # 同一行 → 行范围
+                    self._set_target_type('range')
+                    return
+                elif left_col == right_col:
+                    # 同一列 → 列范围
+                    self._set_target_type('column')
+                    return
+                else:
+                    # 矩形范围 → 优先识别为行范围（用户可手动修改）
+                    self._set_target_type('range')
+                    return
+        
+        # 单个单元格检测（纯字母+数字）
+        match = re.match(r'^([A-Z]+)(\d+)$', target, re.IGNORECASE)
+        if match:
+            self._set_target_type('cell')
+            return
+        
+        # 无法识别，不做修改（保留用户当前选择）
+    
+    def _set_target_type(self, target_type: str):
+        """设置目标类型下拉框的值（不触发信号，避免循环）"""
+        type_map = {
+            'range': '行范围 (range)',
+            'column': '列范围 (column)',
+            'cell': '单个单元格 (cell)',
+            'cells': '离散单元格 (cells)'
+        }
+        text = type_map.get(target_type, '行范围 (range)')
+        if self.target_type_combo.currentText() != text:
+            # 使用 blockSignals 避免信号循环
+            self.target_type_combo.blockSignals(True)
+            self.target_type_combo.setCurrentText(text)
+            self.target_type_combo.blockSignals(False)
 
     def _on_value_type_changed(self, text: str):
         is_random = text.startswith('随机数')

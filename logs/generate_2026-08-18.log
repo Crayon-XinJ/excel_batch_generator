@@ -1,0 +1,37 @@
+[2026-08-18 09:38:51.856] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 09:39:27.052] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 09:39:29.574] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 首件
+[2026-08-18 09:39:29.575] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/首件检验表/19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 09:40:01.720] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 09:40:01.952] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-18 09:40:01.955] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-18 09:40:01.964] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 0 个产品
+[2026-08-18 09:40:01.964] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {}
+[2026-08-18 09:40:01.964] [INFO] [ExcelBatchGenerator.MainWindow] 今日无任务
+[2026-08-18 09:40:01.965] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-18 10:29:03.095] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 10:29:03.720] [WARNING] [ExcelBatchGenerator.MainWindow] 启动检查：3 个模板文件缺失: ['23036_N24四方管 - 首件', '23036_N24四方管 - 过程', '23036_N24四方管 - 成品']
+[2026-08-18 10:29:26.142] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 10:29:27.624] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 首件
+[2026-08-18 10:29:27.624] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/首件检验表/19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 10:30:14.306] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 14038_长螺丝首件检验表模板.xlsx
+[2026-08-18 10:30:15.387] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 14038_长螺丝 - 首件
+[2026-08-18 10:30:15.388] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/长螺丝/14038/首件检验表/14038_长螺丝首件检验表模板.xlsx
+[2026-08-18 10:30:48.754] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 18048_圆盘首件检验表模板.xlsx
+[2026-08-18 10:30:49.825] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 18048_圆盘 - 首件
+[2026-08-18 10:30:49.826] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/圆盘/18048/首件检验表/18048_圆盘首件检验表模板.xlsx
+[2026-08-18 10:34:04.794] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 10:34:05.448] [WARNING] [ExcelBatchGenerator.MainWindow] 启动检查：3 个模板文件缺失: ['23036_N24四方管 - 首件', '23036_N24四方管 - 过程', '23036_N24四方管 - 成品']
+[2026-08-18 10:36:15.709] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 10:40:47.827] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-18 10:41:00.963] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 10:41:03.011] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 首件
+[2026-08-18 10:41:03.013] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/首件检验表/19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-18 10:41:32.674] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 14038_长螺丝首件检验表模板.xlsx
+[2026-08-18 10:41:33.734] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 14038_长螺丝 - 首件
+[2026-08-18 10:41:33.735] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/长螺丝/14038/首件检验表/14038_长螺丝首件检验表模板.xlsx
+[2026-08-18 10:41:47.388] [INFO] [ExcelBatchGenerator.MainWindow] 删除日期段: 2026-08-18 ~ 2026-08-18
+[2026-08-18 10:41:49.084] [INFO] [ExcelBatchGenerator.MainWindow] 删除日期段: 2026-08-18 ~ 2026-08-18
+[2026-08-18 10:41:51.539] [INFO] [ExcelBatchGenerator.MainWindow] 删除日期段: 2026-08-18 ~ 2026-08-20
+[2026-08-18 10:42:05.058] [INFO] [ExcelBatchGenerator.MainWindow] 添加规则: 97c53632
+[2026-08-18 10:43:44.566] [INFO] [ExcelBatchGenerator.MainWindow] 删除规则: 97c53632
