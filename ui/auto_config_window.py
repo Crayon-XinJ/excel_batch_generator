@@ -13,13 +13,14 @@ from PyQt5.QtWidgets import (
     QGroupBox, QCheckBox, QLineEdit, QComboBox,
     QPushButton, QLabel, QListWidget, QListWidgetItem,
     QMessageBox, QFileDialog, QSpinBox, QTabWidget,
-    QWidget, QScrollArea, QFrame
+    QWidget, QScrollArea, QFrame, QDateEdit
 )
-from PyQt5.QtCore import Qt, pyqtSignal
+from PyQt5.QtCore import Qt, QDate, pyqtSignal
 
 from core.config_manager import ConfigManager
 from core.log_manager import get_logger
 from core.email_reporter import EmailReporter
+from models.config_models import ProductConfig
 
 
 class AutoConfigWindow(QDialog):
@@ -28,11 +29,17 @@ class AutoConfigWindow(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("自动化配置 - Excel批量生成工具")
-        self.setMinimumSize(800, 650)
+        self.setMinimumSize(800, 750)
         
         self.logger = get_logger('AutoConfigWindow')
         self.config_manager = ConfigManager()
         self.email_reporter = EmailReporter()
+        
+        # 当前选中的产品
+        self.current_product = ""
+        
+        # 日期范围数据
+        self.date_ranges = []  # [(start_date, end_date), ...]
         
         self.init_ui()
         self._load_config()
@@ -133,7 +140,7 @@ class AutoConfigWindow(QDialog):
         product_btn_layout.addStretch()
         product_layout.addLayout(product_btn_layout)
         
-        # ===== 产品输出目录配置区 =====
+        # ===== 产品输出目录配置 =====
         output_group = QGroupBox("产品输出目录配置")
         output_group_layout = QVBoxLayout(output_group)
         
@@ -156,6 +163,58 @@ class AutoConfigWindow(QDialog):
             row_layout.addStretch()
             output_group_layout.addLayout(row_layout)
             self.output_configs[t] = edit
+        
+        # ===== 生产工期配置 =====
+        date_group = QGroupBox("📅 生产工期配置")
+        date_group_layout = QVBoxLayout(date_group)
+        
+        # 提示文字
+        hint_label = QLabel("💡 生产工期将同步应用到「首件」「过程」「成品」三种模板")
+        hint_label.setStyleSheet("color: #666; font-size: 11px;")
+        date_group_layout.addWidget(hint_label)
+        
+        date_range_layout = QHBoxLayout()
+        date_range_layout.addWidget(QLabel("起始:"))
+        self.start_date_edit = QDateEdit()
+        self.start_date_edit.setCalendarPopup(True)
+        self.start_date_edit.setDisplayFormat("yyyy-MM-dd")
+        self.start_date_edit.setDate(QDate.currentDate())
+        self.start_date_edit.setFixedWidth(120)
+        date_range_layout.addWidget(self.start_date_edit)
+        
+        date_range_layout.addWidget(QLabel("结束:"))
+        self.end_date_edit = QDateEdit()
+        self.end_date_edit.setCalendarPopup(True)
+        self.end_date_edit.setDisplayFormat("yyyy-MM-dd")
+        self.end_date_edit.setDate(QDate.currentDate())
+        self.end_date_edit.setFixedWidth(120)
+        date_range_layout.addWidget(self.end_date_edit)
+        
+        btn_add_range = QPushButton("添加")
+        btn_add_range.clicked.connect(self._add_date_range)
+        date_range_layout.addWidget(btn_add_range)
+        
+        btn_clear_ranges = QPushButton("清空所有")
+        btn_clear_ranges.clicked.connect(self._clear_date_ranges)
+        date_range_layout.addWidget(btn_clear_ranges)
+        
+        date_range_layout.addStretch()
+        date_group_layout.addLayout(date_range_layout)
+        
+        self.date_range_list = QListWidget()
+        self.date_range_list.setMaximumHeight(100)
+        self.date_range_list.setSelectionMode(QListWidget.SingleSelection)
+        date_group_layout.addWidget(self.date_range_list)
+        
+        # 删除选中日期段的按钮
+        del_btn_layout = QHBoxLayout()
+        btn_del_range = QPushButton("删除选中日期段")
+        btn_del_range.clicked.connect(self._delete_selected_date_range)
+        del_btn_layout.addWidget(btn_del_range)
+        del_btn_layout.addStretch()
+        date_group_layout.addLayout(del_btn_layout)
+        
+        output_group_layout.addWidget(date_group)
         
         product_layout.addWidget(output_group)
         product_layout.addStretch()
@@ -300,6 +359,10 @@ class AutoConfigWindow(QDialog):
         report_map = {'summary': 0, 'detailed': 1, 'full': 2}
         self.report_level_combo.setCurrentIndex(report_map.get(email_config.get('report_level', 'detailed'), 1))
         self.send_on_error_check.setChecked(email_config.get('send_only_on_error', False))
+        
+        # 初始化日期范围列表
+        self.date_ranges = []
+        self._update_date_range_list()
     
     def _save_config(self):
         types_map = {
@@ -317,11 +380,11 @@ class AutoConfigWindow(QDialog):
         products = []
         for i in range(self.product_list.count()):
             products.append(self.product_list.item(i).text())
-
+        
         # 获取运行时间并规范化
         raw_time = self.time_edit.text().strip()
         normalized_time = self._normalize_time(raw_time)
-        self.time_edit.setText(normalized_time)  # 回写到输入框，让用户看到修正后的值
+        self.time_edit.setText(normalized_time)
         
         auto_config = {
             'enabled': self.enable_check.isChecked(),
@@ -354,32 +417,238 @@ class AutoConfigWindow(QDialog):
         # 保存产品输出目录
         self._save_product_output_dirs()
         
+        # 保存当前产品的日期范围
+        self._save_product_date_ranges()
+        
         QMessageBox.information(self, "成功", "配置已保存")
         self.logger.info("自动化配置已保存")
         self.accept()
     
     def _save_product_output_dirs(self):
         """保存当前选中产品的输出目录配置"""
-        current_item = self.product_list.currentItem()
-        if not current_item:
+        if not self.current_product:
             return
-        product_name = current_item.text()
         
         for template_type, edit in self.output_configs.items():
             output_dir = edit.text().strip()
             if output_dir:
-                # 保存到产品配置
-                self.config_manager.save_product_output_dir(product_name, template_type, output_dir)
-                self.logger.debug(f"保存 {product_name} {template_type} 输出目录: {output_dir}")
+                self.config_manager.save_product_output_dir(self.current_product, template_type, output_dir)
+                self.logger.debug(f"保存 {self.current_product} {template_type} 输出目录: {output_dir}")
+    
+    def _save_product_date_ranges(self):
+        """保存当前选中产品的日期范围到所有类型配置中"""
+        if not self.current_product:
+            return
+        
+        # 即使日期范围为空也要保存（清空配置）
+        date_ranges_str = [
+            [start.strftime('%Y-%m-%d'), end.strftime('%Y-%m-%d')]
+            for start, end in self.date_ranges
+        ]
+        
+        # 更新到该产品的所有类型配置中
+        for template_type in ['首件', '过程', '成品']:
+            config = self.config_manager.load_product_config(self.current_product, template_type)
+            if config is None:
+                config = ProductConfig(
+                    product_name=self.current_product,
+                    template_type=template_type
+                )
+            config.date_ranges = date_ranges_str
+            self.config_manager.save_product_config(config)
+            self.logger.debug(f"保存 {self.current_product} {template_type} 日期范围: {date_ranges_str}")
     
     def _on_product_selected(self, item):
-        """产品选中时加载其输出目录配置"""
+        """产品选中时加载其输出目录配置和日期范围"""
         product_name = item.text()
+        self.current_product = product_name
         self.selected_product_label.setText(f"当前产品: {product_name}")
         
+        # 加载输出目录
         for template_type, edit in self.output_configs.items():
             output_dir = self.config_manager.get_product_output_dir(product_name, template_type)
             edit.setText(output_dir)
+        
+        # ============================================================
+        # 加载日期范围并检测一致性
+        # ============================================================
+        # 1. 读取所有类型的日期范围
+        all_ranges = {}
+        for template_type in ['首件', '过程', '成品']:
+            config = self.config_manager.load_product_config(product_name, template_type)
+            if config and config.date_ranges:
+                all_ranges[template_type] = config.date_ranges
+        
+        # 2. 确定要显示的日期范围（优先首件）
+        display_ranges = []
+        if '首件' in all_ranges and all_ranges['首件']:
+            display_ranges = all_ranges['首件']
+        elif '过程' in all_ranges and all_ranges['过程']:
+            display_ranges = all_ranges['过程']
+        elif '成品' in all_ranges and all_ranges['成品']:
+            display_ranges = all_ranges['成品']
+        
+        # 3. 加载显示范围到界面
+        self.date_ranges = []
+        if display_ranges:
+            for dr in display_ranges:
+                if len(dr) == 2:
+                    try:
+                        start = datetime.strptime(dr[0], '%Y-%m-%d')
+                        end = datetime.strptime(dr[1], '%Y-%m-%d')
+                        self.date_ranges.append((start, end))
+                    except:
+                        pass
+        self._update_date_range_list()
+        
+        # 4. 检测一致性并弹窗提示
+        self._check_date_ranges_consistency(product_name, all_ranges)
+    
+    def _check_date_ranges_consistency(self, product_name: str, all_ranges: dict):
+        """
+        检查三种类型的日期范围是否一致，不一致时弹窗提示
+        """
+        # 过滤掉空配置
+        non_empty = {k: v for k, v in all_ranges.items() if v}
+        
+        # 如果只有一种类型有配置，无需提示
+        if len(non_empty) <= 1:
+            return
+        
+        # 取第一个作为基准比较
+        first_type = list(non_empty.keys())[0]
+        first_ranges = non_empty[first_type]
+        
+        # 检查是否所有非空配置都相同
+        is_consistent = True
+        for t, r in non_empty.items():
+            if r != first_ranges:
+                is_consistent = False
+                break
+        
+        if is_consistent:
+            return
+        
+        # ============================================================
+        # 不一致：构建提示信息
+        # ============================================================
+        msg = "检测到首件、过程、成品的生产工期不一致：\n\n"
+        for t in ['首件', '过程', '成品']:
+            ranges = all_ranges.get(t, [])
+            if ranges:
+                range_str = ", ".join([f"{r[0]}~{r[1]}" for r in ranges])
+                msg += f"  {t}: {range_str}\n"
+            else:
+                msg += f"  {t}: （未配置）\n"
+        
+        msg += "\n是否将「首件」的工期应用到所有类型？"
+        
+        reply = QMessageBox.question(
+            self,
+            "工期不一致",
+            msg,
+            QMessageBox.Yes | QMessageBox.No,
+            QMessageBox.Yes
+        )
+        
+        if reply == QMessageBox.Yes:
+            # 用户选择统一：用首件配置覆盖所有类型
+            first_ranges = all_ranges.get('首件', [])
+            if first_ranges:
+                self.logger.info(f"用户选择统一工期: 首件 {first_ranges}")
+                self._sync_date_ranges_to_all(product_name, first_ranges)
+                # 刷新界面显示
+                self.date_ranges = []
+                for dr in first_ranges:
+                    if len(dr) == 2:
+                        try:
+                            start = datetime.strptime(dr[0], '%Y-%m-%d')
+                            end = datetime.strptime(dr[1], '%Y-%m-%d')
+                            self.date_ranges.append((start, end))
+                        except:
+                            pass
+                self._update_date_range_list()
+                QMessageBox.information(self, "已完成", "已将首件工期同步到过程和成品")
+            else:
+                self.logger.info("首件没有日期配置，无法同步")
+                QMessageBox.warning(self, "提示", "首件没有日期配置，无法同步")
+        else:
+            self.logger.info("用户选择保持现状，暂不同步")
+            # 保持现状：界面显示的是首件日期（如果首件有），但过程和成品保留原样
+    
+    def _sync_date_ranges_to_all(self, product_name: str, date_ranges: list):
+        """将指定日期范围同步到所有类型"""
+        for template_type in ['首件', '过程', '成品']:
+            config = self.config_manager.load_product_config(product_name, template_type)
+            if config is None:
+                config = ProductConfig(
+                    product_name=product_name,
+                    template_type=template_type
+                )
+            config.date_ranges = date_ranges
+            self.config_manager.save_product_config(config)
+            self.logger.debug(f"同步 {product_name} {template_type} 日期范围: {date_ranges}")
+    
+    def _update_date_range_list(self):
+        """更新日期范围列表显示"""
+        self.date_range_list.clear()
+        for start, end in self.date_ranges:
+            self.date_range_list.addItem(f"{start.strftime('%Y-%m-%d')} ~ {end.strftime('%Y-%m-%d')}")
+    
+    def _add_date_range(self):
+        """添加日期范围"""
+        start_qdate = self.start_date_edit.date()
+        end_qdate = self.end_date_edit.date()
+        start_date = datetime(start_qdate.year(), start_qdate.month(), start_qdate.day())
+        end_date = datetime(end_qdate.year(), end_qdate.month(), end_qdate.day())
+        
+        if start_date > end_date:
+            QMessageBox.warning(self, "警告", "起始日期不能晚于结束日期")
+            return
+        
+        # 检查是否已存在相同的日期范围
+        for s, e in self.date_ranges:
+            if s == start_date and e == end_date:
+                QMessageBox.warning(self, "警告", "该日期范围已存在")
+                return
+        
+        self.date_ranges.append((start_date, end_date))
+        self._update_date_range_list()
+        self.logger.debug(f"添加日期范围: {start_date.strftime('%Y-%m-%d')} ~ {end_date.strftime('%Y-%m-%d')}")
+    
+    def _clear_date_ranges(self):
+        """清空所有日期范围"""
+        if not self.date_ranges:
+            return
+        reply = QMessageBox.question(
+            self,
+            "确认清空",
+            "确定要清空所有生产工期吗？",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.date_ranges.clear()
+            self._update_date_range_list()
+            self.logger.debug("清空所有日期范围")
+    
+    def _delete_selected_date_range(self):
+        """删除选中的日期范围"""
+        current_row = self.date_range_list.currentRow()
+        if current_row < 0:
+            QMessageBox.warning(self, "提示", "请先选择一个日期段")
+            return
+        
+        item_text = self.date_range_list.currentItem().text()
+        reply = QMessageBox.question(
+            self,
+            "确认删除",
+            f"确定要删除以下日期段吗？\n\n{item_text}",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.date_ranges.pop(current_row)
+            self._update_date_range_list()
+            self.logger.debug(f"删除日期段: {item_text}")
     
     def _browse_output_dir(self, template_type, edit_widget):
         """浏览选择输出目录"""
@@ -391,11 +660,9 @@ class AutoConfigWindow(QDialog):
         if dir_path:
             edit_widget.setText(dir_path)
             # 自动保存到当前选中的产品
-            current_item = self.product_list.currentItem()
-            if current_item:
-                product_name = current_item.text()
-                self.config_manager.save_product_output_dir(product_name, template_type, dir_path)
-                self.logger.debug(f"保存 {product_name} {template_type} 输出目录: {dir_path}")
+            if self.current_product:
+                self.config_manager.save_product_output_dir(self.current_product, template_type, dir_path)
+                self.logger.debug(f"保存 {self.current_product} {template_type} 输出目录: {dir_path}")
     
     def _add_product(self):
         products = self.config_manager.get_products_list()
@@ -472,6 +739,59 @@ class AutoConfigWindow(QDialog):
                 QMessageBox.warning(self, "警告", "邮件发送失败，请检查收件人地址")
         else:
             QMessageBox.critical(self, "错误", f"连接失败: {message}")
+
+    def _normalize_time(self, time_str: str) -> str:
+        """
+        将用户输入的时间规范化为 HH:MM 格式
+        
+        支持的输入格式：
+        - 9:28   -> 09:28
+        - 09:28  -> 09:28
+        - 9：28  -> 09:28（全角冒号）
+        - 928    -> 09:28（纯数字）
+        - 09:28  -> 09:28
+        """
+        if not time_str:
+            return "07:00"
+        
+        time_str = time_str.strip()
+        time_str = time_str.replace('：', ':')
+        
+        # 纯数字处理
+        if time_str.isdigit():
+            if len(time_str) == 4:
+                return f"{time_str[:2]}:{time_str[2:]}"
+            elif len(time_str) == 3:
+                return f"0{time_str[0]}:{time_str[1:]}"
+            elif len(time_str) == 2:
+                return f"{time_str}:00"
+            elif len(time_str) == 1:
+                return f"0{time_str}:00"
+        
+        # 包含冒号处理
+        if ':' in time_str:
+            parts = time_str.split(':')
+            if len(parts) == 2:
+                hour_str = parts[0].strip()
+                min_str = parts[1].strip()
+                
+                try:
+                    hour = int(hour_str)
+                    if hour < 0 or hour > 23:
+                        hour = 7
+                except ValueError:
+                    hour = 7
+                
+                try:
+                    minute = int(min_str)
+                    if minute < 0 or minute > 59:
+                        minute = 0
+                except ValueError:
+                    minute = 0
+                
+                return f"{hour:02d}:{minute:02d}"
+        
+        return "07:00"
     
     def _create_task(self):
         try:
@@ -513,70 +833,6 @@ class AutoConfigWindow(QDialog):
                 QMessageBox.warning(self, "警告", f"删除任务失败: {result.stderr}")
         except Exception as e:
             QMessageBox.critical(self, "错误", f"删除任务失败: {str(e)}")
-
-    def _normalize_time(self, time_str: str) -> str:
-        """
-        将用户输入的时间规范化为 HH:MM 格式
-        
-        支持的输入格式：
-        - 9:28   -> 09:28
-        - 09:28  -> 09:28
-        - 9：28  -> 09:28（全角冒号）
-        - 928    -> 09:28（纯数字）
-        - 09:28  -> 09:28
-        """
-        if not time_str:
-            return "07:00"  # 默认值
-        
-        # 去掉首尾空格
-        time_str = time_str.strip()
-        
-        # 将全角冒号（：）替换为半角冒号（:）
-        time_str = time_str.replace('：', ':')
-        
-        # 如果输入是纯数字（如 "928" 或 "9"），尝试解析为时间
-        if time_str.isdigit():
-            if len(time_str) == 4:
-                # 928 -> 09:28
-                return f"{time_str[:2]}:{time_str[2:]}"
-            elif len(time_str) == 3:
-                # 928 -> 09:28（但 928 是3位，可能是 "9:28" 的误输入）
-                # 实际上 "928" 解析为 9:28
-                return f"0{time_str[0]}:{time_str[1:]}"
-            elif len(time_str) == 2:
-                # 09 -> 09:00
-                return f"{time_str}:00"
-            elif len(time_str) == 1:
-                # 9 -> 09:00
-                return f"0{time_str}:00"
-        
-        # 如果包含冒号，按标准格式拆分
-        if ':' in time_str:
-            parts = time_str.split(':')
-            if len(parts) == 2:
-                hour_str = parts[0].strip()
-                min_str = parts[1].strip()
-                
-                # 处理小时
-                try:
-                    hour = int(hour_str)
-                    if hour < 0 or hour > 23:
-                        hour = 7  # 无效时默认7点
-                except ValueError:
-                    hour = 7
-                
-                # 处理分钟
-                try:
-                    minute = int(min_str)
-                    if minute < 0 or minute > 59:
-                        minute = 0
-                except ValueError:
-                    minute = 0
-                
-                return f"{hour:02d}:{minute:02d}"
-        
-        # 如果以上都没匹配，返回默认值
-        return "07:00"
     
     def _run_now(self):
         QMessageBox.information(self, "提示", "此功能将在主窗口中执行\n请关闭此窗口后点击主窗口的 '开始生成' 按钮")

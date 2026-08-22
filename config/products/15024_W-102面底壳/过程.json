@@ -1,0 +1,113 @@
+{
+  "product_name": "15024_W-102面底壳",
+  "template_type": "过程",
+  "rules": [
+    {
+      "id": "4bc10cd8",
+      "target_type": "column",
+      "target": "K6-K15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 13.41,
+      "max_val": 13.59,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "e23be625",
+      "target_type": "column",
+      "target": "J6-J15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 14.91,
+      "max_val": 15.09,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "2275d0c6",
+      "target_type": "column",
+      "target": "I6-I15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 34.87,
+      "max_val": 35.13,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "194b9f1e",
+      "target_type": "column",
+      "target": "H6-H15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 69.06,
+      "max_val": 69.38,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "8705b948",
+      "target_type": "column",
+      "target": "G6-G15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 109.6,
+      "max_val": 109.98,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d20d2cdb",
+      "target_type": "column",
+      "target": "F6-F15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 19.92,
+      "max_val": 20.14,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "d7cdd000",
+      "target_type": "column",
+      "target": "E6-E15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 69.09,
+      "max_val": 69.41,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "de97bd21",
+      "target_type": "column",
+      "target": "D6-D15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 106.36,
+      "max_val": 106.74,
+      "decimals": 2,
+      "enabled": true
+    },
+    {
+      "id": "85dfebef",
+      "target_type": "column",
+      "target": "L6-L15",
+      "value_type": "random",
+      "sheet_name": "过程尺寸检验记录",
+      "min_val": 13.11,
+      "max_val": 13.29,
+      "decimals": 2,
+      "enabled": true
+    }
+  ],
+  "date_ranges": [
+    [
+      "2026-08-21",
+      "2026-08-21"
+    ]
+  ],
+  "template_path": "E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx",
+  "output_dir": "E:/test-shenzhen"
+}

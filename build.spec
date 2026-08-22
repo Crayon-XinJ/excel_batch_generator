@@ -82,7 +82,7 @@ exe = EXE(
     a.zipfiles,                 # ZIP文件
     a.datas,                    # 数据文件
     [],                         # 额外文件
-    name='Excel批量生成工具',    # 生成的EXE文件名（不含.exe后缀）
+    name='Excel批量生成工具_v2.3.0',    # 生成的EXE文件名（不含.exe后缀）
     debug=False,                # 是否开启调试模式（False表示不输出调试信息）
     bootloader_ignore_signals=False,  # 是否忽略信号（保持默认）
     strip=False,                # 是否去除调试符号（False表示保留）

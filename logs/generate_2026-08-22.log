@@ -1,0 +1,1044 @@
+[2026-08-22 07:40:02.201] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 07:40:02.425] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-22 07:40:02.429] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '24081_夹子硬胶,W-12010_3T1&3T2,W-12010_T1&T2,W-12010_V1&V2,19069_8代滤镜框,25039_W-97B面底壳', products: ['24081_夹子硬胶', 'W-12010_3T1&3T2', 'W-12010_T1&T2', 'W-12010_V1&V2', '19069_8代滤镜框', '25039_W-97B面底壳']
+[2026-08-22 07:40:02.437] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 6 个产品
+[2026-08-22 07:40:02.437] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'24081_夹子硬胶': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 8, 6, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}, 'W-12010_3T1&3T2': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 10, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}, 'W-12010_T1&T2': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 10, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}, 'W-12010_V1&V2': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 10, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}, '19069_8代滤镜框': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 5, 8, 0, 0), datetime.datetime(2026, 5, 19, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}, '25039_W-97B面底壳': {'首件': False, '过程': True, '成品': True, 'dates': {'成品': '2026-08-22', '过程': '2026-08-22'}, 'date_ranges': [(datetime.datetime(2026, 6, 29, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 10, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}}
+[2026-08-22 07:40:02.438] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 6 个产品
+[2026-08-22 07:40:02.438] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 24081_夹子硬胶
+[2026-08-22 07:40:04.046] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260822.xlsx
+[2026-08-22 07:40:05.015] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 24081_夹子硬胶_成品检验表_20260822.xlsx
+[2026-08-22 07:40:05.015] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_3T1&3T2
+[2026-08-22 07:40:06.128] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260822.xlsx
+[2026-08-22 07:40:07.141] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_3T1&3T2_成品检验表_20260822.xlsx
+[2026-08-22 07:40:07.141] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_T1&T2
+[2026-08-22 07:40:08.451] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_T1&T2_过程检验表_20260822.xlsx
+[2026-08-22 07:40:09.731] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_T1&T2_成品检验表_20260822.xlsx
+[2026-08-22 07:40:09.732] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-22 07:40:10.895] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_过程检验表_20260822.xlsx
+[2026-08-22 07:40:11.875] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: W-12010_V1&V2_成品检验表_20260822.xlsx
+[2026-08-22 07:40:11.876] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 19069_8代滤镜框
+[2026-08-22 07:40:13.016] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260822.xlsx
+[2026-08-22 07:40:13.968] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 19069_8代滤镜框_成品检验表_20260822.xlsx
+[2026-08-22 07:40:13.968] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: 25039_W-97B面底壳
+[2026-08-22 07:40:15.173] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260822.xlsx
+[2026-08-22 07:40:16.282] [INFO] [ExcelBatchGenerator.MainWindow] ✓ 已生成: 25039_W-97B面底壳_成品检验表_20260822.xlsx
+[2026-08-22 07:40:17.255] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-22
+[2026-08-22 07:40:17.256] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 12, 失败 0, 跳过 0
+[2026-08-22 07:40:17.256] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-22 08:23:54.038] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 08:23:58.373] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:23:58.374] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:23:58.468] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:23:58.469] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:24:00.202] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:24:00.203] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:24:00.203] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:24:00.203] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 25040_W-97B配件
+[2026-08-22 08:24:00.203] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:24:00.203] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:24:00.204] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:24:00.206] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:24:00.206] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:24:00.206] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:24:00.207] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:24:00.207] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:24:00.207] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:24:00.210] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:24:00.210] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:24:00.245] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:24:00.253] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 08:24:00.255] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:24:01.717] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 445 个合并区域
+[2026-08-22 08:24:01.717] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 445 个合并区域
+[2026-08-22 08:24:03.037] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 30 列
+[2026-08-22 08:24:03.037] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x30
+[2026-08-22 08:24:03.040] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:24:04.617] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:24:04.617] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:24:04.617] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:24:04.624] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:24:13.458] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 08:24:14.617] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 312 个合并区域
+[2026-08-22 08:24:14.617] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 312 个合并区域
+[2026-08-22 08:24:15.819] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 20 行, 20 列
+[2026-08-22 08:24:15.819] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 20x20
+[2026-08-22 08:24:15.819] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:24:16.995] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:24:16.995] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:24:16.995] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:24:16.998] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 08:24:31.031] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:24:35.411] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25040_W-97B配件首件检验表模板.xlsx
+[2026-08-22 08:24:35.411] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 首件
+[2026-08-22 08:24:35.478] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 首件
+[2026-08-22 08:24:35.479] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25040-97B配件/首件检验表/25040_W-97B配件首件检验表模板.xlsx
+[2026-08-22 08:24:37.286] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:24:37.286] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:24:37.286] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/97B/25040-97B配件/首件检验表/25040_W-97B配件首件检验表模板.xlsx
+[2026-08-22 08:24:37.286] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 25040_W-97B配件
+[2026-08-22 08:24:37.286] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:24:37.287] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:24:37.287] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:24:37.291] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:24:37.291] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:24:37.291] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:24:37.292] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:24:37.292] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/97B/25040-97B配件/首件检验表/25040_W-97B配件首件检验表模板.xlsx
+[2026-08-22 08:24:37.293] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:24:37.295] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:24:37.295] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/97B/25040-97B配件/首件检验表/25040_W-97B配件首件检验表模板.xlsx
+[2026-08-22 08:24:37.335] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:24:37.342] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 1 个工作表: ['首件检验记录']
+[2026-08-22 08:24:37.343] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 首件检验记录
+[2026-08-22 08:24:39.430] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 543 个合并区域
+[2026-08-22 08:24:39.431] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 543 个合并区域
+[2026-08-22 08:24:41.111] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 29 行, 30 列
+[2026-08-22 08:24:41.111] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 29x30
+[2026-08-22 08:24:41.112] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:24:43.582] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:24:43.582] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 67 个合并区域
+[2026-08-22 08:24:43.582] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:24:43.592] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:25:02.983] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 开始
+[2026-08-22 08:25:02.983] [INFO] [ExcelBatchGenerator.RuleGenerator] 参考行: 15 个, 目标单元格: 15 个
+[2026-08-22 08:25:02.984] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 完成，共 15 条规则
+[2026-08-22 08:25:06.935] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:25:26.464] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:25:26.465] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:25:26.538] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:25:26.539] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:25:27.952] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:25:27.952] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:25:27.952] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:25:27.952] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 25040_W-97B配件
+[2026-08-22 08:25:27.953] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:25:27.953] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:25:27.953] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:25:27.958] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:25:27.958] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:25:27.958] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:25:27.958] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:25:27.959] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:25:27.959] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:25:27.960] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:25:27.961] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:25:28.013] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:25:28.020] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 08:25:28.021] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:25:29.384] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 445 个合并区域
+[2026-08-22 08:25:29.384] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 445 个合并区域
+[2026-08-22 08:25:30.531] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 30 列
+[2026-08-22 08:25:30.531] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x30
+[2026-08-22 08:25:30.532] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:25:32.107] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:25:32.108] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:25:32.108] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:25:32.113] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:25:35.054] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 08:25:36.249] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 312 个合并区域
+[2026-08-22 08:25:36.250] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 312 个合并区域
+[2026-08-22 08:25:37.431] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 20 行, 20 列
+[2026-08-22 08:25:37.431] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 20x20
+[2026-08-22 08:25:37.432] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:25:38.593] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:25:38.593] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:25:38.593] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:25:38.595] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 08:25:48.397] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:27:36.760] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 08:27:42.064] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:27:42.064] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:27:42.130] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25040_W-97B配件 - 过程
+[2026-08-22 08:27:42.131] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 25040_W-97B配件
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:27:43.406] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:27:43.407] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:27:43.409] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:27:43.412] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:27:43.412] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/97B/25040-97B配件/过程检验表/25040_W-97B配件过程检验表模板.xlsx
+[2026-08-22 08:27:43.448] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:27:43.455] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 08:27:43.456] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:27:44.807] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 21 个有效合并区域
+[2026-08-22 08:27:44.807] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 08:27:45.872] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 08:27:45.872] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 17x17
+[2026-08-22 08:27:45.875] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:27:46.721] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:27:46.721] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:27:46.721] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:27:46.726] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:27:51.822] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 08:27:53.113] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 10 个有效合并区域
+[2026-08-22 08:27:53.113] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 08:27:54.543] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 19 列
+[2026-08-22 08:27:54.543] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x19
+[2026-08-22 08:27:54.545] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:27:55.480] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:27:55.480] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:27:55.480] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:27:55.483] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 08:28:06.645] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:29:31.433] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 26013_AI01配件过程检验表模板.xlsx
+[2026-08-22 08:29:31.532] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 26013_AI01配件 - 过程
+[2026-08-22 08:29:31.532] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/AI01/26013/过程检验表/26013_AI01配件过程检验表模板.xlsx
+[2026-08-22 08:29:33.758] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:29:33.759] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:29:33.759] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/AI01/26013/过程检验表/26013_AI01配件过程检验表模板.xlsx
+[2026-08-22 08:29:33.759] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 26013_AI01配件
+[2026-08-22 08:29:33.759] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:29:33.759] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:29:33.760] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:29:33.764] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:29:33.764] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:29:33.764] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:29:33.765] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:29:33.765] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/AI01/26013/过程检验表/26013_AI01配件过程检验表模板.xlsx
+[2026-08-22 08:29:33.765] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:29:33.767] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:29:33.769] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/AI01/26013/过程检验表/26013_AI01配件过程检验表模板.xlsx
+[2026-08-22 08:29:33.821] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:29:33.834] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 4 个工作表: ['按时检验记录', '翻盖+电池仓件过程尺寸检验记录', '按键过程尺寸检验记录', '配件+电池压块过程尺寸检验记录']
+[2026-08-22 08:29:33.835] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:29:35.424] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 21 个有效合并区域
+[2026-08-22 08:29:35.425] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 08:29:36.540] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 08:29:36.541] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 17x17
+[2026-08-22 08:29:36.543] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:29:37.453] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:29:37.453] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:29:37.453] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:29:37.458] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:29:42.398] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 配件+电池压块过程尺寸检验记录
+[2026-08-22 08:29:43.222] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 10 个有效合并区域
+[2026-08-22 08:29:43.223] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 08:29:44.276] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 12 列
+[2026-08-22 08:29:44.276] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x12
+[2026-08-22 08:29:44.277] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:29:44.893] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:29:44.893] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:29:44.893] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:29:44.895] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 配件+电池压块过程尺寸检验记录
+[2026-08-22 08:29:48.966] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:31:04.026] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:31:04.078] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 08:31:04.079] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:31:06.897] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:31:06.897] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:31:06.897] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:31:06.898] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 08:31:06.898] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:31:06.898] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:31:06.898] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:31:06.902] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:31:06.902] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:31:06.903] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:31:06.903] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:31:06.903] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:31:06.903] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:31:06.905] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:31:06.905] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:31:06.958] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:31:06.965] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 08:31:06.966] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:31:08.401] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 21 个有效合并区域
+[2026-08-22 08:31:08.402] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 08:31:09.490] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 08:31:09.490] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 17x17
+[2026-08-22 08:31:09.492] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:31:10.345] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:31:10.345] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:31:10.346] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:31:10.351] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:31:13.601] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 08:31:14.442] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 10 个有效合并区域
+[2026-08-22 08:31:14.442] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 08:31:15.655] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 08:31:15.655] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x13
+[2026-08-22 08:31:15.656] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:31:16.359] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:31:16.359] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:31:16.359] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:31:16.361] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 08:33:11.775] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:33:26.754] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:33:26.808] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 08:33:26.809] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:33:28.358] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:33:28.359] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 08:33:28.359] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:33:28.359] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 08:33:28.359] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 08:33:28.359] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 08:33:28.360] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 08:33:28.364] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 08:33:28.364] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 08:33:28.364] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 08:33:28.364] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 08:33:28.365] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:33:28.365] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 08:33:28.368] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 08:33:28.368] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 08:33:28.416] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 08:33:28.424] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 08:33:28.425] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 08:33:29.865] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 21 个有效合并区域
+[2026-08-22 08:33:29.866] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 08:33:30.882] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 08:33:30.882] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 17x17
+[2026-08-22 08:33:30.883] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:33:31.684] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:33:31.685] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 08:33:31.685] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:33:31.688] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 08:33:34.080] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 08:33:34.961] [INFO] [ExcelBatchGenerator.RuleGenerator] 通过遍历方式获取到 10 个有效合并区域
+[2026-08-22 08:33:34.962] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 08:33:36.191] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 08:33:36.191] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 开始填充 18x13
+[2026-08-22 08:33:36.192] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 08:33:36.952] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 08:33:36.952] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 08:33:36.953] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table_from_win32: 完成
+[2026-08-22 08:33:36.954] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 08:33:40.429] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 08:37:10.649] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 10:12:42.050] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 10:12:42.050] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 10:12:42.118] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 10:12:42.118] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 10:12:43.440] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 10:12:43.440] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 10:12:43.440] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 10:12:43.440] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 10:12:43.441] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 10:12:43.441] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 10:12:43.441] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 10:12:43.443] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 10:12:43.446] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 10:12:43.446] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 10:12:43.480] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 10:12:43.487] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 10:12:43.488] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 10:12:44.337] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个合并区域（仅用于扫描）
+[2026-08-22 10:12:45.389] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 10:12:45.389] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 10:12:45.392] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 10:12:46.259] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 10:12:46.259] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成（未应用合并）
+[2026-08-22 10:12:46.264] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 10:12:50.130] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 10:12:50.565] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个合并区域（仅用于扫描）
+[2026-08-22 10:12:51.801] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 10:12:51.801] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 10:12:51.802] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 10:12:52.580] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 10:12:52.581] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成（未应用合并）
+[2026-08-22 10:12:52.583] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 10:13:03.023] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 10:13:08.350] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 10:13:08.351] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 首件
+[2026-08-22 10:13:08.423] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 首件
+[2026-08-22 10:13:08.424] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 10:13:11.297] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 10:13:11.297] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 10:13:11.297] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 10:13:11.297] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 10:13:11.297] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 10:13:11.298] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 10:13:11.298] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 10:13:11.300] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 10:13:11.300] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 10:13:11.300] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 10:13:11.301] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 10:13:11.301] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 10:13:11.301] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 10:13:11.302] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 10:13:11.302] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 10:13:11.350] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 10:13:11.359] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 1 个工作表: ['首件检验记录']
+[2026-08-22 10:13:11.360] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 首件检验记录
+[2026-08-22 10:13:12.093] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 66 个合并区域（仅用于扫描）
+[2026-08-22 10:13:13.472] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 23 行, 16 列
+[2026-08-22 10:13:13.472] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 23x16
+[2026-08-22 10:13:13.472] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 10:13:14.663] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 10:13:14.663] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成（未应用合并）
+[2026-08-22 10:13:14.670] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 10:13:32.695] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 11:49:05.662] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 11:49:08.885] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 11:49:08.971] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 首件
+[2026-08-22 11:49:08.971] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 11:49:11.183] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:49:11.184] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 11:49:11.184] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 11:49:11.184] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 11:49:11.184] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 11:49:11.184] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:49:11.185] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 11:49:11.187] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 11:49:11.190] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 11:49:11.190] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/首件检验表/15024_W-102面底壳首件检验表模板.xlsx
+[2026-08-22 11:49:11.226] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 11:49:11.233] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 1 个工作表: ['首件检验记录']
+[2026-08-22 11:49:11.233] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 首件检验记录
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 66 个有效合并区域（已过滤单格）
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 16列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 16列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列1 跨1行 3列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列6 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列8 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列10 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列12 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列14 跨1行 3列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨1行 4列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列6 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列8 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列10 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列12 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列14 跨1行 2列
+[2026-08-22 11:49:12.251] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列1 跨2行 1列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列3 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列6 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列8 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列10 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列12 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行5 列14 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列3 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列6 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列8 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列10 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列12 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列14 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行7 列1 跨1行 16列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列1 跨1行 5列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列6 跨1行 5列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列11 跨1行 5列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列1 跨9行 1列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列3 跨1行 2列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列6 跨1行 5列
+[2026-08-22 11:49:12.252] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列3 跨1行 2列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列6 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列11 跨1行 5列
+[2026-08-22 11:49:12.253] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列3 跨1行 2列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列6 跨1行 5列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列11 跨1行 5列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列3 跨1行 2列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列6 跨1行 5列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列11 跨1行 5列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行18 列2 跨1行 3列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行18 列5 跨1行 12列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行19 列1 跨1行 16列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行20 列1 跨1行 16列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行21 列1 跨1行 16列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行22 列1 跨1行 16列
+[2026-08-22 11:49:12.254] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行23 列1 跨1行 16列
+[2026-08-22 11:49:13.603] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 23 行, 16 列
+[2026-08-22 11:49:13.603] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 23x16
+[2026-08-22 11:49:13.605] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 11:49:14.579] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 11:49:14.579] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 16列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 16列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列A 跨1行 3列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列F 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列H 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列J 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列L 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列N 跨1行 3列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨1行 4列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列F 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列H 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列J 跨1行 2列
+[2026-08-22 11:49:14.580] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列L 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列N 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列A 跨2行 1列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列C 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列F 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列H 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列J 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列L 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行5 列N 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列C 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列F 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列H 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列J 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列L 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列N 跨1行 2列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行7 列A 跨1行 16列
+[2026-08-22 11:49:14.581] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列A 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列F 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列K 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列A 跨9行 1列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列C 跨1行 2列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列F 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列K 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列C 跨1行 2列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列F 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列K 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列C 跨1行 2列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列F 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列K 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列C 跨1行 2列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列F 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列K 跨1行 5列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列C 跨1行 2列
+[2026-08-22 11:49:14.582] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列F 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列K 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列C 跨1行 2列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列F 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列K 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列C 跨1行 2列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列F 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列K 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列C 跨1行 2列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列F 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列K 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列C 跨1行 2列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列F 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列K 跨1行 5列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行18 列B 跨1行 3列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行18 列E 跨1行 12列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行19 列A 跨1行 16列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行20 列A 跨1行 16列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行21 列A 跨1行 16列
+[2026-08-22 11:49:14.583] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行22 列A 跨1行 16列
+[2026-08-22 11:49:14.584] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行23 列A 跨1行 16列
+[2026-08-22 11:49:14.584] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 66 个合并区域
+[2026-08-22 11:49:14.584] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 11:49:14.593] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 11:49:53.640] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:49:53.641] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 11:49:53.723] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 11:49:53.724] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:49:58.130] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:49:58.131] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 11:49:58.131] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:49:58.132] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 11:49:58.132] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 11:49:58.132] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:49:58.133] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:49:58.136] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 11:49:58.138] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 11:49:58.138] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:49:58.175] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 11:49:58.181] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 11:49:58.182] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 11:49:58.801] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域（已过滤单格）
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 17列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 17列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列13 跨1行 5列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列12 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列14 跨2行 4列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列14 跨1行 4列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行7 列14 跨1行 4列
+[2026-08-22 11:49:58.802] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列14 跨1行 4列
+[2026-08-22 11:49:58.803] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列1 跨1行 17列
+[2026-08-22 11:49:59.898] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 11:49:59.898] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 11:49:59.899] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 17列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 17列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列M 跨1行 5列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列L 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 11:50:00.711] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列N 跨2行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行7 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列N 跨1行 4列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列A 跨1行 17列
+[2026-08-22 11:50:00.712] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 11:50:00.713] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 11:50:00.719] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 11:50:09.701] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 11:50:10.165] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域（已过滤单格）
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 13列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 13列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨1行 7列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列1 跨10行 1列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列1 跨1行 6列
+[2026-08-22 11:50:10.166] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行18 列1 跨1行 13列
+[2026-08-22 11:50:11.331] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 11:50:11.332] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 11:50:11.332] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 11:50:12.008] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 11:50:12.008] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 13列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 13列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨1行 7列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列A 跨10行 1列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列A 跨1行 6列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行18 列A 跨1行 13列
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 11:50:12.009] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 11:50:12.011] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 11:53:35.966] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 11:53:43.390] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:53:43.390] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 11:53:44.516] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 11:53:44.516] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:53:46.598] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:53:46.598] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 11:53:46.598] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:53:46.599] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 11:53:46.599] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 11:53:46.599] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 11:53:46.599] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 11:53:46.601] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 11:53:46.601] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 11:53:46.601] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 11:53:46.601] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 11:53:46.602] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:53:46.602] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 11:53:47.068] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 11:53:47.068] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 11:53:47.566] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 11:53:47.573] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 11:53:47.574] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 11:53:48.189] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域（已过滤单格）
+[2026-08-22 11:53:48.189] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 17列
+[2026-08-22 11:53:48.189] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 17列
+[2026-08-22 11:53:48.189] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列13 跨1行 5列
+[2026-08-22 11:53:48.189] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列12 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列14 跨2行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行7 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列14 跨1行 4列
+[2026-08-22 11:53:48.190] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列14 跨1行 4列
+[2026-08-22 11:53:48.191] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列14 跨1行 4列
+[2026-08-22 11:53:48.191] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列1 跨1行 17列
+[2026-08-22 11:53:49.262] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 11:53:49.262] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 11:53:49.265] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 11:53:50.127] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 17列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 17列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列M 跨1行 5列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列L 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 11:53:50.128] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列N 跨2行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行7 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列N 跨1行 4列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列A 跨1行 17列
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 11:53:50.129] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 11:53:50.134] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 11:53:54.126] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域（已过滤单格）
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 13列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 13列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨1行 9列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列1 跨10行 1列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列1 跨1行 6列
+[2026-08-22 11:53:54.527] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行18 列1 跨1行 13列
+[2026-08-22 11:53:55.710] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 11:53:55.711] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 11:53:55.711] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 13列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 13列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨1行 9列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 11:53:56.461] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列A 跨10行 1列
+[2026-08-22 11:53:56.462] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列A 跨1行 6列
+[2026-08-22 11:53:56.462] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行18 列A 跨1行 13列
+[2026-08-22 11:53:56.462] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 11:53:56.462] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 11:53:56.464] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 11:54:09.660] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 12:03:36.735] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 12:03:44.401] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 12:03:44.401] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 12:03:44.474] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 12:03:44.474] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 12:03:45.880] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 12:03:45.881] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 12:03:45.885] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 12:03:45.889] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 12:03:45.890] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 12:03:45.922] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 12:03:45.929] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 12:03:45.929] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域（已过滤单格）
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 17列
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 17列
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行3 列13 跨1行 5列
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 12:03:46.656] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨2行 1列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列12 跨2行 1列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列14 跨2行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行7 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行8 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行9 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行10 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行11 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行12 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行13 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行14 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行15 列14 跨1行 4列
+[2026-08-22 12:03:46.657] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行17 列1 跨1行 17列
+[2026-08-22 12:03:47.787] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 12:03:47.787] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 12:03:47.789] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 17列
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 17列
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行3 列M 跨1行 5列
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 12:03:48.596] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨2行 1列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列L 跨2行 1列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列N 跨2行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行7 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行8 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行9 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行10 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行11 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行12 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行13 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行14 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行15 列N 跨1行 4列
+[2026-08-22 12:03:48.597] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行17 列A 跨1行 17列
+[2026-08-22 12:03:48.598] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 12:03:48.598] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 12:03:48.604] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 12:03:53.603] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 12:03:54.118] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域（已过滤单格）
+[2026-08-22 12:03:54.118] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行1 列1 跨1行 13列
+[2026-08-22 12:03:54.118] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行2 列1 跨1行 13列
+[2026-08-22 12:03:54.118] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列1 跨2行 1列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列2 跨2行 1列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列3 跨2行 1列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列4 跨1行 9列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行4 列13 跨2行 1列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行6 列1 跨10行 1列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行16 列1 跨1行 6列
+[2026-08-22 12:03:54.119] [INFO] [ExcelBatchGenerator.RuleGenerator]   合并区域: 行18 列1 跨1行 13列
+[2026-08-22 12:03:55.324] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 12:03:55.324] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 12:03:55.325] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 12:03:55.981] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行1 列A 跨1行 13列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行2 列A 跨1行 13列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列A 跨2行 1列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列B 跨2行 1列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列C 跨2行 1列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列D 跨1行 9列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行4 列M 跨2行 1列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行6 列A 跨10行 1列
+[2026-08-22 12:03:55.982] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行16 列A 跨1行 6列
+[2026-08-22 12:03:55.983] [INFO] [ExcelBatchGenerator.RuleGenerator]   应用合并: 行18 列A 跨1行 13列
+[2026-08-22 12:03:55.983] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 12:03:55.983] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 12:03:55.986] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 12:04:00.924] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 13:41:37.072] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 13:41:43.743] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:41:43.744] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:41:43.810] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:41:43.811] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:42:00.584] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:42:00.585] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:42:00.587] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 13:42:00.590] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 13:42:00.590] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:42:00.624] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 13:42:00.631] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 13:42:00.631] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 13:42:01.494] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 13:42:02.756] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 13:42:02.756] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 13:42:02.759] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:42:03.629] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:42:03.629] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 13:42:03.630] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:42:03.634] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 13:42:08.054] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 13:42:08.554] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 13:42:10.033] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 13:42:10.033] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 13:42:10.033] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:42:10.724] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:42:10.724] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 13:42:10.725] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:42:10.727] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 13:42:17.510] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到按列匹配模式
+[2026-08-22 13:42:25.757] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 开始
+[2026-08-22 13:42:25.757] [INFO] [ExcelBatchGenerator.RuleGenerator] 参考列: 9 个, 目标单元格: 90 个
+[2026-08-22 13:42:25.758] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 完成，共 9 条规则
+[2026-08-22 13:44:33.920] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:44:33.920] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 13:44:33.920] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:44:33.920] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 13:44:33.920] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 13:44:33.921] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:44:33.921] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 13:44:33.925] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 13:44:33.925] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 13:44:33.925] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 13:44:33.926] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 13:44:33.926] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:44:33.926] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 13:44:33.928] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 13:44:33.928] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:44:34.009] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 13:44:34.017] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 13:44:34.018] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 13:44:34.619] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 13:44:35.623] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 13:44:35.623] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 13:44:35.624] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:44:36.411] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:44:36.411] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 13:44:36.411] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:44:36.414] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 13:44:38.678] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 13:44:39.182] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 13:44:40.695] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 13:44:40.696] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 13:44:40.696] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:44:41.456] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:44:41.456] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 13:44:41.456] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:44:41.458] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 13:44:51.391] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 开始
+[2026-08-22 13:44:51.391] [INFO] [ExcelBatchGenerator.RuleGenerator] 参考行: 1 个, 目标单元格: 90 个
+[2026-08-22 13:44:51.392] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 完成，共 0 条规则
+[2026-08-22 13:44:55.318] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到按列匹配模式
+[2026-08-22 13:45:04.223] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 开始
+[2026-08-22 13:45:04.223] [INFO] [ExcelBatchGenerator.RuleGenerator] 参考列: 9 个, 目标单元格: 90 个
+[2026-08-22 13:45:04.224] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 完成，共 9 条规则
+[2026-08-22 13:45:05.984] [INFO] [ExcelBatchGenerator.RuleGenerator] import_rules: 开始
+[2026-08-22 13:45:05.984] [INFO] [ExcelBatchGenerator.RuleGenerator] 主程序现有规则: 8 条
+[2026-08-22 13:45:08.169] [INFO] [ExcelBatchGenerator.RuleGenerator] import_rules: 完成，导入 1 条，跳过 8 条
+[2026-08-22 13:45:38.709] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:45:38.709] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 13:45:38.709] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:45:38.710] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 13:45:38.710] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 13:45:38.710] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:45:38.710] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:45:38.713] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 13:45:38.714] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 13:45:38.714] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:45:38.751] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 13:45:38.764] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 13:45:38.765] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 13:45:39.461] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 13:45:40.575] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 13:45:40.576] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 13:45:40.576] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:45:41.447] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:45:41.447] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 13:45:41.447] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:45:41.450] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 13:45:45.396] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 13:47:34.574] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 13:47:45.361] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:47:45.361] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:47:45.422] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:47:45.423] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:47:47.670] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:47:47.671] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 13:47:47.671] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:47:47.671] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 13:47:47.671] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 
+[2026-08-22 13:47:47.671] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:47:47.672] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 13:47:47.673] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 13:47:47.673] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按行匹配模式（首件/成品模板）
+[2026-08-22 13:47:47.674] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 13:47:47.674] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 13:47:47.674] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:47:47.674] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 13:47:47.678] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 13:47:47.678] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:47:47.709] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 13:47:47.717] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 13:47:47.718] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 13:47:48.575] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 13:47:49.701] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 13:47:49.701] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 13:47:49.704] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:47:50.509] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:47:50.509] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 13:47:50.509] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:47:50.514] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 13:47:56.197] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭
+[2026-08-22 13:51:47.624] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-22 13:52:07.042] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:52:07.042] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:52:07.120] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 15024_W-102面底壳 - 过程
+[2026-08-22 13:52:07.122] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:52:09.491] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:52:09.491] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器启动
+[2026-08-22 13:52:09.491] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板路径: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:52:09.491] [INFO] [ExcelBatchGenerator.RuleGenerator]   产品名称: 15024_W-102面底壳
+[2026-08-22 13:52:09.492] [INFO] [ExcelBatchGenerator.RuleGenerator]   模板类型: 过程
+[2026-08-22 13:52:09.492] [INFO] [ExcelBatchGenerator.RuleGenerator] ==================================================
+[2026-08-22 13:52:09.492] [INFO] [ExcelBatchGenerator.RuleGenerator] 初始化 UI...
+[2026-08-22 13:52:09.494] [INFO] [ExcelBatchGenerator.RuleGenerator] UI 初始化完成
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到按列匹配模式
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] 自动切换到按列匹配模式（过程模板）
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] 开始加载 Excel...
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 开始
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] 使用 win32com 加载: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:52:09.495] [INFO] [ExcelBatchGenerator.RuleGenerator] 启动 Excel 应用程序...
+[2026-08-22 13:52:09.498] [INFO] [ExcelBatchGenerator.RuleGenerator] Excel 已启动
+[2026-08-22 13:52:09.498] [INFO] [ExcelBatchGenerator.RuleGenerator] 打开工作簿: E:/test-shenzhen/文档模板/W-102/15024/过程检验表/15024_W-102面底壳过程检验表模板.xlsx
+[2026-08-22 13:52:09.529] [INFO] [ExcelBatchGenerator.RuleGenerator] 工作簿已打开
+[2026-08-22 13:52:09.536] [INFO] [ExcelBatchGenerator.RuleGenerator] 共 2 个工作表: ['按时检验记录', '过程尺寸检验记录']
+[2026-08-22 13:52:09.536] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 按时检验记录
+[2026-08-22 13:52:10.311] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 21 个有效合并区域
+[2026-08-22 13:52:11.461] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 17 行, 17 列
+[2026-08-22 13:52:11.462] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 17x17
+[2026-08-22 13:52:11.464] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:52:12.338] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:52:12.338] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 21 个合并区域
+[2026-08-22 13:52:12.339] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:52:12.343] [INFO] [ExcelBatchGenerator.RuleGenerator] load_excel: 完成
+[2026-08-22 13:52:16.551] [INFO] [ExcelBatchGenerator.RuleGenerator] _load_sheet_data: 加载工作表 过程尺寸检验记录
+[2026-08-22 13:52:17.011] [INFO] [ExcelBatchGenerator.RuleGenerator] 检测到 10 个有效合并区域
+[2026-08-22 13:52:18.123] [INFO] [ExcelBatchGenerator.RuleGenerator] 实际数据范围: 18 行, 13 列
+[2026-08-22 13:52:18.123] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 开始填充 18x13
+[2026-08-22 13:52:18.124] [INFO] [ExcelBatchGenerator.RuleGenerator] 读取单元格数据...
+[2026-08-22 13:52:18.835] [INFO] [ExcelBatchGenerator.RuleGenerator] 单元格数据读取完成
+[2026-08-22 13:52:18.835] [INFO] [ExcelBatchGenerator.RuleGenerator] 已应用 10 个合并区域
+[2026-08-22 13:52:18.835] [INFO] [ExcelBatchGenerator.RuleGenerator] _populate_table: 完成
+[2026-08-22 13:52:18.838] [INFO] [ExcelBatchGenerator.RuleGenerator] 切换到工作表: 过程尺寸检验记录
+[2026-08-22 13:52:27.541] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 开始
+[2026-08-22 13:52:27.541] [INFO] [ExcelBatchGenerator.RuleGenerator] 参考列: 9 个, 目标单元格: 90 个
+[2026-08-22 13:52:27.542] [INFO] [ExcelBatchGenerator.RuleGenerator] generate_rules: 完成，共 9 条规则
+[2026-08-22 13:52:39.630] [INFO] [ExcelBatchGenerator.RuleGenerator] 规则生成器关闭

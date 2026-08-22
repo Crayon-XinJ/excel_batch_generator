@@ -1,0 +1,1002 @@
+[2026-08-19 08:51:05.234] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-19 08:58:58.353] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶首件检验表模板.xlsx
+[2026-08-19 08:58:59.906] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 首件
+[2026-08-19 08:58:59.907] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/首件检验表/24081_夹子硬胶首件检验表模板.xlsx
+[2026-08-19 09:05:54.048] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/首件检验表
+[2026-08-19 09:05:54.053] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 3 个文件
+[2026-08-19 09:05:54.054] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 3 个文件
+[2026-08-19 09:05:54.055] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_首件检验表_20260806.xlsx
+[2026-08-19 09:05:54.055] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_首件检验表_20260810.xlsx
+[2026-08-19 09:05:55.408] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_首件检验表_20260817.xlsx
+[2026-08-19 09:05:55.408] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 3/3
+[2026-08-19 09:05:55.412] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 3/3
+[2026-08-19 09:06:11.627] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-19 09:06:11.627] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-19 09:06:12.662] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 24081_夹子硬胶 - 过程
+[2026-08-19 09:06:12.663] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/夹子硬胶/24081/过程检验表/24081_夹子硬胶过程检验表模板.xlsx
+[2026-08-19 09:06:32.143] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/夹子硬胶/24081/过程检验表
+[2026-08-19 09:06:32.147] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 13 个文件
+[2026-08-19 09:06:32.147] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 13 个文件
+[2026-08-19 09:06:32.148] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260806.xlsx
+[2026-08-19 09:06:32.148] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260807.xlsx
+[2026-08-19 09:06:32.148] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260808.xlsx
+[2026-08-19 09:06:32.148] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260810.xlsx
+[2026-08-19 09:06:32.149] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260811.xlsx
+[2026-08-19 09:06:32.149] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260812.xlsx
+[2026-08-19 09:06:32.149] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 24081_夹子硬胶_过程检验表_20260813.xlsx
+[2026-08-19 09:06:33.273] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260817.xlsx
+[2026-08-19 09:06:34.428] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260818.xlsx
+[2026-08-19 09:06:35.554] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260819.xlsx
+[2026-08-19 09:06:36.715] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260820.xlsx
+[2026-08-19 09:06:37.857] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260821.xlsx
+[2026-08-19 09:06:39.000] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 24081_夹子硬胶_过程检验表_20260822.xlsx
+[2026-08-19 09:06:39.000] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 13/13
+[2026-08-19 09:06:39.002] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 13/13
+[2026-08-19 09:08:11.515] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_3T1&3T2首件检验表模板.xlsx
+[2026-08-19 09:08:11.516] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 首件
+[2026-08-19 09:08:12.458] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 首件
+[2026-08-19 09:08:12.458] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/3T1&3T2/首件检验表/W-12010_3T1&3T2首件检验表模板.xlsx
+[2026-08-19 09:08:27.397] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/3T1&3T2/首件检验表
+[2026-08-19 09:08:27.401] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:08:27.402] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:08:27.404] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260503.xlsx
+[2026-08-19 09:08:27.405] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260511.xlsx
+[2026-08-19 09:08:27.405] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260518.xlsx
+[2026-08-19 09:08:27.405] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260525.xlsx
+[2026-08-19 09:08:27.406] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260601.xlsx
+[2026-08-19 09:08:27.406] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260608.xlsx
+[2026-08-19 09:08:27.406] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260615.xlsx
+[2026-08-19 09:08:27.407] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260621.xlsx
+[2026-08-19 09:08:27.407] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260629.xlsx
+[2026-08-19 09:08:27.407] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260706.xlsx
+[2026-08-19 09:08:27.408] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260712.xlsx
+[2026-08-19 09:08:27.408] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260720.xlsx
+[2026-08-19 09:08:27.408] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260727.xlsx
+[2026-08-19 09:08:27.409] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260803.xlsx
+[2026-08-19 09:08:27.411] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_首件检验表_20260810.xlsx
+[2026-08-19 09:08:28.523] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_首件检验表_20260817.xlsx
+[2026-08-19 09:08:28.523] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 16/16
+[2026-08-19 09:08:28.525] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 16/16
+[2026-08-19 09:08:56.692] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_3T1&3T2过程检验表模板.xlsx
+[2026-08-19 09:08:56.692] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 过程
+[2026-08-19 09:08:57.787] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 过程
+[2026-08-19 09:08:57.788] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/3T1&3T2/过程检验表/W-12010_3T1&3T2过程检验表模板.xlsx
+[2026-08-19 09:09:04.751] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/3T1&3T2/过程检验表
+[2026-08-19 09:09:04.755] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:09:04.756] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:09:04.757] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260503.xlsx
+[2026-08-19 09:09:04.757] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260504.xlsx
+[2026-08-19 09:09:04.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260505.xlsx
+[2026-08-19 09:09:04.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260506.xlsx
+[2026-08-19 09:09:04.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260507.xlsx
+[2026-08-19 09:09:04.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260508.xlsx
+[2026-08-19 09:09:04.759] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260509.xlsx
+[2026-08-19 09:09:04.759] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260511.xlsx
+[2026-08-19 09:09:04.759] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260512.xlsx
+[2026-08-19 09:09:04.759] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260513.xlsx
+[2026-08-19 09:09:04.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260514.xlsx
+[2026-08-19 09:09:04.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260515.xlsx
+[2026-08-19 09:09:04.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260516.xlsx
+[2026-08-19 09:09:04.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260518.xlsx
+[2026-08-19 09:09:04.761] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260519.xlsx
+[2026-08-19 09:09:04.761] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260520.xlsx
+[2026-08-19 09:09:04.761] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260521.xlsx
+[2026-08-19 09:09:04.761] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260522.xlsx
+[2026-08-19 09:09:04.762] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260523.xlsx
+[2026-08-19 09:09:04.762] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260525.xlsx
+[2026-08-19 09:09:04.766] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260526.xlsx
+[2026-08-19 09:09:04.766] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260527.xlsx
+[2026-08-19 09:09:04.766] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260528.xlsx
+[2026-08-19 09:09:04.767] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260529.xlsx
+[2026-08-19 09:09:04.768] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260530.xlsx
+[2026-08-19 09:09:04.768] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260601.xlsx
+[2026-08-19 09:09:04.768] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260602.xlsx
+[2026-08-19 09:09:04.769] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260603.xlsx
+[2026-08-19 09:09:04.769] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260604.xlsx
+[2026-08-19 09:09:04.770] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260605.xlsx
+[2026-08-19 09:09:04.770] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260606.xlsx
+[2026-08-19 09:09:04.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260608.xlsx
+[2026-08-19 09:09:04.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260609.xlsx
+[2026-08-19 09:09:04.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260610.xlsx
+[2026-08-19 09:09:04.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260611.xlsx
+[2026-08-19 09:09:04.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260612.xlsx
+[2026-08-19 09:09:04.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260613.xlsx
+[2026-08-19 09:09:04.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260615.xlsx
+[2026-08-19 09:09:04.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260616.xlsx
+[2026-08-19 09:09:04.775] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260617.xlsx
+[2026-08-19 09:09:04.776] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260618.xlsx
+[2026-08-19 09:09:04.776] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260621.xlsx
+[2026-08-19 09:09:04.776] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260622.xlsx
+[2026-08-19 09:09:04.777] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260623.xlsx
+[2026-08-19 09:09:04.778] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260624.xlsx
+[2026-08-19 09:09:04.778] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260625.xlsx
+[2026-08-19 09:09:04.778] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260626.xlsx
+[2026-08-19 09:09:04.779] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260627.xlsx
+[2026-08-19 09:09:04.779] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260629.xlsx
+[2026-08-19 09:09:04.780] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260630.xlsx
+[2026-08-19 09:09:04.781] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260701.xlsx
+[2026-08-19 09:09:04.781] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260702.xlsx
+[2026-08-19 09:09:04.781] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260703.xlsx
+[2026-08-19 09:09:04.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260704.xlsx
+[2026-08-19 09:09:04.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260706.xlsx
+[2026-08-19 09:09:04.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260707.xlsx
+[2026-08-19 09:09:04.783] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260708.xlsx
+[2026-08-19 09:09:04.783] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260709.xlsx
+[2026-08-19 09:09:04.784] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260712.xlsx
+[2026-08-19 09:09:04.784] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260713.xlsx
+[2026-08-19 09:09:04.785] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260714.xlsx
+[2026-08-19 09:09:04.785] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260715.xlsx
+[2026-08-19 09:09:04.785] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260716.xlsx
+[2026-08-19 09:09:04.786] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260717.xlsx
+[2026-08-19 09:09:04.786] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260718.xlsx
+[2026-08-19 09:09:04.787] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260720.xlsx
+[2026-08-19 09:09:04.787] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260721.xlsx
+[2026-08-19 09:09:04.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260722.xlsx
+[2026-08-19 09:09:04.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260723.xlsx
+[2026-08-19 09:09:04.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260724.xlsx
+[2026-08-19 09:09:04.789] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260725.xlsx
+[2026-08-19 09:09:04.790] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260727.xlsx
+[2026-08-19 09:09:04.791] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260728.xlsx
+[2026-08-19 09:09:04.791] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260729.xlsx
+[2026-08-19 09:09:04.792] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260730.xlsx
+[2026-08-19 09:09:04.792] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260731.xlsx
+[2026-08-19 09:09:04.793] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260801.xlsx
+[2026-08-19 09:09:04.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260803.xlsx
+[2026-08-19 09:09:04.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260804.xlsx
+[2026-08-19 09:09:04.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260805.xlsx
+[2026-08-19 09:09:04.795] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260806.xlsx
+[2026-08-19 09:09:04.795] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260807.xlsx
+[2026-08-19 09:09:04.796] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260808.xlsx
+[2026-08-19 09:09:04.796] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260810.xlsx
+[2026-08-19 09:09:04.796] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260811.xlsx
+[2026-08-19 09:09:04.797] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260812.xlsx
+[2026-08-19 09:09:04.797] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_3T1&3T2_过程检验表_20260813.xlsx
+[2026-08-19 09:09:05.911] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260817.xlsx
+[2026-08-19 09:09:07.046] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260818.xlsx
+[2026-08-19 09:09:08.210] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260819.xlsx
+[2026-08-19 09:09:09.404] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260820.xlsx
+[2026-08-19 09:09:10.568] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260821.xlsx
+[2026-08-19 09:09:11.728] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_3T1&3T2_过程检验表_20260822.xlsx
+[2026-08-19 09:09:11.729] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 93/93
+[2026-08-19 09:09:11.731] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 93/93
+[2026-08-19 09:09:24.320] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_3T1&3T2成品检验表模板.xlsx
+[2026-08-19 09:09:24.321] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 成品
+[2026-08-19 09:09:25.037] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 成品
+[2026-08-19 09:09:25.038] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/3T1&3T2/成品检验表/W-12010_3T1&3T2成品检验表模板.xlsx
+[2026-08-19 09:09:32.075] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:09:32.930] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 成品
+[2026-08-19 09:09:32.931] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/成品检验表/19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:10:08.074] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_T1&T2首件检验表模板.xlsx
+[2026-08-19 09:10:08.075] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 首件
+[2026-08-19 09:10:09.003] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 首件
+[2026-08-19 09:10:09.004] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/T1&T2/首件检验表/W-12010_T1&T2首件检验表模板.xlsx
+[2026-08-19 09:10:18.714] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/T1&T2/首件检验表
+[2026-08-19 09:10:18.718] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:10:18.719] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:10:18.719] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260503.xlsx
+[2026-08-19 09:10:18.720] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260511.xlsx
+[2026-08-19 09:10:18.723] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260518.xlsx
+[2026-08-19 09:10:18.723] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260525.xlsx
+[2026-08-19 09:10:18.725] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260601.xlsx
+[2026-08-19 09:10:18.725] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260608.xlsx
+[2026-08-19 09:10:18.725] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260615.xlsx
+[2026-08-19 09:10:18.726] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260621.xlsx
+[2026-08-19 09:10:18.726] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260629.xlsx
+[2026-08-19 09:10:18.727] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260706.xlsx
+[2026-08-19 09:10:18.727] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260712.xlsx
+[2026-08-19 09:10:18.728] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260720.xlsx
+[2026-08-19 09:10:18.728] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260727.xlsx
+[2026-08-19 09:10:18.728] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260803.xlsx
+[2026-08-19 09:10:18.729] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_首件检验表_20260810.xlsx
+[2026-08-19 09:10:19.736] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_首件检验表_20260817.xlsx
+[2026-08-19 09:10:19.737] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 16/16
+[2026-08-19 09:10:19.739] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 16/16
+[2026-08-19 09:10:32.899] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_T1&T2过程检验表模板.xlsx
+[2026-08-19 09:10:32.899] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 过程
+[2026-08-19 09:10:33.982] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 过程
+[2026-08-19 09:10:33.983] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/T1&T2/过程检验表/W-12010_T1&T2过程检验表模板.xlsx
+[2026-08-19 09:10:39.641] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/T1&T2/过程检验表
+[2026-08-19 09:10:39.646] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:10:39.646] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:10:39.647] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260503.xlsx
+[2026-08-19 09:10:39.648] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260504.xlsx
+[2026-08-19 09:10:39.648] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260505.xlsx
+[2026-08-19 09:10:39.648] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260506.xlsx
+[2026-08-19 09:10:39.649] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260507.xlsx
+[2026-08-19 09:10:39.649] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260508.xlsx
+[2026-08-19 09:10:39.649] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260509.xlsx
+[2026-08-19 09:10:39.649] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260511.xlsx
+[2026-08-19 09:10:39.650] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260512.xlsx
+[2026-08-19 09:10:39.650] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260513.xlsx
+[2026-08-19 09:10:39.650] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260514.xlsx
+[2026-08-19 09:10:39.651] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260515.xlsx
+[2026-08-19 09:10:39.651] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260516.xlsx
+[2026-08-19 09:10:39.651] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260518.xlsx
+[2026-08-19 09:10:39.655] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260519.xlsx
+[2026-08-19 09:10:39.655] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260520.xlsx
+[2026-08-19 09:10:39.656] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260521.xlsx
+[2026-08-19 09:10:39.656] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260522.xlsx
+[2026-08-19 09:10:39.657] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260523.xlsx
+[2026-08-19 09:10:39.657] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260525.xlsx
+[2026-08-19 09:10:39.657] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260526.xlsx
+[2026-08-19 09:10:39.658] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260527.xlsx
+[2026-08-19 09:10:39.658] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260528.xlsx
+[2026-08-19 09:10:39.659] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260529.xlsx
+[2026-08-19 09:10:39.659] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260530.xlsx
+[2026-08-19 09:10:39.660] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260601.xlsx
+[2026-08-19 09:10:39.660] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260602.xlsx
+[2026-08-19 09:10:39.660] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260603.xlsx
+[2026-08-19 09:10:39.661] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260604.xlsx
+[2026-08-19 09:10:39.661] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260605.xlsx
+[2026-08-19 09:10:39.662] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260606.xlsx
+[2026-08-19 09:10:39.662] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260608.xlsx
+[2026-08-19 09:10:39.662] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260609.xlsx
+[2026-08-19 09:10:39.663] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260610.xlsx
+[2026-08-19 09:10:39.663] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260611.xlsx
+[2026-08-19 09:10:39.663] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260612.xlsx
+[2026-08-19 09:10:39.664] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260613.xlsx
+[2026-08-19 09:10:39.664] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260615.xlsx
+[2026-08-19 09:10:39.664] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260616.xlsx
+[2026-08-19 09:10:39.665] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260617.xlsx
+[2026-08-19 09:10:39.665] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260618.xlsx
+[2026-08-19 09:10:39.665] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260621.xlsx
+[2026-08-19 09:10:39.666] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260622.xlsx
+[2026-08-19 09:10:39.666] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260623.xlsx
+[2026-08-19 09:10:39.667] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260624.xlsx
+[2026-08-19 09:10:39.667] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260625.xlsx
+[2026-08-19 09:10:39.668] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260626.xlsx
+[2026-08-19 09:10:39.669] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260627.xlsx
+[2026-08-19 09:10:39.669] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260629.xlsx
+[2026-08-19 09:10:39.670] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260630.xlsx
+[2026-08-19 09:10:39.670] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260701.xlsx
+[2026-08-19 09:10:39.670] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260702.xlsx
+[2026-08-19 09:10:39.670] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260703.xlsx
+[2026-08-19 09:10:39.671] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260704.xlsx
+[2026-08-19 09:10:39.671] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260706.xlsx
+[2026-08-19 09:10:39.672] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260707.xlsx
+[2026-08-19 09:10:39.672] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260708.xlsx
+[2026-08-19 09:10:39.673] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260709.xlsx
+[2026-08-19 09:10:39.673] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260712.xlsx
+[2026-08-19 09:10:39.673] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260713.xlsx
+[2026-08-19 09:10:39.673] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260714.xlsx
+[2026-08-19 09:10:39.674] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260715.xlsx
+[2026-08-19 09:10:39.674] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260716.xlsx
+[2026-08-19 09:10:39.675] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260717.xlsx
+[2026-08-19 09:10:39.675] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260718.xlsx
+[2026-08-19 09:10:39.676] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260720.xlsx
+[2026-08-19 09:10:39.676] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260721.xlsx
+[2026-08-19 09:10:39.677] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260722.xlsx
+[2026-08-19 09:10:39.677] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260723.xlsx
+[2026-08-19 09:10:39.677] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260724.xlsx
+[2026-08-19 09:10:39.678] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260725.xlsx
+[2026-08-19 09:10:39.678] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260727.xlsx
+[2026-08-19 09:10:39.679] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260728.xlsx
+[2026-08-19 09:10:39.679] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260729.xlsx
+[2026-08-19 09:10:39.679] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260730.xlsx
+[2026-08-19 09:10:39.680] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260731.xlsx
+[2026-08-19 09:10:39.680] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260801.xlsx
+[2026-08-19 09:10:39.680] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260803.xlsx
+[2026-08-19 09:10:39.681] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260804.xlsx
+[2026-08-19 09:10:39.681] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260805.xlsx
+[2026-08-19 09:10:39.681] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260806.xlsx
+[2026-08-19 09:10:39.682] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260807.xlsx
+[2026-08-19 09:10:39.682] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260808.xlsx
+[2026-08-19 09:10:39.683] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260810.xlsx
+[2026-08-19 09:10:39.683] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260811.xlsx
+[2026-08-19 09:10:39.684] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260812.xlsx
+[2026-08-19 09:10:39.684] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260813.xlsx
+[2026-08-19 09:10:40.567] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:40.844] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260817.xlsx
+[2026-08-19 09:10:41.784] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:42.045] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260818.xlsx
+[2026-08-19 09:10:42.953] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:43.218] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260819.xlsx
+[2026-08-19 09:10:44.140] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:44.421] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260820.xlsx
+[2026-08-19 09:10:45.318] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:45.564] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260821.xlsx
+[2026-08-19 09:10:46.443] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:10:46.698] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260822.xlsx
+[2026-08-19 09:10:46.698] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 93/93
+[2026-08-19 09:10:46.701] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 93/93
+[2026-08-19 09:11:29.467] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_T1&T2成品检验表模板.xlsx
+[2026-08-19 09:11:29.468] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 成品
+[2026-08-19 09:11:30.354] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 成品
+[2026-08-19 09:11:30.355] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/T1&T2/成品检验表/W-12010_T1&T2成品检验表模板.xlsx
+[2026-08-19 09:11:36.370] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2首件检验表模板.xlsx
+[2026-08-19 09:11:36.370] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 首件
+[2026-08-19 09:11:37.331] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 首件
+[2026-08-19 09:11:37.332] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/V1&V2/首件检验表/W-12010_V1&V2首件检验表模板.xlsx
+[2026-08-19 09:11:41.743] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/V1&V2/首件检验表
+[2026-08-19 09:11:41.747] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:11:41.748] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 16 个文件
+[2026-08-19 09:11:41.749] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260503.xlsx
+[2026-08-19 09:11:41.750] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260511.xlsx
+[2026-08-19 09:11:41.753] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260518.xlsx
+[2026-08-19 09:11:41.754] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260525.xlsx
+[2026-08-19 09:11:41.755] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260601.xlsx
+[2026-08-19 09:11:41.756] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260608.xlsx
+[2026-08-19 09:11:41.756] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260615.xlsx
+[2026-08-19 09:11:41.756] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260621.xlsx
+[2026-08-19 09:11:41.757] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260629.xlsx
+[2026-08-19 09:11:41.757] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260706.xlsx
+[2026-08-19 09:11:41.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260712.xlsx
+[2026-08-19 09:11:41.758] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260720.xlsx
+[2026-08-19 09:11:41.759] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260727.xlsx
+[2026-08-19 09:11:41.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260803.xlsx
+[2026-08-19 09:11:41.760] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_首件检验表_20260810.xlsx
+[2026-08-19 09:11:42.786] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_首件检验表_20260817.xlsx
+[2026-08-19 09:11:42.786] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 16/16
+[2026-08-19 09:11:42.788] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 16/16
+[2026-08-19 09:11:53.897] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模板.xlsx
+[2026-08-19 09:11:53.897] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 过程
+[2026-08-19 09:11:54.960] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 过程
+[2026-08-19 09:11:54.960] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/V1&V2/过程检验表/W-12010_V1&V2过程检验表模板.xlsx
+[2026-08-19 09:11:57.904] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/V1&V2/过程检验表
+[2026-08-19 09:11:57.908] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 87 个文件
+[2026-08-19 09:11:57.909] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 87 个文件
+[2026-08-19 09:11:57.909] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260503.xlsx
+[2026-08-19 09:11:57.910] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260504.xlsx
+[2026-08-19 09:11:57.910] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260505.xlsx
+[2026-08-19 09:11:57.911] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260506.xlsx
+[2026-08-19 09:11:57.911] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260507.xlsx
+[2026-08-19 09:11:57.911] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260508.xlsx
+[2026-08-19 09:11:57.911] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260509.xlsx
+[2026-08-19 09:11:57.912] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260511.xlsx
+[2026-08-19 09:11:57.912] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260512.xlsx
+[2026-08-19 09:11:57.912] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260513.xlsx
+[2026-08-19 09:11:57.912] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260514.xlsx
+[2026-08-19 09:11:57.913] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260515.xlsx
+[2026-08-19 09:11:57.913] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260516.xlsx
+[2026-08-19 09:11:57.913] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260518.xlsx
+[2026-08-19 09:11:57.913] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260519.xlsx
+[2026-08-19 09:11:57.913] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260520.xlsx
+[2026-08-19 09:11:57.914] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260521.xlsx
+[2026-08-19 09:11:57.914] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260522.xlsx
+[2026-08-19 09:11:57.914] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260523.xlsx
+[2026-08-19 09:11:57.914] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260525.xlsx
+[2026-08-19 09:11:57.917] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260526.xlsx
+[2026-08-19 09:11:57.918] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260527.xlsx
+[2026-08-19 09:11:57.919] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260528.xlsx
+[2026-08-19 09:11:57.919] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260529.xlsx
+[2026-08-19 09:11:57.919] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260530.xlsx
+[2026-08-19 09:11:57.920] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260601.xlsx
+[2026-08-19 09:11:57.920] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260602.xlsx
+[2026-08-19 09:11:57.920] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260603.xlsx
+[2026-08-19 09:11:57.921] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260604.xlsx
+[2026-08-19 09:11:57.922] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260605.xlsx
+[2026-08-19 09:11:57.922] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260606.xlsx
+[2026-08-19 09:11:57.922] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260608.xlsx
+[2026-08-19 09:11:57.922] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260609.xlsx
+[2026-08-19 09:11:57.923] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260610.xlsx
+[2026-08-19 09:11:57.923] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260611.xlsx
+[2026-08-19 09:11:57.923] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260612.xlsx
+[2026-08-19 09:11:57.924] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260613.xlsx
+[2026-08-19 09:11:57.924] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260615.xlsx
+[2026-08-19 09:11:57.925] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260616.xlsx
+[2026-08-19 09:11:57.925] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260617.xlsx
+[2026-08-19 09:11:57.925] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260618.xlsx
+[2026-08-19 09:11:57.926] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260621.xlsx
+[2026-08-19 09:11:57.926] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260622.xlsx
+[2026-08-19 09:11:57.927] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260623.xlsx
+[2026-08-19 09:11:57.927] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260624.xlsx
+[2026-08-19 09:11:57.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260625.xlsx
+[2026-08-19 09:11:57.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260626.xlsx
+[2026-08-19 09:11:57.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260627.xlsx
+[2026-08-19 09:11:57.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260629.xlsx
+[2026-08-19 09:11:57.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260630.xlsx
+[2026-08-19 09:11:57.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260701.xlsx
+[2026-08-19 09:11:57.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260702.xlsx
+[2026-08-19 09:11:57.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260703.xlsx
+[2026-08-19 09:11:57.931] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260704.xlsx
+[2026-08-19 09:11:57.931] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260706.xlsx
+[2026-08-19 09:11:57.931] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260707.xlsx
+[2026-08-19 09:11:57.932] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260708.xlsx
+[2026-08-19 09:11:57.932] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260709.xlsx
+[2026-08-19 09:11:57.933] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260712.xlsx
+[2026-08-19 09:11:57.934] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260713.xlsx
+[2026-08-19 09:11:57.934] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260714.xlsx
+[2026-08-19 09:11:57.934] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260715.xlsx
+[2026-08-19 09:11:57.935] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260716.xlsx
+[2026-08-19 09:11:57.935] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260717.xlsx
+[2026-08-19 09:11:57.936] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260718.xlsx
+[2026-08-19 09:11:57.936] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260720.xlsx
+[2026-08-19 09:11:57.936] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260721.xlsx
+[2026-08-19 09:11:57.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260722.xlsx
+[2026-08-19 09:11:57.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260723.xlsx
+[2026-08-19 09:11:57.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260724.xlsx
+[2026-08-19 09:11:57.938] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260725.xlsx
+[2026-08-19 09:11:57.938] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260727.xlsx
+[2026-08-19 09:11:57.938] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260728.xlsx
+[2026-08-19 09:11:57.939] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260729.xlsx
+[2026-08-19 09:11:57.939] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260730.xlsx
+[2026-08-19 09:11:57.940] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260731.xlsx
+[2026-08-19 09:11:57.940] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260801.xlsx
+[2026-08-19 09:11:57.940] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260803.xlsx
+[2026-08-19 09:11:57.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260804.xlsx
+[2026-08-19 09:11:57.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260805.xlsx
+[2026-08-19 09:11:57.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260806.xlsx
+[2026-08-19 09:11:57.942] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260807.xlsx
+[2026-08-19 09:11:57.942] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260808.xlsx
+[2026-08-19 09:11:57.943] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260810.xlsx
+[2026-08-19 09:11:57.943] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260811.xlsx
+[2026-08-19 09:11:57.944] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260812.xlsx
+[2026-08-19 09:11:57.944] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-19 09:11:57.944] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 87/87
+[2026-08-19 09:11:57.946] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 87/87
+[2026-08-19 09:12:04.488] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/V1&V2/过程检验表
+[2026-08-19 09:12:04.491] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:12:04.492] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:12:04.493] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260503.xlsx
+[2026-08-19 09:12:04.493] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260504.xlsx
+[2026-08-19 09:12:04.494] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260505.xlsx
+[2026-08-19 09:12:04.494] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260506.xlsx
+[2026-08-19 09:12:04.494] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260507.xlsx
+[2026-08-19 09:12:04.494] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260508.xlsx
+[2026-08-19 09:12:04.495] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260509.xlsx
+[2026-08-19 09:12:04.495] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260511.xlsx
+[2026-08-19 09:12:04.495] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260512.xlsx
+[2026-08-19 09:12:04.495] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260513.xlsx
+[2026-08-19 09:12:04.495] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260514.xlsx
+[2026-08-19 09:12:04.496] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260515.xlsx
+[2026-08-19 09:12:04.496] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260516.xlsx
+[2026-08-19 09:12:04.496] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260518.xlsx
+[2026-08-19 09:12:04.496] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260519.xlsx
+[2026-08-19 09:12:04.497] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260520.xlsx
+[2026-08-19 09:12:04.497] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260521.xlsx
+[2026-08-19 09:12:04.497] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260522.xlsx
+[2026-08-19 09:12:04.497] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260523.xlsx
+[2026-08-19 09:12:04.497] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260525.xlsx
+[2026-08-19 09:12:04.498] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260526.xlsx
+[2026-08-19 09:12:04.498] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260527.xlsx
+[2026-08-19 09:12:04.498] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260528.xlsx
+[2026-08-19 09:12:04.498] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260529.xlsx
+[2026-08-19 09:12:04.498] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260530.xlsx
+[2026-08-19 09:12:04.499] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260601.xlsx
+[2026-08-19 09:12:04.499] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260602.xlsx
+[2026-08-19 09:12:04.499] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260603.xlsx
+[2026-08-19 09:12:04.499] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260604.xlsx
+[2026-08-19 09:12:04.500] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260605.xlsx
+[2026-08-19 09:12:04.500] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260606.xlsx
+[2026-08-19 09:12:04.500] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260608.xlsx
+[2026-08-19 09:12:04.500] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260609.xlsx
+[2026-08-19 09:12:04.500] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260610.xlsx
+[2026-08-19 09:12:04.501] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260611.xlsx
+[2026-08-19 09:12:04.506] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260612.xlsx
+[2026-08-19 09:12:04.507] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260613.xlsx
+[2026-08-19 09:12:04.507] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260615.xlsx
+[2026-08-19 09:12:04.507] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260616.xlsx
+[2026-08-19 09:12:04.508] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260617.xlsx
+[2026-08-19 09:12:04.508] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260618.xlsx
+[2026-08-19 09:12:04.509] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260621.xlsx
+[2026-08-19 09:12:04.509] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260622.xlsx
+[2026-08-19 09:12:04.510] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260623.xlsx
+[2026-08-19 09:12:04.510] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260624.xlsx
+[2026-08-19 09:12:04.510] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260625.xlsx
+[2026-08-19 09:12:04.512] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260626.xlsx
+[2026-08-19 09:12:04.512] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260627.xlsx
+[2026-08-19 09:12:04.513] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260629.xlsx
+[2026-08-19 09:12:04.513] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260630.xlsx
+[2026-08-19 09:12:04.514] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260701.xlsx
+[2026-08-19 09:12:04.514] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260702.xlsx
+[2026-08-19 09:12:04.515] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260703.xlsx
+[2026-08-19 09:12:04.515] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260704.xlsx
+[2026-08-19 09:12:04.515] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260706.xlsx
+[2026-08-19 09:12:04.516] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260707.xlsx
+[2026-08-19 09:12:04.516] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260708.xlsx
+[2026-08-19 09:12:04.516] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260709.xlsx
+[2026-08-19 09:12:04.517] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260712.xlsx
+[2026-08-19 09:12:04.517] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260713.xlsx
+[2026-08-19 09:12:04.518] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260714.xlsx
+[2026-08-19 09:12:04.518] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260715.xlsx
+[2026-08-19 09:12:04.519] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260716.xlsx
+[2026-08-19 09:12:04.519] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260717.xlsx
+[2026-08-19 09:12:04.520] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260718.xlsx
+[2026-08-19 09:12:04.520] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260720.xlsx
+[2026-08-19 09:12:04.521] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260721.xlsx
+[2026-08-19 09:12:04.521] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260722.xlsx
+[2026-08-19 09:12:04.522] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260723.xlsx
+[2026-08-19 09:12:04.522] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260724.xlsx
+[2026-08-19 09:12:04.522] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260725.xlsx
+[2026-08-19 09:12:04.523] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260727.xlsx
+[2026-08-19 09:12:04.523] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260728.xlsx
+[2026-08-19 09:12:04.524] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260729.xlsx
+[2026-08-19 09:12:04.524] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260730.xlsx
+[2026-08-19 09:12:04.524] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260731.xlsx
+[2026-08-19 09:12:04.525] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260801.xlsx
+[2026-08-19 09:12:04.525] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260803.xlsx
+[2026-08-19 09:12:04.526] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260804.xlsx
+[2026-08-19 09:12:04.526] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260805.xlsx
+[2026-08-19 09:12:04.526] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260806.xlsx
+[2026-08-19 09:12:04.527] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260807.xlsx
+[2026-08-19 09:12:04.528] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260808.xlsx
+[2026-08-19 09:12:04.528] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260810.xlsx
+[2026-08-19 09:12:04.528] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260811.xlsx
+[2026-08-19 09:12:04.528] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260812.xlsx
+[2026-08-19 09:12:04.529] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-19 09:12:05.712] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260817.xlsx
+[2026-08-19 09:12:06.893] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260818.xlsx
+[2026-08-19 09:12:08.033] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260819.xlsx
+[2026-08-19 09:12:09.082] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260820.xlsx
+[2026-08-19 09:12:10.395] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260821.xlsx
+[2026-08-19 09:12:11.570] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260822.xlsx
+[2026-08-19 09:12:11.570] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 93/93
+[2026-08-19 09:12:11.572] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 93/93
+[2026-08-19 09:12:45.258] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2成品检验表模板.xlsx
+[2026-08-19 09:12:45.258] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-19 09:12:46.155] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 成品
+[2026-08-19 09:12:46.156] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/V1&V2/成品检验表/W-12010_V1&V2成品检验表模板.xlsx
+[2026-08-19 09:13:08.859] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25039_W-97B面底壳首件检验表模板.xlsx
+[2026-08-19 09:13:08.859] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 首件
+[2026-08-19 09:13:09.752] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 首件
+[2026-08-19 09:13:09.753] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25039-97B主体/首件检验表/25039_W-97B面底壳首件检验表模板.xlsx
+[2026-08-19 09:13:24.358] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/97B/25039-97B主体/首件检验表
+[2026-08-19 09:13:24.362] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 8 个文件
+[2026-08-19 09:13:24.364] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 8 个文件
+[2026-08-19 09:13:24.364] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260629.xlsx
+[2026-08-19 09:13:24.365] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260706.xlsx
+[2026-08-19 09:13:24.365] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260712.xlsx
+[2026-08-19 09:13:24.366] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260720.xlsx
+[2026-08-19 09:13:24.366] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260727.xlsx
+[2026-08-19 09:13:24.366] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260803.xlsx
+[2026-08-19 09:13:24.367] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_首件检验表_20260810.xlsx
+[2026-08-19 09:13:25.296] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_首件检验表_20260817.xlsx
+[2026-08-19 09:13:25.296] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 8/8
+[2026-08-19 09:13:25.299] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 8/8
+[2026-08-19 09:13:38.588] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25039_W-97B面底壳过程检验表模板.xlsx
+[2026-08-19 09:13:38.588] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 过程
+[2026-08-19 09:13:39.509] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 过程
+[2026-08-19 09:13:39.509] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25039-97B主体/过程检验表/25039_W-97B面底壳过程检验表模板.xlsx
+[2026-08-19 09:13:44.029] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/97B/25039-97B主体/过程检验表
+[2026-08-19 09:13:44.032] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 45 个文件
+[2026-08-19 09:13:44.033] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 45 个文件
+[2026-08-19 09:13:44.034] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260629.xlsx
+[2026-08-19 09:13:44.034] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260630.xlsx
+[2026-08-19 09:13:44.035] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260701.xlsx
+[2026-08-19 09:13:44.035] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260702.xlsx
+[2026-08-19 09:13:44.035] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260703.xlsx
+[2026-08-19 09:13:44.035] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260704.xlsx
+[2026-08-19 09:13:44.036] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260706.xlsx
+[2026-08-19 09:13:44.036] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260707.xlsx
+[2026-08-19 09:13:44.036] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260708.xlsx
+[2026-08-19 09:13:44.036] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260709.xlsx
+[2026-08-19 09:13:44.036] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260712.xlsx
+[2026-08-19 09:13:44.037] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260713.xlsx
+[2026-08-19 09:13:44.037] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260714.xlsx
+[2026-08-19 09:13:44.037] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260715.xlsx
+[2026-08-19 09:13:44.037] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260716.xlsx
+[2026-08-19 09:13:44.038] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260717.xlsx
+[2026-08-19 09:13:44.038] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260718.xlsx
+[2026-08-19 09:13:44.038] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260720.xlsx
+[2026-08-19 09:13:44.038] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260721.xlsx
+[2026-08-19 09:13:44.038] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260722.xlsx
+[2026-08-19 09:13:44.039] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260723.xlsx
+[2026-08-19 09:13:44.042] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260724.xlsx
+[2026-08-19 09:13:44.043] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260725.xlsx
+[2026-08-19 09:13:44.043] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260727.xlsx
+[2026-08-19 09:13:44.043] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260728.xlsx
+[2026-08-19 09:13:44.044] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260729.xlsx
+[2026-08-19 09:13:44.044] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260730.xlsx
+[2026-08-19 09:13:44.045] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260731.xlsx
+[2026-08-19 09:13:44.045] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260801.xlsx
+[2026-08-19 09:13:44.046] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260803.xlsx
+[2026-08-19 09:13:44.046] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260804.xlsx
+[2026-08-19 09:13:44.047] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260805.xlsx
+[2026-08-19 09:13:44.047] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260806.xlsx
+[2026-08-19 09:13:44.048] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260807.xlsx
+[2026-08-19 09:13:44.048] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260808.xlsx
+[2026-08-19 09:13:44.048] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260810.xlsx
+[2026-08-19 09:13:44.049] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260811.xlsx
+[2026-08-19 09:13:44.049] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260812.xlsx
+[2026-08-19 09:13:44.049] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260813.xlsx
+[2026-08-19 09:13:45.313] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260817.xlsx
+[2026-08-19 09:13:46.574] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260818.xlsx
+[2026-08-19 09:13:47.844] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260819.xlsx
+[2026-08-19 09:13:49.227] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260820.xlsx
+[2026-08-19 09:13:50.511] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260821.xlsx
+[2026-08-19 09:13:51.785] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260822.xlsx
+[2026-08-19 09:13:51.786] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 45/45
+[2026-08-19 09:13:51.788] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 45/45
+[2026-08-19 09:14:13.235] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25039_W-97B面底壳成品检验表模板.xlsx
+[2026-08-19 09:14:13.235] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 成品
+[2026-08-19 09:14:13.970] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 成品
+[2026-08-19 09:14:13.971] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25039-97B主体/成品检验表/25039_W-97B面底壳成品检验表模板.xlsx
+[2026-08-19 09:14:21.610] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-19 09:14:21.611] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 首件
+[2026-08-19 09:14:22.507] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 首件
+[2026-08-19 09:14:22.508] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/首件检验表/19069_8代滤镜框首件检验表模板.xlsx
+[2026-08-19 09:15:30.128] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/8代滤镜框/19069/首件检验表
+[2026-08-19 09:15:30.132] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 首件，共 4 个文件
+[2026-08-19 09:15:30.133] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 首件，共 4 个文件
+[2026-08-19 09:15:31.071] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_首件检验表_20260508.xlsx
+[2026-08-19 09:15:32.272] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_首件检验表_20260511.xlsx
+[2026-08-19 09:15:33.371] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_首件检验表_20260518.xlsx
+[2026-08-19 09:15:34.475] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_首件检验表_20260817.xlsx
+[2026-08-19 09:15:34.476] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 4/4
+[2026-08-19 09:15:34.478] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 4/4
+[2026-08-19 09:16:24.869] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框过程检验表模板.xlsx
+[2026-08-19 09:16:24.869] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 过程
+[2026-08-19 09:16:25.919] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 过程
+[2026-08-19 09:16:25.919] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/过程检验表/19069_8代滤镜框过程检验表模板.xlsx
+[2026-08-19 09:16:49.621] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/8代滤镜框/19069/过程检验表
+[2026-08-19 09:16:49.625] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:16:49.626] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:16:50.760] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260508.xlsx
+[2026-08-19 09:16:51.910] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260509.xlsx
+[2026-08-19 09:16:53.023] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260511.xlsx
+[2026-08-19 09:16:54.178] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260512.xlsx
+[2026-08-19 09:16:55.233] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260513.xlsx
+[2026-08-19 09:16:56.525] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260514.xlsx
+[2026-08-19 09:16:57.659] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260515.xlsx
+[2026-08-19 09:16:58.652] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260516.xlsx
+[2026-08-19 09:16:59.888] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260518.xlsx
+[2026-08-19 09:17:00.908] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260519.xlsx
+[2026-08-19 09:17:02.165] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260817.xlsx
+[2026-08-19 09:17:03.169] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260818.xlsx
+[2026-08-19 09:17:03.301] [ERROR] [ExcelBatchGenerator.GenerateThread] ✗ 生成失败: 19069_8代滤镜框_过程检验表_20260819.xlsx - This COM object can not automate the makepy process - please run makepy manually for this object
+[2026-08-19 09:17:03.302] [ERROR] [ExcelBatchGenerator.GenerateThread] 详细错误: This COM object can not automate the makepy process - please run makepy manually for this object
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\win32com\client\gencache.py", line 643, in EnsureDispatch
+    ti = disp._oleobj_.GetTypeInfo()
+pywintypes.com_error: (-2147023174, 'RPC 服务器不可用。', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\test-shenzhen\excel_batch_generator\core\generate_thread.py", line 98, in run
+    generator.generate(date, filename)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\test-shenzhen\excel_batch_generator\core\excel_generator.py", line 323, in generate
+    raise e
+  File "E:\test-shenzhen\excel_batch_generator\core\excel_generator.py", line 305, in generate
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\win32com\client\gencache.py", line 655, in EnsureDispatch
+    raise TypeError(
+        "This COM object can not automate the makepy process - please run makepy manually for this object"
+    )
+TypeError: This COM object can not automate the makepy process - please run makepy manually for this object
+[2026-08-19 09:17:04.459] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260820.xlsx
+[2026-08-19 09:17:05.573] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260821.xlsx
+[2026-08-19 09:17:06.683] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260822.xlsx
+[2026-08-19 09:17:06.685] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 15/16
+[2026-08-19 09:17:06.688] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 15/16
+[2026-08-19 09:17:41.921] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/8代滤镜框/19069/过程检验表
+[2026-08-19 09:17:41.925] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:17:41.926] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:17:41.926] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260508.xlsx
+[2026-08-19 09:17:41.927] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260509.xlsx
+[2026-08-19 09:17:41.927] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260511.xlsx
+[2026-08-19 09:17:41.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260512.xlsx
+[2026-08-19 09:17:41.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260513.xlsx
+[2026-08-19 09:17:41.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260514.xlsx
+[2026-08-19 09:17:41.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260515.xlsx
+[2026-08-19 09:17:41.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260516.xlsx
+[2026-08-19 09:17:41.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260518.xlsx
+[2026-08-19 09:17:41.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260519.xlsx
+[2026-08-19 09:17:41.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260817.xlsx
+[2026-08-19 09:17:41.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260818.xlsx
+[2026-08-19 09:17:43.047] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260819.xlsx
+[2026-08-19 09:17:43.047] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260820.xlsx
+[2026-08-19 09:17:43.049] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260821.xlsx
+[2026-08-19 09:17:43.049] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 19069_8代滤镜框_过程检验表_20260822.xlsx
+[2026-08-19 09:17:43.050] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 16/16
+[2026-08-19 09:17:43.051] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 16/16
+[2026-08-19 09:18:24.473] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/8代滤镜框/19069/过程检验表
+[2026-08-19 09:18:24.477] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:18:24.478] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 16 个文件
+[2026-08-19 09:18:25.579] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260508.xlsx
+[2026-08-19 09:18:27.298] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260509.xlsx
+[2026-08-19 09:18:28.484] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260511.xlsx
+[2026-08-19 09:18:29.556] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260512.xlsx
+[2026-08-19 09:18:30.848] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260513.xlsx
+[2026-08-19 09:18:31.998] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260514.xlsx
+[2026-08-19 09:18:33.018] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260515.xlsx
+[2026-08-19 09:18:34.262] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260516.xlsx
+[2026-08-19 09:18:35.391] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260518.xlsx
+[2026-08-19 09:18:36.505] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260519.xlsx
+[2026-08-19 09:18:37.640] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260817.xlsx
+[2026-08-19 09:18:38.799] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260818.xlsx
+[2026-08-19 09:18:39.850] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260819.xlsx
+[2026-08-19 09:18:41.141] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260820.xlsx
+[2026-08-19 09:18:42.315] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260821.xlsx
+[2026-08-19 09:18:43.805] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_过程检验表_20260822.xlsx
+[2026-08-19 09:18:43.806] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 16/16
+[2026-08-19 09:18:43.811] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 16/16
+[2026-08-19 09:19:23.525] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:19:23.526] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 成品
+[2026-08-19 09:19:24.375] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 成品
+[2026-08-19 09:19:24.375] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/成品检验表/19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:19:38.936] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框过程检验表模板.xlsx
+[2026-08-19 09:19:38.936] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 过程
+[2026-08-19 09:19:39.822] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 过程
+[2026-08-19 09:19:39.823] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/过程检验表/19069_8代滤镜框过程检验表模板.xlsx
+[2026-08-19 09:19:43.877] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:19:43.877] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 成品
+[2026-08-19 09:19:44.608] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 19069_8代滤镜框 - 成品
+[2026-08-19 09:19:44.608] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/8代滤镜框/19069/成品检验表/19069_8代滤镜框成品检验表模板.xlsx
+[2026-08-19 09:19:53.232] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/8代滤镜框/19069/成品检验表
+[2026-08-19 09:19:53.236] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 成品，共 4 个文件
+[2026-08-19 09:19:53.237] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 成品，共 4 个文件
+[2026-08-19 09:19:54.056] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_成品检验表_20260509.xlsx
+[2026-08-19 09:19:55.042] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_成品检验表_20260516.xlsx
+[2026-08-19 09:19:56.133] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_成品检验表_20260519.xlsx
+[2026-08-19 09:19:56.997] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 19069_8代滤镜框_成品检验表_20260822.xlsx
+[2026-08-19 09:19:56.998] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 4/4
+[2026-08-19 09:19:57.003] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 4/4
+[2026-08-19 09:20:35.812] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: 25039_W-97B面底壳过程检验表模板.xlsx
+[2026-08-19 09:20:35.812] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 过程
+[2026-08-19 09:20:36.750] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: 25039_W-97B面底壳 - 过程
+[2026-08-19 09:20:36.751] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/97B/25039-97B主体/过程检验表/25039_W-97B面底壳过程检验表模板.xlsx
+[2026-08-19 09:20:39.917] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/97B/25039-97B主体/过程检验表
+[2026-08-19 09:20:39.922] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 45 个文件
+[2026-08-19 09:20:39.923] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 45 个文件
+[2026-08-19 09:20:39.924] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260629.xlsx
+[2026-08-19 09:20:39.924] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260630.xlsx
+[2026-08-19 09:20:39.928] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260701.xlsx
+[2026-08-19 09:20:39.929] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260702.xlsx
+[2026-08-19 09:20:39.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260703.xlsx
+[2026-08-19 09:20:39.930] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260704.xlsx
+[2026-08-19 09:20:39.931] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260706.xlsx
+[2026-08-19 09:20:39.931] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260707.xlsx
+[2026-08-19 09:20:39.932] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260708.xlsx
+[2026-08-19 09:20:39.933] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260709.xlsx
+[2026-08-19 09:20:39.933] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260712.xlsx
+[2026-08-19 09:20:39.934] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260713.xlsx
+[2026-08-19 09:20:39.934] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260714.xlsx
+[2026-08-19 09:20:39.935] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260715.xlsx
+[2026-08-19 09:20:39.936] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260716.xlsx
+[2026-08-19 09:20:39.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260717.xlsx
+[2026-08-19 09:20:39.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260718.xlsx
+[2026-08-19 09:20:39.937] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260720.xlsx
+[2026-08-19 09:20:39.938] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260721.xlsx
+[2026-08-19 09:20:39.939] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260722.xlsx
+[2026-08-19 09:20:39.939] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260723.xlsx
+[2026-08-19 09:20:39.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260724.xlsx
+[2026-08-19 09:20:39.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260725.xlsx
+[2026-08-19 09:20:39.941] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260727.xlsx
+[2026-08-19 09:20:39.942] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260728.xlsx
+[2026-08-19 09:20:39.942] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260729.xlsx
+[2026-08-19 09:20:39.943] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260730.xlsx
+[2026-08-19 09:20:39.943] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260731.xlsx
+[2026-08-19 09:20:39.944] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260801.xlsx
+[2026-08-19 09:20:39.944] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260803.xlsx
+[2026-08-19 09:20:39.944] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260804.xlsx
+[2026-08-19 09:20:39.945] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260805.xlsx
+[2026-08-19 09:20:39.945] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260806.xlsx
+[2026-08-19 09:20:39.946] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260807.xlsx
+[2026-08-19 09:20:39.946] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260808.xlsx
+[2026-08-19 09:20:39.947] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260810.xlsx
+[2026-08-19 09:20:39.947] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260811.xlsx
+[2026-08-19 09:20:39.948] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260812.xlsx
+[2026-08-19 09:20:39.948] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260813.xlsx
+[2026-08-19 09:20:39.949] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260817.xlsx
+[2026-08-19 09:20:39.950] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: 25039_W-97B面底壳_过程检验表_20260818.xlsx
+[2026-08-19 09:20:41.205] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260819.xlsx
+[2026-08-19 09:20:42.475] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260820.xlsx
+[2026-08-19 09:20:43.760] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260821.xlsx
+[2026-08-19 09:20:45.047] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: 25039_W-97B面底壳_过程检验表_20260822.xlsx
+[2026-08-19 09:20:45.047] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 45/45
+[2026-08-19 09:20:45.049] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 45/45
+[2026-08-19 09:21:06.427] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_3T1&3T2过程检验表模板.xlsx
+[2026-08-19 09:21:07.493] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_3T1&3T2 - 过程
+[2026-08-19 09:21:07.495] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/3T1&3T2/过程检验表/W-12010_3T1&3T2过程检验表模板.xlsx
+[2026-08-19 09:21:29.771] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_T1&T2过程检验表模板.xlsx
+[2026-08-19 09:21:30.832] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_T1&T2 - 过程
+[2026-08-19 09:21:30.833] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/T1&T2/过程检验表/W-12010_T1&T2过程检验表模板.xlsx
+[2026-08-19 09:21:33.539] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/T1&T2/过程检验表
+[2026-08-19 09:21:33.544] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:21:33.544] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:21:33.545] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260503.xlsx
+[2026-08-19 09:21:33.545] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260504.xlsx
+[2026-08-19 09:21:33.550] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260505.xlsx
+[2026-08-19 09:21:33.551] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260506.xlsx
+[2026-08-19 09:21:33.551] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260507.xlsx
+[2026-08-19 09:21:33.551] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260508.xlsx
+[2026-08-19 09:21:33.552] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260509.xlsx
+[2026-08-19 09:21:33.552] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260511.xlsx
+[2026-08-19 09:21:33.552] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260512.xlsx
+[2026-08-19 09:21:33.553] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260513.xlsx
+[2026-08-19 09:21:33.553] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260514.xlsx
+[2026-08-19 09:21:33.553] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260515.xlsx
+[2026-08-19 09:21:33.554] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260516.xlsx
+[2026-08-19 09:21:33.554] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260518.xlsx
+[2026-08-19 09:21:33.554] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260519.xlsx
+[2026-08-19 09:21:33.555] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260520.xlsx
+[2026-08-19 09:21:33.555] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260521.xlsx
+[2026-08-19 09:21:33.555] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260522.xlsx
+[2026-08-19 09:21:33.556] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260523.xlsx
+[2026-08-19 09:21:33.556] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260525.xlsx
+[2026-08-19 09:21:33.556] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260526.xlsx
+[2026-08-19 09:21:33.556] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260527.xlsx
+[2026-08-19 09:21:33.557] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260528.xlsx
+[2026-08-19 09:21:33.558] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260529.xlsx
+[2026-08-19 09:21:33.559] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260530.xlsx
+[2026-08-19 09:21:33.559] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260601.xlsx
+[2026-08-19 09:21:33.560] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260602.xlsx
+[2026-08-19 09:21:33.560] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260603.xlsx
+[2026-08-19 09:21:33.560] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260604.xlsx
+[2026-08-19 09:21:33.560] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260605.xlsx
+[2026-08-19 09:21:33.561] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260606.xlsx
+[2026-08-19 09:21:33.561] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260608.xlsx
+[2026-08-19 09:21:33.561] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260609.xlsx
+[2026-08-19 09:21:33.562] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260610.xlsx
+[2026-08-19 09:21:33.562] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260611.xlsx
+[2026-08-19 09:21:33.562] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260612.xlsx
+[2026-08-19 09:21:33.563] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260613.xlsx
+[2026-08-19 09:21:33.563] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260615.xlsx
+[2026-08-19 09:21:33.564] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260616.xlsx
+[2026-08-19 09:21:33.564] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260617.xlsx
+[2026-08-19 09:21:33.564] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260618.xlsx
+[2026-08-19 09:21:33.564] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260621.xlsx
+[2026-08-19 09:21:33.565] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260622.xlsx
+[2026-08-19 09:21:33.565] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260623.xlsx
+[2026-08-19 09:21:33.566] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260624.xlsx
+[2026-08-19 09:21:33.566] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260625.xlsx
+[2026-08-19 09:21:33.566] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260626.xlsx
+[2026-08-19 09:21:33.567] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260627.xlsx
+[2026-08-19 09:21:33.567] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260629.xlsx
+[2026-08-19 09:21:33.567] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260630.xlsx
+[2026-08-19 09:21:33.567] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260701.xlsx
+[2026-08-19 09:21:33.568] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260702.xlsx
+[2026-08-19 09:21:33.568] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260703.xlsx
+[2026-08-19 09:21:33.569] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260704.xlsx
+[2026-08-19 09:21:33.569] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260706.xlsx
+[2026-08-19 09:21:33.569] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260707.xlsx
+[2026-08-19 09:21:33.570] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260708.xlsx
+[2026-08-19 09:21:33.570] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260709.xlsx
+[2026-08-19 09:21:33.570] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260712.xlsx
+[2026-08-19 09:21:33.571] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260713.xlsx
+[2026-08-19 09:21:33.571] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260714.xlsx
+[2026-08-19 09:21:33.571] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260715.xlsx
+[2026-08-19 09:21:33.572] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260716.xlsx
+[2026-08-19 09:21:33.572] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260717.xlsx
+[2026-08-19 09:21:33.572] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260718.xlsx
+[2026-08-19 09:21:33.573] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260720.xlsx
+[2026-08-19 09:21:33.573] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260721.xlsx
+[2026-08-19 09:21:33.574] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260722.xlsx
+[2026-08-19 09:21:33.574] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260723.xlsx
+[2026-08-19 09:21:33.575] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260724.xlsx
+[2026-08-19 09:21:33.575] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260725.xlsx
+[2026-08-19 09:21:33.576] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260727.xlsx
+[2026-08-19 09:21:33.576] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260728.xlsx
+[2026-08-19 09:21:33.576] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260729.xlsx
+[2026-08-19 09:21:33.577] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260730.xlsx
+[2026-08-19 09:21:33.577] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260731.xlsx
+[2026-08-19 09:21:33.577] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260801.xlsx
+[2026-08-19 09:21:33.578] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260803.xlsx
+[2026-08-19 09:21:33.578] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260804.xlsx
+[2026-08-19 09:21:33.578] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260805.xlsx
+[2026-08-19 09:21:33.578] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260806.xlsx
+[2026-08-19 09:21:33.579] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260807.xlsx
+[2026-08-19 09:21:33.579] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260808.xlsx
+[2026-08-19 09:21:33.580] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260810.xlsx
+[2026-08-19 09:21:33.580] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260811.xlsx
+[2026-08-19 09:21:33.580] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260812.xlsx
+[2026-08-19 09:21:33.581] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260813.xlsx
+[2026-08-19 09:21:33.581] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260817.xlsx
+[2026-08-19 09:21:33.582] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_T1&T2_过程检验表_20260818.xlsx
+[2026-08-19 09:21:34.484] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:21:34.757] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260819.xlsx
+[2026-08-19 09:21:35.644] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:21:35.895] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260820.xlsx
+[2026-08-19 09:21:36.816] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:21:37.084] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260821.xlsx
+[2026-08-19 09:21:38.007] [WARNING] [ExcelBatchGenerator.ExcelGenerator] 应用规则 146959ba 失败: month must be in 1..12
+[2026-08-19 09:21:38.279] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_T1&T2_过程检验表_20260822.xlsx
+[2026-08-19 09:21:38.279] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 93/93
+[2026-08-19 09:21:38.281] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 93/93
+[2026-08-19 09:21:46.931] [INFO] [ExcelBatchGenerator.MainWindow] 加载模板: W-12010_V1&V2过程检验表模板.xlsx
+[2026-08-19 09:21:47.853] [INFO] [ExcelBatchGenerator.MainWindow] 加载配置: W-12010_V1&V2 - 过程
+[2026-08-19 09:21:47.854] [INFO] [ExcelBatchGenerator.MainWindow] 模板路径已保存: E:/test-shenzhen/文档模板/W-12010/V1&V2/过程检验表/W-12010_V1&V2过程检验表模板.xlsx
+[2026-08-19 09:21:54.766] [INFO] [ExcelBatchGenerator.MainWindow] 输出目录已记录: E:/惠州需求-确定版/首件、成品、过程/W-12010/V1&V2/过程检验表
+[2026-08-19 09:21:54.769] [INFO] [ExcelBatchGenerator.MainWindow] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:21:54.770] [INFO] [ExcelBatchGenerator.GenerateThread] 开始生成，类型: 过程，共 93 个文件
+[2026-08-19 09:21:54.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260503.xlsx
+[2026-08-19 09:21:54.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260504.xlsx
+[2026-08-19 09:21:54.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260505.xlsx
+[2026-08-19 09:21:54.771] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260506.xlsx
+[2026-08-19 09:21:54.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260507.xlsx
+[2026-08-19 09:21:54.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260508.xlsx
+[2026-08-19 09:21:54.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260509.xlsx
+[2026-08-19 09:21:54.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260511.xlsx
+[2026-08-19 09:21:54.772] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260512.xlsx
+[2026-08-19 09:21:54.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260513.xlsx
+[2026-08-19 09:21:54.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260514.xlsx
+[2026-08-19 09:21:54.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260515.xlsx
+[2026-08-19 09:21:54.773] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260516.xlsx
+[2026-08-19 09:21:54.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260518.xlsx
+[2026-08-19 09:21:54.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260519.xlsx
+[2026-08-19 09:21:54.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260520.xlsx
+[2026-08-19 09:21:54.774] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260521.xlsx
+[2026-08-19 09:21:54.775] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260522.xlsx
+[2026-08-19 09:21:54.775] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260523.xlsx
+[2026-08-19 09:21:54.775] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260525.xlsx
+[2026-08-19 09:21:54.776] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260526.xlsx
+[2026-08-19 09:21:54.776] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260527.xlsx
+[2026-08-19 09:21:54.780] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260528.xlsx
+[2026-08-19 09:21:54.781] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260529.xlsx
+[2026-08-19 09:21:54.781] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260530.xlsx
+[2026-08-19 09:21:54.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260601.xlsx
+[2026-08-19 09:21:54.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260602.xlsx
+[2026-08-19 09:21:54.782] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260603.xlsx
+[2026-08-19 09:21:54.783] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260604.xlsx
+[2026-08-19 09:21:54.783] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260605.xlsx
+[2026-08-19 09:21:54.784] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260606.xlsx
+[2026-08-19 09:21:54.784] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260608.xlsx
+[2026-08-19 09:21:54.784] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260609.xlsx
+[2026-08-19 09:21:54.785] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260610.xlsx
+[2026-08-19 09:21:54.785] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260611.xlsx
+[2026-08-19 09:21:54.786] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260612.xlsx
+[2026-08-19 09:21:54.786] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260613.xlsx
+[2026-08-19 09:21:54.786] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260615.xlsx
+[2026-08-19 09:21:54.787] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260616.xlsx
+[2026-08-19 09:21:54.787] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260617.xlsx
+[2026-08-19 09:21:54.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260618.xlsx
+[2026-08-19 09:21:54.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260621.xlsx
+[2026-08-19 09:21:54.788] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260622.xlsx
+[2026-08-19 09:21:54.789] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260623.xlsx
+[2026-08-19 09:21:54.789] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260624.xlsx
+[2026-08-19 09:21:54.790] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260625.xlsx
+[2026-08-19 09:21:54.790] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260626.xlsx
+[2026-08-19 09:21:54.791] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260627.xlsx
+[2026-08-19 09:21:54.792] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260629.xlsx
+[2026-08-19 09:21:54.792] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260630.xlsx
+[2026-08-19 09:21:54.793] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260701.xlsx
+[2026-08-19 09:21:54.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260702.xlsx
+[2026-08-19 09:21:54.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260703.xlsx
+[2026-08-19 09:21:54.794] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260704.xlsx
+[2026-08-19 09:21:54.795] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260706.xlsx
+[2026-08-19 09:21:54.795] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260707.xlsx
+[2026-08-19 09:21:54.795] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260708.xlsx
+[2026-08-19 09:21:54.796] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260709.xlsx
+[2026-08-19 09:21:54.796] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260712.xlsx
+[2026-08-19 09:21:54.797] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260713.xlsx
+[2026-08-19 09:21:54.797] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260714.xlsx
+[2026-08-19 09:21:54.798] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260715.xlsx
+[2026-08-19 09:21:54.798] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260716.xlsx
+[2026-08-19 09:21:54.798] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260717.xlsx
+[2026-08-19 09:21:54.799] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260718.xlsx
+[2026-08-19 09:21:54.799] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260720.xlsx
+[2026-08-19 09:21:54.800] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260721.xlsx
+[2026-08-19 09:21:54.800] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260722.xlsx
+[2026-08-19 09:21:54.801] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260723.xlsx
+[2026-08-19 09:21:54.801] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260724.xlsx
+[2026-08-19 09:21:54.802] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260725.xlsx
+[2026-08-19 09:21:54.802] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260727.xlsx
+[2026-08-19 09:21:54.802] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260728.xlsx
+[2026-08-19 09:21:54.803] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260729.xlsx
+[2026-08-19 09:21:54.803] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260730.xlsx
+[2026-08-19 09:21:54.804] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260731.xlsx
+[2026-08-19 09:21:54.804] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260801.xlsx
+[2026-08-19 09:21:54.804] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260803.xlsx
+[2026-08-19 09:21:54.805] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260804.xlsx
+[2026-08-19 09:21:54.805] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260805.xlsx
+[2026-08-19 09:21:54.806] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260806.xlsx
+[2026-08-19 09:21:54.806] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260807.xlsx
+[2026-08-19 09:21:54.806] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260808.xlsx
+[2026-08-19 09:21:54.807] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260810.xlsx
+[2026-08-19 09:21:54.807] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260811.xlsx
+[2026-08-19 09:21:54.808] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260812.xlsx
+[2026-08-19 09:21:54.808] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260813.xlsx
+[2026-08-19 09:21:54.809] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260817.xlsx
+[2026-08-19 09:21:54.809] [WARNING] [ExcelBatchGenerator.GenerateThread] 文件已存在，跳过: W-12010_V1&V2_过程检验表_20260818.xlsx
+[2026-08-19 09:21:55.971] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260819.xlsx
+[2026-08-19 09:21:57.122] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260820.xlsx
+[2026-08-19 09:21:58.293] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260821.xlsx
+[2026-08-19 09:21:59.478] [INFO] [ExcelBatchGenerator.GenerateThread] ✓ 已生成: W-12010_V1&V2_过程检验表_20260822.xlsx
+[2026-08-19 09:21:59.478] [INFO] [ExcelBatchGenerator.GenerateThread] 生成完成，成功 93/93
+[2026-08-19 09:21:59.480] [INFO] [ExcelBatchGenerator.MainWindow] 生成完成，成功 93/93
+[2026-08-19 09:40:01.754] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-19 09:40:01.982] [INFO] [ExcelBatchGenerator.MainWindow] 开始执行自动化任务
+[2026-08-19 09:40:01.983] [INFO] [ExcelBatchGenerator.MainWindow] products_str: '23036_N24四方管,W-12010_V1&V2', products: ['23036_N24四方管', 'W-12010_V1&V2']
+[2026-08-19 09:40:01.985] [INFO] [ExcelBatchGenerator.AutoScheduler] 今日任务: 1 个产品
+[2026-08-19 09:40:01.986] [INFO] [ExcelBatchGenerator.MainWindow] tasks 结果: {'W-12010_V1&V2': {'首件': False, '过程': True, '成品': False, 'dates': {'过程': '2026-08-19'}, 'date_ranges': [(datetime.datetime(2026, 5, 3, 0, 0), datetime.datetime(2026, 8, 8, 0, 0)), (datetime.datetime(2026, 8, 10, 0, 0), datetime.datetime(2026, 8, 13, 0, 0)), (datetime.datetime(2026, 8, 17, 0, 0), datetime.datetime(2026, 8, 22, 0, 0))], 'output_dir': ''}}
+[2026-08-19 09:40:01.986] [INFO] [ExcelBatchGenerator.MainWindow] 今日任务: 1 个产品
+[2026-08-19 09:40:01.986] [INFO] [ExcelBatchGenerator.MainWindow] 处理产品: W-12010_V1&V2
+[2026-08-19 09:40:01.986] [INFO] [ExcelBatchGenerator.MainWindow] 跳过已存在: W-12010_V1&V2_过程检验表_20260819.xlsx
+[2026-08-19 09:40:02.853] [INFO] [ExcelBatchGenerator.EmailReporter] 邮件已发送: Excel生成报告 - 2026-08-19
+[2026-08-19 09:40:02.853] [INFO] [ExcelBatchGenerator.MainWindow] 自动化完成: 成功 0, 失败 0, 跳过 1
+[2026-08-19 09:40:02.854] [INFO] [ExcelBatchGenerator.MainWindow] 无界面模式，退出程序
+[2026-08-19 18:48:50.147] [INFO] [ExcelBatchGenerator.MainWindow] 程序启动
+[2026-08-19 18:51:57.709] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存
+[2026-08-19 18:52:15.608] [INFO] [ExcelBatchGenerator.AutoConfigWindow] 自动化配置已保存

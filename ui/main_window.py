@@ -206,6 +206,9 @@ class MainWindow(QMainWindow):
         btn_import_rule.clicked.connect(self._import_rules)
         btn_export_rule = QPushButton("导出规则")
         btn_export_rule.clicked.connect(self._export_rules)
+        btn_smart_generate = QPushButton("🧠 智能生成")
+        btn_smart_generate.clicked.connect(self._open_rule_generator)
+        rule_btn_layout.addWidget(btn_smart_generate)
 
         rule_btn_layout.addWidget(btn_add_rule)
         rule_btn_layout.addWidget(btn_edit_rule)
@@ -1080,3 +1083,18 @@ class MainWindow(QMainWindow):
             
         except Exception as e:
             self.logger.error(f"发送邮件报告失败: {e}")
+
+    def _open_rule_generator(self):
+        """打开规则生成器对话框"""
+        if not self.template_path or not os.path.exists(self.template_path):
+            QMessageBox.warning(self, "警告", "请先加载模板文件")
+            return
+
+        from ui.rule_generator_dialog import RuleGeneratorDialog
+        dialog = RuleGeneratorDialog(
+            template_path=self.template_path,
+            product_name=self.product_name,
+            template_type=self.template_type_combo.currentText(),  # 新增
+            parent=self
+        )
+        dialog.exec_()
